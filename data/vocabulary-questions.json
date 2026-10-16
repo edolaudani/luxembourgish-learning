@@ -1,133 +1,2511 @@
-
 [
-  {"id":"vocab-001","luxembourgish":"ech","english":"I","status":"known"},
-  {"id":"vocab-002","luxembourgish":"du","english":"you (singular, informal)","status":"known"},
-  {"id":"vocab-003","luxembourgish":"hien","english":"he / him","status":"known"},
-  {"id":"vocab-004","luxembourgish":"hatt","english":"it / she*","status":"known"},
-  {"id":"vocab-005","luxembourgish":"si","english":"she / they","status":"unknown"},
-  {"id":"vocab-006","luxembourgish":"mir","english":"we / us","status":"known"},
-  {"id":"vocab-007","luxembourgish":"dir","english":"you (plural / formal)","status":"known"},
-  {"id":"vocab-008","luxembourgish":"Iech","english":"you (formal, singular/plural)","status":"known"},
-  {"id":"vocab-009","luxembourgish":"mäin / meng","english":"my","status":"unknown"},
-  {"id":"vocab-010","luxembourgish":"däin / deng","english":"your","status":"known"},
-  {"id":"vocab-011","luxembourgish":"säin / seng","english":"his / its","status":"known"},
-  {"id":"vocab-012","luxembourgish":"hir","english":"her","status":"known"},
-  {"id":"vocab-013","luxembourgish":"eisen / eis","english":"our","status":"known"},
-  {"id":"vocab-014","luxembourgish":"ären / Är","english":"your (formal/plural)","status":"known"},
-  {"id":"vocab-015","luxembourgish":"mech","english":"me","status":"known"},
-  {"id":"vocab-016","luxembourgish":"dech","english":"you","status":"known"},
-  {"id":"vocab-017","luxembourgish":"hien","english":"him","status":"known"},
-  {"id":"vocab-018","luxembourgish":"hatt","english":"it / her*","status":"known"},
-  {"id":"vocab-019","luxembourgish":"eis","english":"us","status":"known"},
-  {"id":"vocab-020","luxembourgish":"iech","english":"you","status":"known"},
-  {"id":"vocab-021","luxembourgish":"si","english":"them","status":"known"},
-  {"id":"vocab-022","luxembourgish":"mir","english":"to me","status":"known"},
-  {"id":"vocab-023","luxembourgish":"dir","english":"to you","status":"known"},
-  {"id":"vocab-024","luxembourgish":"him","english":"to him","status":"known"},
-  {"id":"vocab-025","luxembourgish":"hir","english":"to her","status":"known"},
-  {"id":"vocab-026","luxembourgish":"eis","english":"to us","status":"known"},
-  {"id":"vocab-027","luxembourgish":"iech","english":"to you","status":"unknown"},
-  {"id":"vocab-028","luxembourgish":"hinnen","english":"to them","status":"unknown"},
-  {"id":"vocab-029","luxembourgish":"dat","english":"that / it","status":"known"},
-  {"id":"vocab-030","luxembourgish":"dëst","english":"this","status":"known"},
-  {"id":"vocab-031","luxembourgish":"déi","english":"those / they","status":"known"},
-  {"id":"vocab-032","luxembourgish":"hei","english":"here","status":"unknown"},
-  {"id":"vocab-033","luxembourgish":"do","english":"there","status":"known"},
-  {"id":"vocab-034","luxembourgish":"esou","english":"like this / so","status":"known"},
-  {"id":"vocab-035","luxembourgish":"sou","english":"so / such","status":"known"},
-  {"id":"vocab-036","luxembourgish":"an","english":"and","status":"known"},
-  {"id":"vocab-037","luxembourgish":"mee","english":"but","status":"known"},
-  {"id":"vocab-038","luxembourgish":"oder","english":"or","status":"known"},
-  {"id":"vocab-039","luxembourgish":"well","english":"because","status":"known"},
-  {"id":"vocab-040","luxembourgish":"datt","english":"that","status":"known"},
-  {"id":"vocab-041","luxembourgish":"wann","english":"if / when","status":"known"},
-  {"id":"vocab-042","luxembourgish":"wann ... dann","english":"if ... then","status":"known"},
-  {"id":"vocab-043","luxembourgish":"dofir","english":"therefore / that's why","status":"known"},
-  {"id":"vocab-044","luxembourgish":"also","english":"so / therefore","status":"unknown"},
-  {"id":"vocab-045","luxembourgish":"dann","english":"then","status":"known"},
-  {"id":"vocab-046","luxembourgish":"duerno","english":"afterwards","status":"known"},
-  {"id":"vocab-047","luxembourgish":"virdrun","english":"before / beforehand","status":"known"},
-  {"id":"vocab-048","luxembourgish":"trotzdeem","english":"nevertheless / still","status":"known"},
-  {"id":"vocab-049","luxembourgish":"ausserdeem","english":"besides / furthermore","status":"unknown"},
-  {"id":"vocab-050","luxembourgish":"och","english":"also / too","status":"known"},
-  {"id":"vocab-051","luxembourgish":"nees","english":"again","status":"known"},
-  {"id":"vocab-052","luxembourgish":"schonn","english":"already","status":"unknown"},
-  {"id":"vocab-053","luxembourgish":"nach","english":"still / yet","status":"known"},
-  {"id":"vocab-054","luxembourgish":"nach net","english":"not yet","status":"unknown"},
-  {"id":"vocab-055","luxembourgish":"nëmmen","english":"only","status":"known"},
-  {"id":"vocab-056","luxembourgish":"bal","english":"almost","status":"known"},
-  {"id":"vocab-057","luxembourgish":"guer net","english":"not at all","status":"known"},
-  {"id":"vocab-058","luxembourgish":"ëmmer","english":"always","status":"known"},
-  {"id":"vocab-059","luxembourgish":"dacks","english":"often","status":"known"},
-  {"id":"vocab-060","luxembourgish":"heiansdo","english":"sometimes","status":"known"},
-  {"id":"vocab-061","luxembourgish":"ni","english":"never","status":"known"},
-  {"id":"vocab-062","luxembourgish":"wat","english":"what","status":"known"},
-  {"id":"vocab-063","luxembourgish":"wien","english":"who","status":"known"},
-  {"id":"vocab-064","luxembourgish":"wou","english":"where","status":"known"},
-  {"id":"vocab-065","luxembourgish":"wouhin","english":"where to","status":"known"},
-  {"id":"vocab-066","luxembourgish":"wouhier","english":"where from","status":"known"},
-  {"id":"vocab-067","luxembourgish":"wéini","english":"when","status":"known"},
-  {"id":"vocab-068","luxembourgish":"firwat","english":"why","status":"known"},
-  {"id":"vocab-069","luxembourgish":"wéi","english":"how","status":"known"},
-  {"id":"vocab-070","luxembourgish":"wéi vill","english":"how much / how many","status":"unknown"},
-  {"id":"vocab-071","luxembourgish":"wéi laang","english":"how long","status":"known"},
-  {"id":"vocab-072","luxembourgish":"wéi oft","english":"how often","status":"known"},
-  {"id":"vocab-073","luxembourgish":"wéi eng / wéi ee","english":"which","status":"known"},
-  {"id":"vocab-074","luxembourgish":"mat","english":"with","status":"known"},
-  {"id":"vocab-075","luxembourgish":"ouni","english":"without","status":"known"},
-  {"id":"vocab-076","luxembourgish":"fir","english":"for","status":"known"},
-  {"id":"vocab-077","luxembourgish":"vun","english":"from / of","status":"known"},
-  {"id":"vocab-078","luxembourgish":"bei","english":"at / with / by","status":"known"},
-  {"id":"vocab-079","luxembourgish":"op","english":"on / to","status":"unknown"},
-  {"id":"vocab-080","luxembourgish":"an","english":"in / into","status":"known"},
-  {"id":"vocab-081","luxembourgish":"ënner","english":"under","status":"known"},
-  {"id":"vocab-082","luxembourgish":"iwwer","english":"over / about","status":"known"},
-  {"id":"vocab-083","luxembourgish":"nieft","english":"next to / beside","status":"known"},
-  {"id":"vocab-084","luxembourgish":"géint","english":"around / against","status":"known"},
-  {"id":"vocab-085","luxembourgish":"wéinst","english":"because of","status":"known"},
-  {"id":"vocab-086","luxembourgish":"duerch","english":"through","status":"known"},
-  {"id":"vocab-087","luxembourgish":"no","english":"after / to","status":"unknown"},
-  {"id":"vocab-088","luxembourgish":"zënter","english":"since / for","status":"known"},
-  {"id":"vocab-089","luxembourgish":"elo","english":"now","status":"known"},
-  {"id":"vocab-090","luxembourgish":"haut","english":"today","status":"known"},
-  {"id":"vocab-091","luxembourgish":"gëschter","english":"yesterday","status":"known"},
-  {"id":"vocab-092","luxembourgish":"muer","english":"tomorrow","status":"unknown"},
-  {"id":"vocab-093","luxembourgish":"de Moment","english":"at the moment","status":"known"},
-  {"id":"vocab-094","luxembourgish":"déi lescht Kéier","english":"last time","status":"known"},
-  {"id":"vocab-095","luxembourgish":"d’lescht Joer","english":"last year","status":"known"},
-  {"id":"vocab-096","luxembourgish":"dës Woch","english":"this week","status":"known"},
-  {"id":"vocab-097","luxembourgish":"dës Deeg","english":"these days","status":"known"},
-  {"id":"vocab-098","luxembourgish":"fir d’éischt","english":"for the first time","status":"known"},
-  {"id":"vocab-099","luxembourgish":"direkt","english":"immediately / directly","status":"unknown"},
-  {"id":"vocab-100","luxembourgish":"geschwënn","english":"soon","status":"known"},
-  {"id":"vocab-101","luxembourgish":"spéider","english":"later","status":"known"},
-  {"id":"vocab-102","luxembourgish":"emol","english":"once / sometime","status":"unknown"},
-  {"id":"vocab-103","luxembourgish":"vill","english":"much / many","status":"known"},
-  {"id":"vocab-104","luxembourgish":"e bëssen","english":"a little / a bit","status":"known"},
-  {"id":"vocab-105","luxembourgish":"e puer","english":"a few / some","status":"known"},
-  {"id":"vocab-106","luxembourgish":"genuch","english":"enough","status":"known"},
-  {"id":"vocab-107","luxembourgish":"ze vill","english":"too much / too many","status":"unknown"},
-  {"id":"vocab-108","luxembourgish":"ze wéineg","english":"too little / too few","status":"known"},
-  {"id":"vocab-109","luxembourgish":"eppes","english":"something","status":"known"},
-  {"id":"vocab-110","luxembourgish":"näischt","english":"nothing","status":"known"},
-  {"id":"vocab-111","luxembourgish":"een","english":"someone / one","status":"unknown"},
-  {"id":"vocab-112","luxembourgish":"keen","english":"nobody / no one / none","status":"unknown"},
-  {"id":"vocab-113","luxembourgish":"jiddereen","english":"everyone","status":"known"},
-  {"id":"vocab-114","luxembourgish":"all","english":"all / every","status":"known"},
-  {"id":"vocab-115","luxembourgish":"jo","english":"yes","status":"known"},
-  {"id":"vocab-116","luxembourgish":"nee","english":"no","status":"unknown"},
-  {"id":"vocab-117","luxembourgish":"awer","english":"however / but","status":"known"},
-  {"id":"vocab-118","luxembourgish":"ganz","english":"very / completely","status":"known"},
-  {"id":"vocab-119","luxembourgish":"richteg","english":"really / very / correct","status":"known"},
-  {"id":"vocab-120","luxembourgish":"wierklech","english":"really","status":"known"},
-  {"id":"vocab-121","luxembourgish":"einfach","english":"simply / easy","status":"known"},
-  {"id":"vocab-122","luxembourgish":"villäicht","english":"maybe","status":"known"},
-  {"id":"vocab-123","luxembourgish":"natierlech","english":"of course / naturally","status":"known"},
-  {"id":"vocab-124","luxembourgish":"genee","english":"exactly","status":"known"},
-  {"id":"vocab-125","luxembourgish":"selwer","english":"myself / yourself / oneself","status":"known"},
-  {"id":"vocab-126","luxembourgish":"zesummen","english":"together","status":"known"},
-  {"id":"vocab-127","luxembourgish":"eleng","english":"alone","status":"known"},
-  {"id":"vocab-128","luxembourgish":"doheem","english":"at home","status":"known"},
-  {"id":"vocab-129","luxembourgish":"dobaussen","english":"outside","status":"known"},
-  {"id":"vocab-130","luxembourgish":"ënnerwee","english":"on the way / out and about","status":"known"}
+,
+  {
+    "id": "vocab-001",
+    "luxembourgish": "ech",
+    "english": "I",
+    "status": "known"
+  },
+  {
+    "id": "vocab-002",
+    "luxembourgish": "du",
+    "english": "you (singular, informal)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-003",
+    "luxembourgish": "hien",
+    "english": "he / him",
+    "status": "known"
+  },
+  {
+    "id": "vocab-004",
+    "luxembourgish": "hatt",
+    "english": "it / she*",
+    "status": "known"
+  },
+  {
+    "id": "vocab-005",
+    "luxembourgish": "si",
+    "english": "she / they",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-006",
+    "luxembourgish": "mir",
+    "english": "we / us",
+    "status": "known"
+  },
+  {
+    "id": "vocab-007",
+    "luxembourgish": "dir",
+    "english": "you (plural / formal)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-008",
+    "luxembourgish": "Iech",
+    "english": "you (formal, singular/plural)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-009",
+    "luxembourgish": "m in / meng",
+    "english": "my",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-010",
+    "luxembourgish": "d in / deng",
+    "english": "your",
+    "status": "known"
+  },
+  {
+    "id": "vocab-011",
+    "luxembourgish": "s in / seng",
+    "english": "his / its",
+    "status": "known"
+  },
+  {
+    "id": "vocab-012",
+    "luxembourgish": "hir",
+    "english": "her",
+    "status": "known"
+  },
+  {
+    "id": "vocab-013",
+    "luxembourgish": "eisen / eis",
+    "english": "our",
+    "status": "known"
+  },
+  {
+    "id": "vocab-014",
+    "luxembourgish": " ren /  r",
+    "english": "your (formal/plural)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-015",
+    "luxembourgish": "mech",
+    "english": "me",
+    "status": "known"
+  },
+  {
+    "id": "vocab-016",
+    "luxembourgish": "dech",
+    "english": "you",
+    "status": "known"
+  },
+  {
+    "id": "vocab-017",
+    "luxembourgish": "hien",
+    "english": "him",
+    "status": "known"
+  },
+  {
+    "id": "vocab-018",
+    "luxembourgish": "hatt",
+    "english": "it / her*",
+    "status": "known"
+  },
+  {
+    "id": "vocab-019",
+    "luxembourgish": "eis",
+    "english": "us",
+    "status": "known"
+  },
+  {
+    "id": "vocab-020",
+    "luxembourgish": "iech",
+    "english": "you",
+    "status": "known"
+  },
+  {
+    "id": "vocab-021",
+    "luxembourgish": "si",
+    "english": "them",
+    "status": "known"
+  },
+  {
+    "id": "vocab-022",
+    "luxembourgish": "mir",
+    "english": "to me",
+    "status": "known"
+  },
+  {
+    "id": "vocab-023",
+    "luxembourgish": "dir",
+    "english": "to you",
+    "status": "known"
+  },
+  {
+    "id": "vocab-024",
+    "luxembourgish": "him",
+    "english": "to him",
+    "status": "known"
+  },
+  {
+    "id": "vocab-025",
+    "luxembourgish": "hir",
+    "english": "to her",
+    "status": "known"
+  },
+  {
+    "id": "vocab-026",
+    "luxembourgish": "eis",
+    "english": "to us",
+    "status": "known"
+  },
+  {
+    "id": "vocab-027",
+    "luxembourgish": "iech",
+    "english": "to you",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-028",
+    "luxembourgish": "hinnen",
+    "english": "to them",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-029",
+    "luxembourgish": "dat",
+    "english": "that / it",
+    "status": "known"
+  },
+  {
+    "id": "vocab-030",
+    "luxembourgish": "d st",
+    "english": "this",
+    "status": "known"
+  },
+  {
+    "id": "vocab-031",
+    "luxembourgish": "d i",
+    "english": "those / they",
+    "status": "known"
+  },
+  {
+    "id": "vocab-032",
+    "luxembourgish": "hei",
+    "english": "here",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-033",
+    "luxembourgish": "do",
+    "english": "there",
+    "status": "known"
+  },
+  {
+    "id": "vocab-034",
+    "luxembourgish": "esou",
+    "english": "like this / so",
+    "status": "known"
+  },
+  {
+    "id": "vocab-035",
+    "luxembourgish": "sou",
+    "english": "so / such",
+    "status": "known"
+  },
+  {
+    "id": "vocab-036",
+    "luxembourgish": "an",
+    "english": "and",
+    "status": "known"
+  },
+  {
+    "id": "vocab-037",
+    "luxembourgish": "mee",
+    "english": "but",
+    "status": "known"
+  },
+  {
+    "id": "vocab-038",
+    "luxembourgish": "oder",
+    "english": "or",
+    "status": "known"
+  },
+  {
+    "id": "vocab-039",
+    "luxembourgish": "well",
+    "english": "because",
+    "status": "known"
+  },
+  {
+    "id": "vocab-040",
+    "luxembourgish": "datt",
+    "english": "that",
+    "status": "known"
+  },
+  {
+    "id": "vocab-041",
+    "luxembourgish": "wann",
+    "english": "if / when",
+    "status": "known"
+  },
+  {
+    "id": "vocab-042",
+    "luxembourgish": "wann ... dann",
+    "english": "if ... then",
+    "status": "known"
+  },
+  {
+    "id": "vocab-043",
+    "luxembourgish": "dofir",
+    "english": "therefore / that's why",
+    "status": "known"
+  },
+  {
+    "id": "vocab-044",
+    "luxembourgish": "also",
+    "english": "so / therefore",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-045",
+    "luxembourgish": "dann",
+    "english": "then",
+    "status": "known"
+  },
+  {
+    "id": "vocab-046",
+    "luxembourgish": "duerno",
+    "english": "afterwards",
+    "status": "known"
+  },
+  {
+    "id": "vocab-047",
+    "luxembourgish": "virdrun",
+    "english": "before / beforehand",
+    "status": "known"
+  },
+  {
+    "id": "vocab-048",
+    "luxembourgish": "trotzdeem",
+    "english": "nevertheless / still",
+    "status": "known"
+  },
+  {
+    "id": "vocab-049",
+    "luxembourgish": "ausserdeem",
+    "english": "besides / furthermore",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-050",
+    "luxembourgish": "och",
+    "english": "also / too",
+    "status": "known"
+  },
+  {
+    "id": "vocab-051",
+    "luxembourgish": "nees",
+    "english": "again",
+    "status": "known"
+  },
+  {
+    "id": "vocab-052",
+    "luxembourgish": "schonn",
+    "english": "already",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-053",
+    "luxembourgish": "nach",
+    "english": "still / yet",
+    "status": "known"
+  },
+  {
+    "id": "vocab-054",
+    "luxembourgish": "nach net",
+    "english": "not yet",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-055",
+    "luxembourgish": "n mmen",
+    "english": "only",
+    "status": "known"
+  },
+  {
+    "id": "vocab-056",
+    "luxembourgish": "bal",
+    "english": "almost",
+    "status": "known"
+  },
+  {
+    "id": "vocab-057",
+    "luxembourgish": "guer net",
+    "english": "not at all",
+    "status": "known"
+  },
+  {
+    "id": "vocab-058",
+    "luxembourgish": " mmer",
+    "english": "always",
+    "status": "known"
+  },
+  {
+    "id": "vocab-059",
+    "luxembourgish": "dacks",
+    "english": "often",
+    "status": "known"
+  },
+  {
+    "id": "vocab-060",
+    "luxembourgish": "heiansdo",
+    "english": "sometimes",
+    "status": "known"
+  },
+  {
+    "id": "vocab-061",
+    "luxembourgish": "ni",
+    "english": "never",
+    "status": "known"
+  },
+  {
+    "id": "vocab-062",
+    "luxembourgish": "wat",
+    "english": "what",
+    "status": "known"
+  },
+  {
+    "id": "vocab-063",
+    "luxembourgish": "wien",
+    "english": "who",
+    "status": "known"
+  },
+  {
+    "id": "vocab-064",
+    "luxembourgish": "wou",
+    "english": "where",
+    "status": "known"
+  },
+  {
+    "id": "vocab-065",
+    "luxembourgish": "wouhin",
+    "english": "where to",
+    "status": "known"
+  },
+  {
+    "id": "vocab-066",
+    "luxembourgish": "wouhier",
+    "english": "where from",
+    "status": "known"
+  },
+  {
+    "id": "vocab-067",
+    "luxembourgish": "w ini",
+    "english": "when",
+    "status": "known"
+  },
+  {
+    "id": "vocab-068",
+    "luxembourgish": "firwat",
+    "english": "why",
+    "status": "known"
+  },
+  {
+    "id": "vocab-069",
+    "luxembourgish": "w i",
+    "english": "how",
+    "status": "known"
+  },
+  {
+    "id": "vocab-070",
+    "luxembourgish": "w i vill",
+    "english": "how much / how many",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-071",
+    "luxembourgish": "w i laang",
+    "english": "how long",
+    "status": "known"
+  },
+  {
+    "id": "vocab-072",
+    "luxembourgish": "w i oft",
+    "english": "how often",
+    "status": "known"
+  },
+  {
+    "id": "vocab-073",
+    "luxembourgish": "w i eng / w i ee",
+    "english": "which",
+    "status": "known"
+  },
+  {
+    "id": "vocab-074",
+    "luxembourgish": "mat",
+    "english": "with",
+    "status": "known"
+  },
+  {
+    "id": "vocab-075",
+    "luxembourgish": "ouni",
+    "english": "without",
+    "status": "known"
+  },
+  {
+    "id": "vocab-076",
+    "luxembourgish": "fir",
+    "english": "for",
+    "status": "known"
+  },
+  {
+    "id": "vocab-077",
+    "luxembourgish": "vun",
+    "english": "from / of",
+    "status": "known"
+  },
+  {
+    "id": "vocab-078",
+    "luxembourgish": "bei",
+    "english": "at / with / by",
+    "status": "known"
+  },
+  {
+    "id": "vocab-079",
+    "luxembourgish": "op",
+    "english": "on / to",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-080",
+    "luxembourgish": "an",
+    "english": "in / into",
+    "status": "known"
+  },
+  {
+    "id": "vocab-081",
+    "luxembourgish": " nner",
+    "english": "under",
+    "status": "known"
+  },
+  {
+    "id": "vocab-082",
+    "luxembourgish": "iwwer",
+    "english": "over / about",
+    "status": "known"
+  },
+  {
+    "id": "vocab-083",
+    "luxembourgish": "nieft",
+    "english": "next to / beside",
+    "status": "known"
+  },
+  {
+    "id": "vocab-084",
+    "luxembourgish": "g int",
+    "english": "around / against",
+    "status": "known"
+  },
+  {
+    "id": "vocab-085",
+    "luxembourgish": "w inst",
+    "english": "because of",
+    "status": "known"
+  },
+  {
+    "id": "vocab-086",
+    "luxembourgish": "duerch",
+    "english": "through",
+    "status": "known"
+  },
+  {
+    "id": "vocab-087",
+    "luxembourgish": "no",
+    "english": "after / to",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-088",
+    "luxembourgish": "z nter",
+    "english": "since / for",
+    "status": "known"
+  },
+  {
+    "id": "vocab-089",
+    "luxembourgish": "elo",
+    "english": "now",
+    "status": "known"
+  },
+  {
+    "id": "vocab-090",
+    "luxembourgish": "haut",
+    "english": "today",
+    "status": "known"
+  },
+  {
+    "id": "vocab-091",
+    "luxembourgish": "g schter",
+    "english": "yesterday",
+    "status": "known"
+  },
+  {
+    "id": "vocab-092",
+    "luxembourgish": "muer",
+    "english": "tomorrow",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-093",
+    "luxembourgish": "de Moment",
+    "english": "at the moment",
+    "status": "known"
+  },
+  {
+    "id": "vocab-094",
+    "luxembourgish": "d i lescht K ier",
+    "english": "last time",
+    "status": "known"
+  },
+  {
+    "id": "vocab-095",
+    "luxembourgish": "d lescht Joer",
+    "english": "last year",
+    "status": "known"
+  },
+  {
+    "id": "vocab-096",
+    "luxembourgish": "d s Woch",
+    "english": "this week",
+    "status": "known"
+  },
+  {
+    "id": "vocab-097",
+    "luxembourgish": "d s Deeg",
+    "english": "these days",
+    "status": "known"
+  },
+  {
+    "id": "vocab-098",
+    "luxembourgish": "fir d  ischt",
+    "english": "for the first time",
+    "status": "known"
+  },
+  {
+    "id": "vocab-099",
+    "luxembourgish": "direkt",
+    "english": "immediately / directly",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-100",
+    "luxembourgish": "geschw nn",
+    "english": "soon",
+    "status": "known"
+  },
+  {
+    "id": "vocab-101",
+    "luxembourgish": "sp ider",
+    "english": "later",
+    "status": "known"
+  },
+  {
+    "id": "vocab-102",
+    "luxembourgish": "emol",
+    "english": "once / sometime",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-103",
+    "luxembourgish": "vill",
+    "english": "much / many",
+    "status": "known"
+  },
+  {
+    "id": "vocab-104",
+    "luxembourgish": "e b ssen",
+    "english": "a little / a bit",
+    "status": "known"
+  },
+  {
+    "id": "vocab-105",
+    "luxembourgish": "e puer",
+    "english": "a few / some",
+    "status": "known"
+  },
+  {
+    "id": "vocab-106",
+    "luxembourgish": "genuch",
+    "english": "enough",
+    "status": "known"
+  },
+  {
+    "id": "vocab-107",
+    "luxembourgish": "ze vill",
+    "english": "too much / too many",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-108",
+    "luxembourgish": "ze w ineg",
+    "english": "too little / too few",
+    "status": "known"
+  },
+  {
+    "id": "vocab-109",
+    "luxembourgish": "eppes",
+    "english": "something",
+    "status": "known"
+  },
+  {
+    "id": "vocab-110",
+    "luxembourgish": "n ischt",
+    "english": "nothing",
+    "status": "known"
+  },
+  {
+    "id": "vocab-111",
+    "luxembourgish": "een",
+    "english": "someone / one",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-112",
+    "luxembourgish": "keen",
+    "english": "nobody / no one / none",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-113",
+    "luxembourgish": "jiddereen",
+    "english": "everyone",
+    "status": "known"
+  },
+  {
+    "id": "vocab-114",
+    "luxembourgish": "all",
+    "english": "all / every",
+    "status": "known"
+  },
+  {
+    "id": "vocab-115",
+    "luxembourgish": "jo",
+    "english": "yes",
+    "status": "known"
+  },
+  {
+    "id": "vocab-116",
+    "luxembourgish": "nee",
+    "english": "no",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-117",
+    "luxembourgish": "awer",
+    "english": "however / but",
+    "status": "known"
+  },
+  {
+    "id": "vocab-118",
+    "luxembourgish": "ganz",
+    "english": "very / completely",
+    "status": "known"
+  },
+  {
+    "id": "vocab-119",
+    "luxembourgish": "richteg",
+    "english": "really / very / correct",
+    "status": "known"
+  },
+  {
+    "id": "vocab-120",
+    "luxembourgish": "wierklech",
+    "english": "really",
+    "status": "known"
+  },
+  {
+    "id": "vocab-121",
+    "luxembourgish": "einfach",
+    "english": "simply / easy",
+    "status": "known"
+  },
+  {
+    "id": "vocab-122",
+    "luxembourgish": "vill icht",
+    "english": "maybe",
+    "status": "known"
+  },
+  {
+    "id": "vocab-123",
+    "luxembourgish": "natierlech",
+    "english": "of course / naturally",
+    "status": "known"
+  },
+  {
+    "id": "vocab-124",
+    "luxembourgish": "genee",
+    "english": "exactly",
+    "status": "known"
+  },
+  {
+    "id": "vocab-125",
+    "luxembourgish": "selwer",
+    "english": "myself / yourself / oneself",
+    "status": "known"
+  },
+  {
+    "id": "vocab-126",
+    "luxembourgish": "zesummen",
+    "english": "together",
+    "status": "known"
+  },
+  {
+    "id": "vocab-127",
+    "luxembourgish": "eleng",
+    "english": "alone",
+    "status": "known"
+  },
+  {
+    "id": "vocab-128",
+    "luxembourgish": "doheem",
+    "english": "at home",
+    "status": "known"
+  },
+  {
+    "id": "vocab-129",
+    "luxembourgish": "dobaussen",
+    "english": "outside",
+    "status": "known"
+  },
+  {
+    "id": "vocab-130",
+    "luxembourgish": " nnerwee",
+    "english": "on the way / out and about",
+    "status": "known"
+  },
+  {
+    "id": "vocab-131",
+    "luxembourgish": "Ech ginn ouni dech op d Aarbecht.",
+    "english": "I m going to work without you.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-132",
+    "luxembourgish": "D se Kaddo ass fir dech.",
+    "english": "This present is for you.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-133",
+    "luxembourgish": "Ech kommen aus Italien, mee ech wunnen zu L tzebuerg.",
+    "english": "I m from Italy, but I live in Luxembourg.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-134",
+    "luxembourgish": "Ech hunn eng E-Mail vun him kritt.",
+    "english": "I received an email from him.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-135",
+    "luxembourgish": "Ech sinn haut bei menger Mamm.",
+    "english": "I m at my mother s today.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-136",
+    "luxembourgish": "Ech schaffen bei Deloitte.",
+    "english": "I work at Deloitte.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-137",
+    "luxembourgish": "D Buch l it op dem D sch.",
+    "english": "The book is on the table.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-138",
+    "luxembourgish": "Ech ginn op d Aarbecht.",
+    "english": "I m going to work.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-139",
+    "luxembourgish": "Ech ginn an de Restaurant.",
+    "english": "I m going to the restaurant.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-140",
+    "luxembourgish": "Ech sinn am Restaurant.",
+    "english": "I m in the restaurant.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-141",
+    "luxembourgish": "Ech ginn an d Kichen.",
+    "english": "I m going into the kitchen.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-142",
+    "luxembourgish": "D Kaz l it  nner dem D sch.",
+    "english": "The cat is under the table.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-143",
+    "luxembourgish": "Mir schw tzen iwwer d Aarbecht.",
+    "english": "We re talking about work.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-144",
+    "luxembourgish": "D Lampe h nkt iwwer dem D sch.",
+    "english": "The lamp hangs over the table.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-145",
+    "luxembourgish": "Ech s tze nieft mengem Fr nd.",
+    "english": "I m sitting next to my friend.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-146",
+    "luxembourgish": "Ech kommen g int aacht Auer.",
+    "english": "I ll come around eight o clock.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-147",
+    "luxembourgish": "D V lo steet g int d Mauer.",
+    "english": "The bike is against the wall.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-148",
+    "luxembourgish": "W inst dem Reen bleiwen ech doheem.",
+    "english": "Because of the rain, I m staying home.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-149",
+    "luxembourgish": "Mir ginn duerch de Park.",
+    "english": "We re going through the park.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-150",
+    "luxembourgish": "Ech fueren no L tzebuerg.",
+    "english": "I m going to Luxembourg.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-151",
+    "luxembourgish": "No der Aarbecht ginn ech heem.",
+    "english": "After work, I go home.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-152",
+    "luxembourgish": "Ech wunnen z nter dr i Joer hei.",
+    "english": "I ve lived here for three years.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-153",
+    "luxembourgish": "Dofir maachen ech dat.",
+    "english": "That's why I do that.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-154",
+    "luxembourgish": "Ech maachen dat, well ech Z it hunn.",
+    "english": "I do that because I have time.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-155",
+    "luxembourgish": "Wann ech Z it hunn, da kommen ech.",
+    "english": "If I have time, I'll come.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-156",
+    "luxembourgish": "Da maachen ech dat.",
+    "english": "Then I'll do that.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-157",
+    "luxembourgish": "Ech hunn dat virdrun gemaach.",
+    "english": "I did that before.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-158",
+    "luxembourgish": "Duerno gi mir heem.",
+    "english": "Afterwards we go home.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-159",
+    "luxembourgish": "Ech sinn nach do.",
+    "english": "I'm still there.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-160",
+    "luxembourgish": "Ech hunn et schonn gemaach.",
+    "english": "I've already done it.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-161",
+    "luxembourgish": "Ech hunn et nach net gemaach.",
+    "english": "I haven't done it yet.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-162",
+    "luxembourgish": "Kannst du dat nach eng K ier soen?",
+    "english": "Can you say that again?",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-163",
+    "luxembourgish": "Ech verstinn dat guer net.",
+    "english": "I don't understand that at all.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-164",
+    "luxembourgish": "Ech kommen aus dem B ro.",
+    "english": "I m coming from the office.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-165",
+    "luxembourgish": "Ech kommen vun der Aarbecht.",
+    "english": "I m coming from work.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-166",
+    "luxembourgish": "Ech ginn an de B ro.",
+    "english": "I m going into the office.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-167",
+    "luxembourgish": "Ech ginn op d Aarbecht.",
+    "english": "I m going to work.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-168",
+    "luxembourgish": "Ech ginn bei den Dokter.",
+    "english": "I m going to the doctor.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-169",
+    "luxembourgish": "Ech ginn bei meng Fr nn.",
+    "english": "I m going to my friends.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-170",
+    "luxembourgish": "Ech fueren no Frankr ich.",
+    "english": "I m going to France.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-171",
+    "luxembourgish": "Ech kommen aus Frankr ich.",
+    "english": "I m coming from France.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-172",
+    "luxembourgish": "Ech kommen vun der Gare.",
+    "english": "I m coming from the station.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-173",
+    "luxembourgish": "Ech ginn an d Kichen.",
+    "english": "I m going into the kitchen.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-174",
+    "luxembourgish": "Ech lee n d Buch op den D sch.",
+    "english": "I put the book on the table.",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-175",
+    "luxembourgish": "Ech ginn aus dem Haus.",
+    "english": "I m going out of the house.",
+    "status": "known"
+  },
+  {
+    "id": "vocab-176",
+    "luxembourgish": "sech trennen",
+    "english": "to break up / separate",
+    "status": "known"
+  },
+  {
+    "id": "vocab-177",
+    "luxembourgish": "sech vun engem trennen",
+    "english": "to break up with someone",
+    "status": "known"
+  },
+  {
+    "id": "vocab-178",
+    "luxembourgish": "traureg",
+    "english": "sad",
+    "status": "known"
+  },
+  {
+    "id": "vocab-179",
+    "luxembourgish": "kr ischen",
+    "english": "to cry",
+    "status": "known"
+  },
+  {
+    "id": "vocab-180",
+    "luxembourgish": "zesummen sinn",
+    "english": "to be together",
+    "status": "known"
+  },
+  {
+    "id": "vocab-181",
+    "luxembourgish": "Schluss maachen",
+    "english": "to break up / end a relationship",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-182",
+    "luxembourgish": "streiden",
+    "english": "to argue",
+    "status": "known"
+  },
+  {
+    "id": "vocab-183",
+    "luxembourgish": "trotzdeem",
+    "english": "nevertheless / still",
+    "status": "known"
+  },
+  {
+    "id": "vocab-184",
+    "luxembourgish": "eidel",
+    "english": "empty",
+    "status": "known"
+  },
+  {
+    "id": "vocab-185",
+    "luxembourgish": "erauspl nneren",
+    "english": "to move out",
+    "status": "known"
+  },
+  {
+    "id": "vocab-186",
+    "luxembourgish": "friemgoen",
+    "english": "to cheat on someone",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-187",
+    "luxembourgish": "d Aff r",
+    "english": "affair",
+    "status": "known"
+  },
+  {
+    "id": "vocab-188",
+    "luxembourgish": "h llefen",
+    "english": "to help",
+    "status": "known"
+  },
+  {
+    "id": "vocab-189",
+    "luxembourgish": "kaum",
+    "english": "hardly / barely",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-190",
+    "luxembourgish": "fortfueren",
+    "english": "to go away / go on a trip",
+    "status": "known"
+  },
+  {
+    "id": "vocab-191",
+    "luxembourgish": "sech e puer Deeg fr ihuelen",
+    "english": "to take a few days off",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-192",
+    "luxembourgish": "d Aff r",
+    "english": "affair",
+    "status": "known"
+  },
+  {
+    "id": "vocab-193",
+    "luxembourgish": "d Wieder",
+    "english": "weather",
+    "status": "known"
+  },
+  {
+    "id": "vocab-194",
+    "luxembourgish": "d Transportm ttel",
+    "english": "means of transport",
+    "status": "known"
+  },
+  {
+    "id": "vocab-195",
+    "luxembourgish": "d Joresz it",
+    "english": "season",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-196",
+    "luxembourgish": "de Fr ijoer",
+    "english": "spring",
+    "status": "known"
+  },
+  {
+    "id": "vocab-197",
+    "luxembourgish": "de Summer",
+    "english": "summer",
+    "status": "known"
+  },
+  {
+    "id": "vocab-198",
+    "luxembourgish": "den Hierscht",
+    "english": "autumn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-199",
+    "luxembourgish": "de Wanter",
+    "english": "winter",
+    "status": "known"
+  },
+  {
+    "id": "vocab-200",
+    "luxembourgish": "kal",
+    "english": "cold",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-201",
+    "luxembourgish": "waarm",
+    "english": "warm",
+    "status": "known"
+  },
+  {
+    "id": "vocab-202",
+    "luxembourgish": "wollekeg",
+    "english": "cloudy",
+    "status": "known"
+  },
+  {
+    "id": "vocab-203",
+    "luxembourgish": "d Sonn",
+    "english": "sun",
+    "status": "known"
+  },
+  {
+    "id": "vocab-204",
+    "luxembourgish": "sch ngen",
+    "english": "to shine",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-205",
+    "luxembourgish": "reenen",
+    "english": "to rain",
+    "status": "known"
+  },
+  {
+    "id": "vocab-206",
+    "luxembourgish": "schneien",
+    "english": "to snow",
+    "status": "known"
+  },
+  {
+    "id": "vocab-207",
+    "luxembourgish": "d Keelt",
+    "english": "cold",
+    "status": "known"
+  },
+  {
+    "id": "vocab-208",
+    "luxembourgish": "erausgoen",
+    "english": "to go outside",
+    "status": "known"
+  },
+  {
+    "id": "vocab-209",
+    "luxembourgish": "spads ieren",
+    "english": "to go for a walk",
+    "status": "known"
+  },
+  {
+    "id": "vocab-210",
+    "luxembourgish": "verbr ngen",
+    "english": "to spend (time)",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-211",
+    "luxembourgish": "de Bus",
+    "english": "bus",
+    "status": "known"
+  },
+  {
+    "id": "vocab-212",
+    "luxembourgish": "den Zuch",
+    "english": "train",
+    "status": "known"
+  },
+  {
+    "id": "vocab-213",
+    "luxembourgish": "den Tram",
+    "english": "tram",
+    "status": "known"
+  },
+  {
+    "id": "vocab-214",
+    "luxembourgish": "den Auto",
+    "english": "car",
+    "status": "known"
+  },
+  {
+    "id": "vocab-215",
+    "luxembourgish": "de V lo",
+    "english": "bicycle",
+    "status": "known"
+  },
+  {
+    "id": "vocab-216",
+    "luxembourgish": "zu Fouss",
+    "english": "on foot",
+    "status": "known"
+  },
+  {
+    "id": "vocab-217",
+    "luxembourgish": "fueren",
+    "english": "to travel / drive",
+    "status": "known"
+  },
+  {
+    "id": "vocab-218",
+    "luxembourgish": "kommen",
+    "english": "to come / get to",
+    "status": "known"
+  },
+  {
+    "id": "vocab-219",
+    "luxembourgish": "uruffen",
+    "english": "to call",
+    "status": "known"
+  },
+  {
+    "id": "vocab-220",
+    "luxembourgish": "soen",
+    "english": "to say / tell",
+    "status": "known"
+  },
+  {
+    "id": "vocab-221",
+    "luxembourgish": "widderhuelen",
+    "english": "to repeat",
+    "status": "known"
+  },
+  {
+    "id": "vocab-222",
+    "luxembourgish": "datselwecht",
+    "english": "the same thing",
+    "status": "known"
+  },
+  {
+    "id": "vocab-223",
+    "luxembourgish": "d Land",
+    "english": "country",
+    "status": "known"
+  },
+  {
+    "id": "vocab-224",
+    "luxembourgish": "dengem Land",
+    "english": "your country",
+    "status": "known"
+  },
+  {
+    "id": "vocab-225",
+    "luxembourgish": "de Kaddo",
+    "english": "present / gift",
+    "status": "known"
+  },
+  {
+    "id": "vocab-226",
+    "luxembourgish": "schenken",
+    "english": "to give (as a gift)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-227",
+    "luxembourgish": "ginn",
+    "english": "to give",
+    "status": "known"
+  },
+  {
+    "id": "vocab-228",
+    "luxembourgish": "kr ien",
+    "english": "to receive / get",
+    "status": "known"
+  },
+  {
+    "id": "vocab-229",
+    "luxembourgish": "d Gebuertsdag",
+    "english": "birthday",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-230",
+    "luxembourgish": "de Chr schtdag",
+    "english": "Christmas",
+    "status": "known"
+  },
+  {
+    "id": "vocab-231",
+    "luxembourgish": "d Hochz it",
+    "english": "wedding",
+    "status": "known"
+  },
+  {
+    "id": "vocab-232",
+    "luxembourgish": "d Suen",
+    "english": "money",
+    "status": "known"
+  },
+  {
+    "id": "vocab-233",
+    "luxembourgish": "matbr ngen",
+    "english": "to bring along",
+    "status": "known"
+  },
+  {
+    "id": "vocab-234",
+    "luxembourgish": "ausginn",
+    "english": "to spend (money)",
+    "status": "known"
+  },
+  {
+    "id": "vocab-235",
+    "luxembourgish": "dofir",
+    "english": "for that / therefore",
+    "status": "known"
+  },
+  {
+    "id": "vocab-236",
+    "luxembourgish": "dat h nkt dovun of",
+    "english": "it depends on that",
+    "status": "known"
+  },
+  {
+    "id": "vocab-237",
+    "luxembourgish": "opraumen",
+    "english": "to tidy up",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-238",
+    "luxembourgish": "w schen",
+    "english": "to wash",
+    "status": "known"
+  },
+  {
+    "id": "vocab-239",
+    "luxembourgish": "naass",
+    "english": "wet",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-240",
+    "luxembourgish": "allerd ngs",
+    "english": "however / though",
+    "status": "known"
+  },
+  {
+    "id": "vocab-241",
+    "luxembourgish": "best mmt",
+    "english": "certainly / probably",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-242",
+    "luxembourgish": "anscheinend",
+    "english": "apparently",
+    "status": "known"
+  },
+  {
+    "id": "vocab-243",
+    "luxembourgish": "gl cklecherweis",
+    "english": "fortunately",
+    "status": "known"
+  },
+  {
+    "id": "vocab-244",
+    "luxembourgish": "uechter",
+    "english": "throughout / across",
+    "status": "known"
+  },
+  {
+    "id": "vocab-245",
+    "luxembourgish": "deelweis",
+    "english": "partly",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-246",
+    "luxembourgish": "z nter",
+    "english": "since / for",
+    "status": "known"
+  },
+  {
+    "id": "vocab-247",
+    "luxembourgish": "virdrun",
+    "english": "before / beforehand",
+    "status": "known"
+  },
+  {
+    "id": "vocab-248",
+    "luxembourgish": "duerno",
+    "english": "afterwards",
+    "status": "known"
+  },
+  {
+    "id": "vocab-249",
+    "luxembourgish": "geschw nn",
+    "english": "soon",
+    "status": "known"
+  },
+  {
+    "id": "vocab-250",
+    "luxembourgish": "nees",
+    "english": "again",
+    "status": "known"
+  },
+  {
+    "id": "vocab-251",
+    "luxembourgish": "wierklech",
+    "english": "really",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-252",
+    "luxembourgish": "selwer",
+    "english": "oneself / myself",
+    "status": "known"
+  },
+  {
+    "id": "vocab-253",
+    "luxembourgish": "n mmen",
+    "english": "only",
+    "status": "known"
+  },
+  {
+    "id": "vocab-254",
+    "luxembourgish": "esouguer",
+    "english": "even",
+    "status": "known"
+  },
+  {
+    "id": "vocab-255",
+    "luxembourgish": "guer net",
+    "english": "not at all",
+    "status": "known"
+  },
+  {
+    "id": "vocab-256",
+    "luxembourgish": "e b ssen",
+    "english": "a little",
+    "status": "known"
+  },
+  {
+    "id": "vocab-257",
+    "luxembourgish": "lauter",
+    "english": "nothing but / lots of",
+    "status": "known"
+  },
+  {
+    "id": "vocab-258",
+    "luxembourgish": "d s Deeg",
+    "english": "these days",
+    "status": "known"
+  },
+  {
+    "id": "vocab-259",
+    "luxembourgish": "op d'mannst",
+    "english": "at least",
+    "status": "known"
+  },
+  {
+    "id": "vocab-260",
+    "luxembourgish": "d'Wunneng",
+    "english": "apartment",
+    "status": "known"
+  },
+  {
+    "id": "vocab-261",
+    "luxembourgish": "d'Gare",
+    "english": "train station",
+    "status": "known"
+  },
+  {
+    "id": "vocab-262",
+    "luxembourgish": "den Arr t",
+    "english": "bus stop",
+    "status": "known"
+  },
+  {
+    "id": "vocab-263",
+    "luxembourgish": "d'Wieder",
+    "english": "weather",
+    "status": "known"
+  },
+  {
+    "id": "vocab-264",
+    "luxembourgish": "de Verk ier",
+    "english": "traffic",
+    "status": "known"
+  },
+  {
+    "id": "vocab-265",
+    "luxembourgish": "wunnen",
+    "english": "to live",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-266",
+    "luxembourgish": "schaffen",
+    "english": "to work",
+    "status": "known"
+  },
+  {
+    "id": "vocab-267",
+    "luxembourgish": "kachen",
+    "english": "to cook",
+    "status": "known"
+  },
+  {
+    "id": "vocab-268",
+    "luxembourgish": "l ieren",
+    "english": "to learn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-269",
+    "luxembourgish": "fueren",
+    "english": "to drive / travel",
+    "status": "known"
+  },
+  {
+    "id": "vocab-270",
+    "luxembourgish": "eropfueren",
+    "english": "to drive/go up",
+    "status": "known"
+  },
+  {
+    "id": "vocab-271",
+    "luxembourgish": "fortfueren",
+    "english": "to leave / drive away",
+    "status": "known"
+  },
+  {
+    "id": "vocab-272",
+    "luxembourgish": "heemfueren",
+    "english": "to drive home",
+    "status": "known"
+  },
+  {
+    "id": "vocab-273",
+    "luxembourgish": "matfueren",
+    "english": "to travel along",
+    "status": "known"
+  },
+  {
+    "id": "vocab-274",
+    "luxembourgish": "zr ckfueren",
+    "english": "to drive back",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-275",
+    "luxembourgish": "beschreiwen",
+    "english": "to describe",
+    "status": "known"
+  },
+  {
+    "id": "vocab-276",
+    "luxembourgish": "entscheeden",
+    "english": "to decide",
+    "status": "known"
+  },
+  {
+    "id": "vocab-277",
+    "luxembourgish": "erkennen",
+    "english": "to recognise",
+    "status": "known"
+  },
+  {
+    "id": "vocab-278",
+    "luxembourgish": "verkafen",
+    "english": "to sell",
+    "status": "known"
+  },
+  {
+    "id": "vocab-279",
+    "luxembourgish": "stinn op",
+    "english": "to get up",
+    "status": "known"
+  },
+  {
+    "id": "vocab-280",
+    "luxembourgish": "uruffen",
+    "english": "to call",
+    "status": "known"
+  },
+  {
+    "id": "vocab-281",
+    "luxembourgish": "F nster zoumaachen",
+    "english": "to close the window",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-282",
+    "luxembourgish": "mussen",
+    "english": "must / have to",
+    "status": "known"
+  },
+  {
+    "id": "vocab-283",
+    "luxembourgish": "d erfen",
+    "english": "may / be allowed to",
+    "status": "known"
+  },
+  {
+    "id": "vocab-284",
+    "luxembourgish": "sollen",
+    "english": "should",
+    "status": "known"
+  },
+  {
+    "id": "vocab-285",
+    "luxembourgish": "k nnen",
+    "english": "can / be able to",
+    "status": "known"
+  },
+  {
+    "id": "vocab-286",
+    "luxembourgish": "w llen",
+    "english": "to want",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-287",
+    "luxembourgish": "huelen",
+    "english": "to take",
+    "status": "known"
+  },
+  {
+    "id": "vocab-288",
+    "luxembourgish": "maachen",
+    "english": "to do / make",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-289",
+    "luxembourgish": "soen",
+    "english": "to say",
+    "status": "known"
+  },
+  {
+    "id": "vocab-290",
+    "luxembourgish": "kommen",
+    "english": "to come",
+    "status": "known"
+  },
+  {
+    "id": "vocab-291",
+    "luxembourgish": "sech k mmen",
+    "english": "to comb one's hair",
+    "status": "known"
+  },
+  {
+    "id": "vocab-292",
+    "luxembourgish": "sinn",
+    "english": "to be",
+    "status": "known"
+  },
+  {
+    "id": "vocab-293",
+    "luxembourgish": "bleiwen",
+    "english": "to stay",
+    "status": "known"
+  },
+  {
+    "id": "vocab-294",
+    "luxembourgish": "ginn",
+    "english": "to become / go / give",
+    "status": "known"
+  },
+  {
+    "id": "vocab-295",
+    "luxembourgish": "gesch ien",
+    "english": "to happen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-296",
+    "luxembourgish": "laachen",
+    "english": "to laugh",
+    "status": "known"
+  },
+  {
+    "id": "vocab-297",
+    "luxembourgish": "schlofen",
+    "english": "to sleep",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-298",
+    "luxembourgish": "iessen",
+    "english": "to eat",
+    "status": "known"
+  },
+  {
+    "id": "vocab-299",
+    "luxembourgish": "dr nken",
+    "english": "to drink",
+    "status": "known"
+  },
+  {
+    "id": "vocab-300",
+    "luxembourgish": "schwammen",
+    "english": "to swim",
+    "status": "known"
+  },
+  {
+    "id": "vocab-301",
+    "luxembourgish": "sangen",
+    "english": "to sing",
+    "status": "known"
+  },
+  {
+    "id": "vocab-302",
+    "luxembourgish": "ustrengend",
+    "english": "tiring",
+    "status": "known"
+  },
+  {
+    "id": "vocab-303",
+    "luxembourgish": "ganz flott",
+    "english": "very nice / pleasant",
+    "status": "known"
+  },
+  {
+    "id": "vocab-304",
+    "luxembourgish": "m i oder manner",
+    "english": "more or less",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-305",
+    "luxembourgish": "de Virdeel",
+    "english": "advantage",
+    "status": "known"
+  },
+  {
+    "id": "vocab-306",
+    "luxembourgish": "den Nodeel",
+    "english": "disadvantage",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-307",
+    "luxembourgish": "alles",
+    "english": "everything",
+    "status": "known"
+  },
+  {
+    "id": "vocab-308",
+    "luxembourgish": "de ganze Weekend",
+    "english": "the whole weekend",
+    "status": "known"
+  },
+  {
+    "id": "vocab-309",
+    "luxembourgish": "d i ganz Woch",
+    "english": "the whole week",
+    "status": "known"
+  },
+  {
+    "id": "vocab-310",
+    "luxembourgish": "dat ganzt Haus",
+    "english": "the whole house",
+    "status": "known"
+  },
+  {
+    "id": "vocab-311",
+    "luxembourgish": "Petzie",
+    "english": "pets",
+    "status": "known"
+  },
+  {
+    "id": "vocab-312",
+    "luxembourgish": "Z it",
+    "english": "time",
+    "status": "known"
+  },
+  {
+    "id": "vocab-313",
+    "luxembourgish": "s iersten",
+    "english": "fastest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-314",
+    "luxembourgish": "interessantsten",
+    "english": "most interesting",
+    "status": "known"
+  },
+  {
+    "id": "vocab-315",
+    "luxembourgish": "neisten",
+    "english": "newest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-316",
+    "luxembourgish": "beschten",
+    "english": "best",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-317",
+    "luxembourgish": "gr isste",
+    "english": "biggest / tallest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-318",
+    "luxembourgish": "sch inst",
+    "english": "most beautiful",
+    "status": "known"
+  },
+  {
+    "id": "vocab-319",
+    "luxembourgish": "l ifst",
+    "english": "nicest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-320",
+    "luxembourgish": "w ermste",
+    "english": "warmest",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-321",
+    "luxembourgish": "eelsten",
+    "english": "oldest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-322",
+    "luxembourgish": "deiersten",
+    "english": "most expensive",
+    "status": "known"
+  },
+  {
+    "id": "vocab-323",
+    "luxembourgish": "klengsten",
+    "english": "smallest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-324",
+    "luxembourgish": "w ermsten",
+    "english": "warmest",
+    "status": "known"
+  },
+  {
+    "id": "vocab-325",
+    "luxembourgish": "schw iersten",
+    "english": "most difficult",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-326",
+    "luxembourgish": "m i",
+    "english": "more",
+    "status": "known"
+  },
+  {
+    "id": "vocab-327",
+    "luxembourgish": "manner",
+    "english": "less / fewer",
+    "status": "known"
+  },
+  {
+    "id": "vocab-328",
+    "luxembourgish": "grad esou",
+    "english": "as ... as",
+    "status": "known"
+  },
+  {
+    "id": "vocab-329",
+    "luxembourgish": "m i s ier w i",
+    "english": "faster than",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-330",
+    "luxembourgish": "manner interessant w i",
+    "english": "less interesting than",
+    "status": "known"
+  },
+  {
+    "id": "vocab-331",
+    "luxembourgish": "m i kleng w i",
+    "english": "smaller than",
+    "status": "known"
+  },
+  {
+    "id": "vocab-332",
+    "luxembourgish": "manner schw ier w i",
+    "english": "less difficult than",
+    "status": "known"
+  },
+  {
+    "id": "vocab-333",
+    "luxembourgish": "m i deier w i",
+    "english": "more expensive than",
+    "status": "known"
+  },
+  {
+    "id": "vocab-334",
+    "luxembourgish": "manner grouss w i",
+    "english": "less tall than",
+    "status": "known"
+  },
+  {
+    "id": "vocab-335",
+    "luxembourgish": "umaachen",
+    "english": "to turn on / switch on",
+    "status": "known"
+  },
+  {
+    "id": "vocab-336",
+    "luxembourgish": "ausmaachen",
+    "english": "to turn off / switch off",
+    "status": "known"
+  },
+  {
+    "id": "vocab-337",
+    "luxembourgish": "opmaachen",
+    "english": "to open",
+    "status": "known"
+  },
+  {
+    "id": "vocab-338",
+    "luxembourgish": "zoumaachen",
+    "english": "to close",
+    "status": "known"
+  },
+  {
+    "id": "vocab-339",
+    "luxembourgish": "opstoen",
+    "english": "to get up / stand up",
+    "status": "known"
+  },
+  {
+    "id": "vocab-340",
+    "luxembourgish": "f erdegmaachen",
+    "english": "to finish",
+    "status": "known"
+  },
+  {
+    "id": "vocab-341",
+    "luxembourgish": "fortfueren",
+    "english": "to leave / drive away",
+    "status": "known"
+  },
+  {
+    "id": "vocab-342",
+    "luxembourgish": "fortgoen",
+    "english": "to leave / go away",
+    "status": "known"
+  },
+  {
+    "id": "vocab-343",
+    "luxembourgish": "undoen",
+    "english": "to put on",
+    "status": "known"
+  },
+  {
+    "id": "vocab-344",
+    "luxembourgish": "ausdoen",
+    "english": "to take off",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-345",
+    "luxembourgish": "zousp ren",
+    "english": "to lock",
+    "status": "known"
+  },
+  {
+    "id": "vocab-346",
+    "luxembourgish": "opsp ren",
+    "english": "to unlock",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-347",
+    "luxembourgish": "uf nken",
+    "english": "to start / begin",
+    "status": "known"
+  },
+  {
+    "id": "vocab-348",
+    "luxembourgish": "ophalen",
+    "english": "to stop",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-349",
+    "luxembourgish": "heemkommen",
+    "english": "to come home",
+    "status": "known"
+  },
+  {
+    "id": "vocab-350",
+    "luxembourgish": "erausgoen",
+    "english": "to go out",
+    "status": "known"
+  },
+  {
+    "id": "vocab-351",
+    "luxembourgish": "matkommen",
+    "english": "to come along",
+    "status": "known"
+  },
+  {
+    "id": "vocab-352",
+    "luxembourgish": "laanschtkommen",
+    "english": "to come by / stop by",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-353",
+    "luxembourgish": "ofhuelen",
+    "english": "to pick up",
+    "status": "known"
+  },
+  {
+    "id": "vocab-354",
+    "luxembourgish": "nolauschteren",
+    "english": "to listen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-355",
+    "luxembourgish": "heemgoen",
+    "english": "to go home",
+    "status": "known"
+  },
+  {
+    "id": "vocab-356",
+    "luxembourgish": "aschlofen",
+    "english": "to fall asleep",
+    "status": "known"
+  },
+  {
+    "id": "vocab-357",
+    "luxembourgish": "uruffen",
+    "english": "to call / phone",
+    "status": "known"
+  },
+  {
+    "id": "vocab-358",
+    "luxembourgish": "nodenken",
+    "english": "to think about / reflect on",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-359",
+    "luxembourgish": "ofginn",
+    "english": "to hand in / give in",
+    "status": "known"
+  },
+  {
+    "id": "vocab-360",
+    "luxembourgish": "virbereeden",
+    "english": "to prepare",
+    "status": "known"
+  },
+  {
+    "id": "vocab-361",
+    "luxembourgish": "matbr ngen",
+    "english": "to bring along",
+    "status": "known"
+  },
+  {
+    "id": "vocab-362",
+    "luxembourgish": "ausgesinn",
+    "english": "to look / appear",
+    "status": "known"
+  },
+  {
+    "id": "vocab-363",
+    "luxembourgish": "ausginn",
+    "english": "to spend / go out",
+    "status": "known"
+  },
+  {
+    "id": "vocab-364",
+    "luxembourgish": "opraumen",
+    "english": "to tidy up",
+    "status": "known"
+  },
+  {
+    "id": "vocab-365",
+    "luxembourgish": "akafen",
+    "english": "to go shopping",
+    "status": "known"
+  },
+  {
+    "id": "vocab-366",
+    "luxembourgish": "unprob ieren",
+    "english": "to try on",
+    "status": "known"
+  },
+  {
+    "id": "vocab-367",
+    "luxembourgish": "ukucken",
+    "english": "to look at / watch",
+    "status": "known"
+  },
+  {
+    "id": "vocab-368",
+    "luxembourgish": "sech ukucken",
+    "english": "to look at oneself",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-369",
+    "luxembourgish": "matmaachen",
+    "english": "to participate / join in",
+    "status": "known"
+  },
+  {
+    "id": "vocab-370",
+    "luxembourgish": "gewiescht",
+    "english": "sinn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-371",
+    "luxembourgish": "gehat",
+    "english": "hunn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-372",
+    "luxembourgish": "gemaach",
+    "english": "maachen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-373",
+    "luxembourgish": "gaangen",
+    "english": "goen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-374",
+    "luxembourgish": "komm",
+    "english": "kommen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-375",
+    "luxembourgish": "ginn",
+    "english": "ginn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-376",
+    "luxembourgish": "gesot",
+    "english": "soen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-377",
+    "luxembourgish": "gesinn",
+    "english": "gesinn",
+    "status": "known"
+  },
+  {
+    "id": "vocab-378",
+    "luxembourgish": "gewosst",
+    "english": "w ssen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-379",
+    "luxembourgish": "kannt",
+    "english": "kennen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-380",
+    "luxembourgish": "konnt",
+    "english": "k nnen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-381",
+    "luxembourgish": "misst",
+    "english": "mussen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-382",
+    "luxembourgish": "wollt",
+    "english": "w llen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-383",
+    "luxembourgish": "sollt",
+    "english": "sollen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-384",
+    "luxembourgish": "geholl",
+    "english": "huelen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-385",
+    "luxembourgish": "bruecht",
+    "english": "br ngen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-386",
+    "luxembourgish": "fonnt",
+    "english": "fannen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-387",
+    "luxembourgish": "geduecht",
+    "english": "denken",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-388",
+    "luxembourgish": "geschwat",
+    "english": "schw tzen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-389",
+    "luxembourgish": "gefrot",
+    "english": "froen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-390",
+    "luxembourgish": "ge ntwert",
+    "english": " ntweren",
+    "status": "known"
+  },
+  {
+    "id": "vocab-391",
+    "luxembourgish": "gelies",
+    "english": "liesen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-392",
+    "luxembourgish": "geschriwwen",
+    "english": "schreiwen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-393",
+    "luxembourgish": "gel iert",
+    "english": "l ieren",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-394",
+    "luxembourgish": "geschafft",
+    "english": "schaffen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-395",
+    "luxembourgish": "kaf",
+    "english": "kafen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-396",
+    "luxembourgish": "bezuelt",
+    "english": "bezuelen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-397",
+    "luxembourgish": "giess",
+    "english": "iessen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-398",
+    "luxembourgish": "gedronk",
+    "english": "dr nken",
+    "status": "known"
+  },
+  {
+    "id": "vocab-399",
+    "luxembourgish": "geschlof",
+    "english": "schlofen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-400",
+    "luxembourgish": "gefuer",
+    "english": "fueren",
+    "status": "known"
+  },
+  {
+    "id": "vocab-401",
+    "luxembourgish": "gelaf",
+    "english": "lafen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-402",
+    "luxembourgish": "bliwwen",
+    "english": "bleiwen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-403",
+    "luxembourgish": "gestanen",
+    "english": "stoen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-404",
+    "luxembourgish": "gesiess",
+    "english": "s tzen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-405",
+    "luxembourgish": "gelee n",
+    "english": "leien",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-406",
+    "luxembourgish": "gesat",
+    "english": "setzen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-407",
+    "luxembourgish": "gehollef",
+    "english": "h llefen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-408",
+    "luxembourgish": "gesicht",
+    "english": "sichen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-409",
+    "luxembourgish": "gebraucht",
+    "english": "brauchen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-410",
+    "luxembourgish": "ugeruff",
+    "english": "uruffen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-411",
+    "luxembourgish": "kritt",
+    "english": "kr ien",
+    "status": "known"
+  },
+  {
+    "id": "vocab-412",
+    "luxembourgish": "geschenkt",
+    "english": "schenken",
+    "status": "known"
+  },
+  {
+    "id": "vocab-413",
+    "luxembourgish": "verbruecht",
+    "english": "verbr ngen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-414",
+    "luxembourgish": "ugefaangen",
+    "english": "uf nken",
+    "status": "known"
+  },
+  {
+    "id": "vocab-415",
+    "luxembourgish": "opholl",
+    "english": "ophuelen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-416",
+    "luxembourgish": "verstanen",
+    "english": "verstoen",
+    "status": "unknown"
+  },
+  {
+    "id": "vocab-417",
+    "luxembourgish": "vergiess",
+    "english": "vergiessen",
+    "status": "known"
+  },
+  {
+    "id": "vocab-418",
+    "luxembourgish": "gesch ckt",
+    "english": "sch cken",
+    "status": "known"
+  }
 ]
