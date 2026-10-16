@@ -1,0 +1,15 @@
+[
+  {
+    "id": "example-001",
+    "sentence": "Ech ___ zu Lëtzebuerg.",
+    "translation": "I live in Luxembourg.",
+    "options": [
+      "wunnen",
+      "wunnt",
+      "wunnen",
+      "wunns"
+    ],
+    "correctAnswer": "wunnen",
+    "rule": "Example placeholder only. Replace this item with a question from your own Excel bank."
+  }
+]

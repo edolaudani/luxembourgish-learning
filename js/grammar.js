@@ -1,0 +1,1 @@
+/* Grammar quiz bootstrapping is handled by the shared engine in quiz.js. */
