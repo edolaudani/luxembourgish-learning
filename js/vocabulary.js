@@ -1,21 +1,19 @@
-
-/* Vocabulary quiz. Uses data/vocabulary-questions.json. */
 document.addEventListener("DOMContentLoaded", async () => {
   const content = document.getElementById("quiz-content");
   const progress = document.getElementById("progress");
-  const scoreEl = document.getElementById("score");
-  const fill = document.getElementById("progress-fill");
+  const progressFill = document.getElementById("progress-fill");
+  const scoreDisplay = document.getElementById("score");
   const nextBtn = document.getElementById("next-btn");
   const resetBtn = document.getElementById("reset-btn");
 
-  // Versioned key prevents old quiz state from being restored.
-  const STORAGE_KEY = "lux-learning-vocabulary-v2";
+  const STORAGE_KEY = "lux-learning-vocabulary-flashcards-v1";
 
-  let bank = [];
-  let available = [];
-  let current = null;
+  let vocabulary = [];
+  let statusById = {};
+  let deck = [];
+  let currentWord = null;
+  let answerShown = false;
   let score = 0;
-  let answered = false;
 
   function shuffle(items) {
     const result = [...items];
@@ -28,303 +26,296 @@ document.addEventListener("DOMContentLoaded", async () => {
     return result;
   }
 
-  function make(tag, className, text) {
-    const element = document.createElement(tag);
-
-    if (className) element.className = className;
-    if (text !== undefined) element.textContent = text;
-
-    return element;
-  }
-
   function saveProgress() {
-    try {
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify({
-          available,
-          score
-        })
-      );
-    } catch (error) {
-      console.warn("Could not save quiz progress.", error);
-    }
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        statusById,
+        deck,
+        score
+      })
+    );
   }
 
-  function restoreProgress() {
-    try {
-      const saved = JSON.parse(
-        localStorage.getItem(STORAGE_KEY) || "null"
-      );
+  function updateStats() {
+    const knownCount = vocabulary.filter(
+      word => statusById[word.id] === "known"
+    ).length;
 
-      if (
-        saved &&
-        Array.isArray(saved.available) &&
-        Number.isFinite(saved.score)
-      ) {
-        const validIds = new Set(bank.map(question => question.id));
-        const savedIds = new Set(saved.available);
+    const remaining = vocabulary.length - knownCount;
 
-        // Restore only valid, unique IDs from the current question bank.
-        available = bank
-          .map(question => question.id)
-          .filter(id => savedIds.has(id) && validIds.has(id));
+    progress.textContent =
+      `${knownCount} of ${vocabulary.length} words known · ${remaining} remaining`;
 
-        score = Math.max(0, saved.score);
-        return;
-      }
-    } catch (error) {
-      console.warn("Could not restore quiz progress.", error);
-    }
+    scoreDisplay.textContent = `Score: ${score}`;
 
-    available = bank.map(question => question.id);
-    score = 0;
+    const percentage = vocabulary.length
+      ? (knownCount / vocabulary.length) * 100
+      : 0;
+
+    progressFill.style.width = `${percentage}%`;
   }
 
-  function updateMeta() {
-    const completed = bank.length - available.length;
-
-    progress.textContent = bank.length
-      ? `${completed} of ${bank.length} words completed`
-      : "No questions";
-
-    scoreEl.textContent = `Score: ${score}`;
-
-    fill.style.width = bank.length
-      ? `${(completed / bank.length) * 100}%`
-      : "0%";
+  function makeButton(label, className, onClick) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = className;
+    button.textContent = label;
+    button.addEventListener("click", onClick);
+    return button;
   }
 
-  function showMessage(message, title) {
+  function showFinished() {
+    currentWord = null;
     content.replaceChildren();
 
-    const box = make("div", "empty-state");
-    box.append(
-      make("h2", "", title),
-      make("p", "", message)
+    const heading = document.createElement("h2");
+    heading.className = "question";
+    heading.textContent = "All words known!";
+
+    const message = document.createElement("p");
+    message.textContent =
+      "You have marked every vocabulary item as known. Reset your progress to practise them all again.";
+
+    content.append(heading, message);
+    nextBtn.disabled = true;
+    updateStats();
+  }
+
+  function loadNextWord() {
+    answerShown = false;
+    currentWord = null;
+
+    // Keep only words that are still unknown.
+    deck = deck.filter(
+      id => statusById[id] !== "known"
     );
 
-    content.append(box);
-    nextBtn.disabled = true;
-  }
+    // Add any unknown words missing from the deck.
+    const inDeck = new Set(deck);
 
-  function getOptions(question) {
-    const correct = question.english.trim();
+    vocabulary.forEach(word => {
+      if (
+        statusById[word.id] !== "known" &&
+        !inDeck.has(word.id)
+      ) {
+        deck.push(word.id);
+      }
+    });
 
-    // Exclude duplicate English answers, ignoring case and whitespace.
-    const seen = new Set([correct.toLowerCase()]);
-
-    const distractors = [];
-
-    for (const candidate of shuffle(bank)) {
-      if (candidate.id === question.id) continue;
-
-      const answer = candidate.english.trim();
-      const normalized = answer.toLowerCase();
-
-      if (!answer || seen.has(normalized)) continue;
-
-      seen.add(normalized);
-      distractors.push(answer);
-
-      if (distractors.length === 3) break;
-    }
-
-    // Never invent or duplicate answers to fill missing choices.
-    return shuffle([correct, ...distractors]);
-  }
-
-  function loadQuestion() {
-    answered = false;
-    current = null;
-    nextBtn.disabled = true;
-    nextBtn.textContent = "Next question →";
-
-    updateMeta();
-
-    if (!available.length) {
-      showMessage(
-        bank.length
-          ? "You have completed every question. Reset progress to practise again."
-          : "No valid vocabulary entries were found in the question bank.",
-        bank.length ? "All done for now!" : "No questions available"
-      );
+    if (deck.length === 0) {
+      showFinished();
+      saveProgress();
       return;
     }
 
-    const id = available[
-      Math.floor(Math.random() * available.length)
-    ];
+    // Take the next card from the front of the deck.
+    const nextId = deck.shift();
 
-    current = bank.find(question => question.id === id);
+    currentWord = vocabulary.find(
+      word => word.id === nextId
+    );
 
-    if (!current) {
-      available = bank.map(question => question.id);
-      return loadQuestion();
+    if (!currentWord) {
+      loadNextWord();
+      return;
     }
 
     content.replaceChildren();
 
-    content.append(
-      make("p", "question-label", "What does this mean?"),
-      make("h2", "question", current.luxembourgish)
+    const label = document.createElement("p");
+    label.className = "question-label";
+    label.textContent = "ENGLISH";
+
+    const english = document.createElement("h2");
+    english.className = "question";
+    english.textContent = currentWord.english;
+
+    const revealBtn = makeButton(
+      "Show Luxembourgish",
+      "button button-primary",
+      showAnswer
     );
 
-    const answers = make("div", "answers");
-    const options = getOptions(current);
+    content.append(label, english, revealBtn);
 
-    options.forEach((option, index) => {
-      const button = make("button", "answer-option");
-      button.type = "button";
-
-      button.append(
-        make(
-          "span",
-          "answer-letter",
-          String.fromCharCode(65 + index)
-        ),
-        make("span", "", option)
-      );
-
-      button.addEventListener("click", () => {
-        chooseAnswer(button, option, answers);
-      });
-
-      answers.append(button);
-    });
-
-    content.append(answers);
-
-    if (options.length < 4) {
-      const note = make(
-        "p",
-        "loading",
-        `Only ${options.length} distinct answer choices are available for this question.`
-      );
-      content.append(note);
-    }
-  }
-
-  function chooseAnswer(button, chosen, answers) {
-    if (answered || !current) return;
-
-    answered = true;
-
-    const correct = current.english.trim();
-    const isCorrect = chosen.toLowerCase() === correct.toLowerCase();
-
-    [...answers.querySelectorAll(".answer-option")].forEach(option => {
-      option.disabled = true;
-
-      const label = option.lastElementChild.textContent;
-
-      if (label.toLowerCase() === correct.toLowerCase()) {
-        option.classList.add("correct");
-      }
-    });
-
-    const feedback = make(
-      "div",
-      `feedback ${isCorrect ? "success" : "error"}`
-    );
-
-    feedback.append(
-      make("strong", "", isCorrect ? "Correct!" : "Not quite.")
-    );
-
-    if (!isCorrect) {
-      feedback.append(
-        make("p", "", `Correct answer: ${correct}`)
-      );
-    }
-
-    content.append(feedback);
-
-    if (isCorrect) {
-      score++;
-      available = available.filter(id => id !== current.id);
-    } else {
-      button.classList.add("incorrect");
-    }
-
-    nextBtn.disabled = false;
-    nextBtn.textContent = available.length
-      ? "Next question →"
-      : "Finish quiz →";
-
-    updateMeta();
+    nextBtn.disabled = true;
+    updateStats();
     saveProgress();
   }
 
-  nextBtn.addEventListener("click", () => {
-    if (!answered) return;
-    loadQuestion();
-  });
+  function showAnswer() {
+    if (!currentWord || answerShown) return;
+
+    answerShown = true;
+
+    const label = document.createElement("p");
+    label.className = "question-label";
+    label.textContent = "LUXEMBOURGISH";
+
+    const translation = document.createElement("h2");
+    translation.className = "question";
+    translation.textContent = currentWord.luxembourgish;
+
+    const actions = document.createElement("div");
+    actions.className = "flashcard-actions";
+
+    const knownBtn = makeButton(
+      "I know it",
+      "button button-primary",
+      markKnown
+    );
+
+    const unknownBtn = makeButton(
+      "I do not know it",
+      "button button-quiet",
+      markUnknown
+    );
+
+    actions.append(knownBtn, unknownBtn);
+    content.append(label, translation, actions);
+  }
+
+  function markKnown() {
+    if (!currentWord || !answerShown) return;
+
+    statusById[currentWord.id] = "known";
+    score++;
+
+    saveProgress();
+    loadNextWord();
+  }
+
+  function markUnknown() {
+    if (!currentWord || !answerShown) return;
+
+    // Keep the word unknown and put it at the end of the deck.
+    statusById[currentWord.id] = "unknown";
+    deck.push(currentWord.id);
+
+    saveProgress();
+    loadNextWord();
+  }
+
+  nextBtn.addEventListener("click", loadNextWord);
 
   resetBtn.addEventListener("click", () => {
-    if (!window.confirm(
-      "Reset your progress and make all questions available again?"
-    )) {
-      return;
-    }
+    const confirmed = window.confirm(
+      "Reset all vocabulary progress? Every word will become unknown again."
+    );
 
-    available = bank.map(question => question.id);
+    if (!confirmed) return;
+
+    statusById = Object.fromEntries(
+      vocabulary.map(word => [word.id, "unknown"])
+    );
+
+    deck = shuffle(vocabulary.map(word => word.id));
     score = 0;
-    current = null;
-    answered = false;
 
     saveProgress();
-    loadQuestion();
+    loadNextWord();
   });
 
   try {
     const response = await fetch("data/vocabulary-questions.json");
 
     if (!response.ok) {
-      throw new Error(`Could not load vocabulary file (HTTP ${response.status}).`);
+      throw new Error(
+        `Could not load vocabulary data (HTTP ${response.status}).`
+      );
     }
 
     const data = await response.json();
 
     if (!Array.isArray(data)) {
-      throw new Error("The vocabulary file must contain a JSON array.");
+      throw new Error("The vocabulary JSON must contain an array.");
     }
 
-    // Preserve separate source rows, including repeated Luxembourgish words.
-    bank = data.filter(question =>
-      question &&
-      typeof question.id === "string" &&
-      question.id.trim() &&
-      typeof question.luxembourgish === "string" &&
-      question.luxembourgish.trim() &&
-      typeof question.english === "string" &&
-      question.english.trim()
+    vocabulary = data.filter(word =>
+      word &&
+      typeof word.id === "string" &&
+      word.id.trim() &&
+      typeof word.english === "string" &&
+      word.english.trim() &&
+      typeof word.luxembourgish === "string" &&
+      word.luxembourgish.trim()
     );
 
-    // Duplicate IDs would make progress tracking ambiguous.
-    const ids = bank.map(question => question.id);
-    if (new Set(ids).size !== ids.length) {
-      throw new Error(
-        "Some vocabulary entries have duplicate IDs. Each row needs a unique ID."
+    if (vocabulary.length === 0) {
+      throw new Error("No valid vocabulary entries were found.");
+    }
+
+    const saved = JSON.parse(
+      localStorage.getItem(STORAGE_KEY) || "{}"
+    );
+
+    const validIds = new Set(
+      vocabulary.map(word => word.id)
+    );
+
+    if (
+      saved.statusById &&
+      typeof saved.statusById === "object" &&
+      !Array.isArray(saved.statusById)
+    ) {
+      statusById = Object.fromEntries(
+        Object.entries(saved.statusById).filter(
+          ([id, status]) =>
+            validIds.has(id) &&
+            (status === "known" || status === "unknown")
+        )
       );
     }
 
-    if (!bank.length) {
-      throw new Error(
-        "No valid vocabulary entries were found. Check the JSON field names."
-      );
+    // Use the JSON status for words not yet saved in this browser.
+    vocabulary.forEach(word => {
+      if (!statusById[word.id]) {
+        statusById[word.id] =
+          word.status === "known" ? "known" : "unknown";
+      }
+    });
+
+    score = Number.isFinite(saved.score)
+      ? Math.max(0, saved.score)
+      : 0;
+
+    const savedDeck = Array.isArray(saved.deck)
+      ? saved.deck.filter(
+          id => validIds.has(id) && statusById[id] !== "known"
+        )
+      : [];
+
+    deck = [...new Set(savedDeck)];
+
+    const deckIds = new Set(deck);
+
+    vocabulary.forEach(word => {
+      if (
+        statusById[word.id] !== "known" &&
+        !deckIds.has(word.id)
+      ) {
+        deck.push(word.id);
+      }
+    });
+
+    if (!saved.deck) {
+      deck = shuffle(deck);
     }
 
-    restoreProgress();
-    loadQuestion();
+    updateStats();
+    loadNextWord();
   } catch (error) {
-    console.error("Vocabulary quiz error:", error);
+    content.replaceChildren();
 
-    showMessage(
-      error.message || "An unexpected error occurred.",
-      "Could not load questions"
-    );
+    const message = document.createElement("p");
+    message.className = "loading";
+    message.textContent = `Error: ${error.message}`;
 
-    progress.textContent = "Unable to load questions";
+    content.appendChild(message);
+    progress.textContent = "Unable to load vocabulary";
+    nextBtn.disabled = true;
+
+    console.error(error);
   }
 });
