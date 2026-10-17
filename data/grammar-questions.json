@@ -1,15 +1,7682 @@
 [
   {
-    "id": "example-001",
-    "sentence": "Ech ___ zu Lëtzebuerg.",
-    "translation": "I live in Luxembourg.",
+    "id": "grammar-001",
+    "sentence": "Mäi Grousspapp ass ___ an der Famill.",
+    "translation": "My grandfather is the oldest in the family.",
     "options": [
-      "wunnen",
-      "wunnt",
-      "wunnen",
-      "wunns"
+      "am eelsten",
+      "am alsten",
+      "am eelste",
+      "am eelst",
+      "am eelstene",
+      "eelsten"
     ],
-    "correctAnswer": "wunnen",
-    "rule": "Example placeholder only. Replace this item with a question from your own Excel bank."
+    "correctAnswer": "am eelsten",
+    "rule": "With am + adjective + -sten, the superlative expresses the highest degree. al → eel is an exception."
+  },
+  {
+    "id": "grammar-002",
+    "sentence": "Dëse Restaurant ass ___ vun allen.",
+    "translation": "This restaurant is the best of all.",
+    "options": [
+      "am beschten",
+      "am guttsten",
+      "am beschte",
+      "am bessersten",
+      "am beschter",
+      "am beschtenen"
+    ],
+    "correctAnswer": "am beschten",
+    "rule": "gutt → am beschten is an irregular superlative."
+  },
+  {
+    "id": "grammar-003",
+    "sentence": "Meng Bomi ass ___ Persoun an der Famill.",
+    "translation": "My grandmother is the oldest person in the family.",
+    "options": [
+      "déi eelst",
+      "déi alst",
+      "déi eelsten",
+      "déi eelste",
+      "déi eelste Persoun",
+      "déi eelstent"
+    ],
+    "correctAnswer": "déi eelst",
+    "rule": "Before a noun, the superlative uses the appropriate definite article and adjective ending. al → eel is irregular."
+  },
+  {
+    "id": "grammar-004",
+    "sentence": "Dëse Kuch schmaacht ___ vun allen.",
+    "translation": "This cake tastes the best of all.",
+    "options": [
+      "am beschten",
+      "am guttsten",
+      "am beschte",
+      "am bessersten",
+      "am beschter",
+      "am beschtenen"
+    ],
+    "correctAnswer": "am beschten",
+    "rule": "gutt → am beschten is an irregular superlative."
+  },
+  {
+    "id": "grammar-005",
+    "sentence": "Hien ass ___ an der Klass.",
+    "translation": "He is the oldest in the class.",
+    "options": [
+      "am eelsten",
+      "am alsten",
+      "am eelste",
+      "am eelst",
+      "am eelstene",
+      "eelsten"
+    ],
+    "correctAnswer": "am eelsten",
+    "rule": "The form am + adjective + -sten is used for the superlative in an absolute comparison. al → eel is an exception."
+  },
+  {
+    "id": "grammar-006",
+    "sentence": "Dësen Auto fiert ___ vun allen.",
+    "translation": "This car drives the best of all.",
+    "options": [
+      "am beschten",
+      "am guttsten",
+      "am bessersten",
+      "am beschte",
+      "am beschter",
+      "am beschtenen"
+    ],
+    "correctAnswer": "am beschten",
+    "rule": "gutt → am beschten is an irregular superlative."
+  },
+  {
+    "id": "grammar-007",
+    "sentence": "Dëse Restaurant ass ___ an der Stad.",
+    "translation": "This restaurant is the most expensive in the city.",
+    "options": [
+      "am deiersten",
+      "am deierste",
+      "am deier",
+      "deiersten",
+      "am méi deiersten",
+      "am deierster"
+    ],
+    "correctAnswer": "am deiersten",
+    "rule": "The superlative is formed with am + adjective + -sten: deier → am deiersten."
+  },
+  {
+    "id": "grammar-008",
+    "sentence": "Dësen Auto ass ___ am Geschäft.",
+    "translation": "This car is the smallest in the shop.",
+    "options": [
+      "am klengsten",
+      "am klengste",
+      "am kleng",
+      "klengsten",
+      "am méi klengsten",
+      "am klengster"
+    ],
+    "correctAnswer": "am klengsten",
+    "rule": "The superlative is formed with am + adjective + -sten: kleng → am klengsten."
+  },
+  {
+    "id": "grammar-009",
+    "sentence": "De Mount August ass ___ vum Joer.",
+    "translation": "The month of August is the warmest of the year.",
+    "options": [
+      "am wäermsten",
+      "am wäermste",
+      "am waarmsten",
+      "am wäerm",
+      "wäermsten",
+      "am méi wäermsten"
+    ],
+    "correctAnswer": "am wäermsten",
+    "rule": "The superlative is formed with am + adjective + -sten: wäerm → am wäermsten."
+  },
+  {
+    "id": "grammar-010",
+    "sentence": "Dës Aufgab ass ___ vun allen.",
+    "translation": "This task is the most difficult of all.",
+    "options": [
+      "am schwéiersten",
+      "am schwéierste",
+      "am schwéier",
+      "schwéiersten",
+      "am méi schwéiersten",
+      "am schwéierster"
+    ],
+    "correctAnswer": "am schwéiersten",
+    "rule": "The superlative is formed with am + adjective + -sten: schwéier → am schwéiersten."
+  },
+  {
+    "id": "grammar-011",
+    "sentence": "Hien leeft ___ vun der Grupp.",
+    "translation": "He runs the fastest in the group.",
+    "options": [
+      "am séiersten",
+      "am séierste",
+      "am séier",
+      "séiersten",
+      "am méi séier",
+      "séiersten am"
+    ],
+    "correctAnswer": "am séiersten",
+    "rule": "With am + adjective + -sten, the superlative is used without a noun directly after it."
+  },
+  {
+    "id": "grammar-012",
+    "sentence": "Dëse Film ass ___ vun allen.",
+    "translation": "This film is the most interesting of all.",
+    "options": [
+      "am interessantsten",
+      "am interessantste",
+      "am interessant",
+      "interessantsten",
+      "am méi interessanten",
+      "interessantsten am"
+    ],
+    "correctAnswer": "am interessantsten",
+    "rule": "The superlative without a noun uses am + adjective + -sten."
+  },
+  {
+    "id": "grammar-013",
+    "sentence": "Mäin Auto ass ___ vun allen.",
+    "translation": "My car is the newest of all.",
+    "options": [
+      "am neisten",
+      "am neiste",
+      "am neist",
+      "neisten",
+      "am méi neisten",
+      "am neister"
+    ],
+    "correctAnswer": "am neisten",
+    "rule": "The superlative without a noun uses am + adjective + -sten."
+  },
+  {
+    "id": "grammar-014",
+    "sentence": "Dëse Kuch ass ___ vun allen.",
+    "translation": "This cake tastes the best of all.",
+    "options": [
+      "am beschten",
+      "am beschte",
+      "am guttsten",
+      "am bessersten",
+      "beschten",
+      "am gudden"
+    ],
+    "correctAnswer": "am beschten",
+    "rule": "gutt is irregular: its superlative is am beschten."
+  },
+  {
+    "id": "grammar-015",
+    "sentence": "De Paul ass ___ Mann an der Famill.",
+    "translation": "Paul is the tallest man in the family.",
+    "options": [
+      "dee gréisste",
+      "dee gréissten",
+      "déi gréisste",
+      "dat gréisst",
+      "dee gréisst",
+      "de gréisste"
+    ],
+    "correctAnswer": "dee gréisste",
+    "rule": "Before a masculine noun, use dee + adjective + -ste: dee gréisste Mann."
+  },
+  {
+    "id": "grammar-016",
+    "sentence": "D'Marie ass ___ Fra am Büro.",
+    "translation": "Marie is the most beautiful woman in the office.",
+    "options": [
+      "déi schéinst",
+      "déi schéinsten",
+      "de schéinste",
+      "dat schéinst",
+      "déi schéinste",
+      "déi schéin"
+    ],
+    "correctAnswer": "déi schéinst",
+    "rule": "Before a feminine noun, use déi + adjective + -st: déi schéinst Fra."
+  },
+  {
+    "id": "grammar-017",
+    "sentence": "D'Kand ass ___ Kand an der Klass.",
+    "translation": "The child is the nicest child in the class.",
+    "options": [
+      "dat léifst",
+      "dee léifsten",
+      "déi léifst",
+      "dat léifsten",
+      "de léifste",
+      "dat léifste"
+    ],
+    "correctAnswer": "dat léifst",
+    "rule": "Before a neuter noun, use dat + adjective + -st: dat léifst Kand."
+  },
+  {
+    "id": "grammar-018",
+    "sentence": "De Mount Juli ass ___ Mount vum Joer.",
+    "translation": "The month of July is the warmest month of the year.",
+    "options": [
+      "dee wäermste",
+      "déi wäermst",
+      "dee wäermsten",
+      "dat wäermst",
+      "de wäermste",
+      "dee waarmste"
+    ],
+    "correctAnswer": "dee wäermste",
+    "rule": "Before a masculine noun, use dee + adjective + -ste: dee wäermste Mount."
+  },
+  {
+    "id": "grammar-019",
+    "sentence": "Si ass ___ Persoun am Team.",
+    "translation": "She is the fastest person on the team.",
+    "options": [
+      "déi séierst",
+      "dee séiersten",
+      "de séierste",
+      "dat séierst",
+      "déi séiersten",
+      "déi séierste"
+    ],
+    "correctAnswer": "déi séierst",
+    "rule": "Before a feminine noun, use déi + adjective + -st: déi séierst Persoun."
+  },
+  {
+    "id": "grammar-020",
+    "sentence": "Hien huet ___ Auto am Quartier.",
+    "translation": "He has the most beautiful car in the neighborhood.",
+    "options": [
+      "dee schéinsten",
+      "dee schéinste",
+      "déi schéinsten",
+      "dat schéinsten",
+      "de schéinsten",
+      "dee schéin"
+    ],
+    "correctAnswer": "dee schéinsten",
+    "rule": "Before a masculine noun, use dee + adjective + -sten in the accusative: dee schéinsten Auto."
+  },
+  {
+    "id": "grammar-021",
+    "sentence": "Dat ass ___ Haus an der Strooss.",
+    "translation": "That is the biggest house in the street.",
+    "options": [
+      "dat gréisst",
+      "dee gréisste",
+      "déi gréisste",
+      "de gréisste",
+      "dat gréissten",
+      "dat groussst"
+    ],
+    "correctAnswer": "dat gréisst",
+    "rule": "Before a neuter noun, use dat + adjective + -st: dat gréisst Haus."
+  },
+  {
+    "id": "grammar-022",
+    "sentence": "D'Anna huet ___ Kaz vun allen.",
+    "translation": "Anna has the nicest cat of all.",
+    "options": [
+      "déi léifst",
+      "dee léifste",
+      "de léifste",
+      "dat léifst",
+      "déi léifsten",
+      "déi léifste"
+    ],
+    "correctAnswer": "déi léifst",
+    "rule": "Before a feminine noun, use déi + adjective + -st: déi léifst Kaz."
+  },
+  {
+    "id": "grammar-023",
+    "sentence": "De Michel ass ___ Mann am Restaurant.",
+    "translation": "Michel is the smallest man in the restaurant.",
+    "options": [
+      "dee klengste",
+      "dee klengsten",
+      "déi klengst",
+      "dat klengst",
+      "de klengste",
+      "dee klengst"
+    ],
+    "correctAnswer": "dee klengste",
+    "rule": "Before a masculine noun, use dee + adjective + -ste: dee klengste Mann."
+  },
+  {
+    "id": "grammar-024",
+    "sentence": "De Marc ass ___ grouss wéi säi Papp.",
+    "translation": "Marc is just as tall as his father.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-025",
+    "sentence": "D'Marie ass ___ grouss wéi hir Schwëster.",
+    "translation": "Marie is just as tall as her sister.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-026",
+    "sentence": "Mäin Auto ass ___ séier wéi däin Auto.",
+    "translation": "My car is just as fast as your car.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-027",
+    "sentence": "Dëse Kuch ass ___ gutt wéi deen aneren.",
+    "translation": "This cake is just as good as the other one.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-028",
+    "sentence": "De Wanter ass ___ kal wéi d'Fréijoer.",
+    "translation": "Winter is just as cold as spring.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-029",
+    "sentence": "Mäi Brudder ass ___ al wéi mäi Cousin.",
+    "translation": "My brother is just as old as my cousin.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-030",
+    "sentence": "Dëse Restaurant ass ___ deier wéi deen do.",
+    "translation": "This restaurant is just as expensive as that one.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-031",
+    "sentence": "Lëtzebuerg ass ___ kleng wéi d'Belsch.",
+    "translation": "Luxembourg is just as small as Belgium.",
+    "options": [
+      "grad esou",
+      "méi",
+      "manner",
+      "esou méi",
+      "grad méi",
+      "manner esou"
+    ],
+    "correctAnswer": "grad esou",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-032",
+    "sentence": "De Michel huet ___ Petzie wéi d'Anne.",
+    "translation": "Michel has fewer pets than Anne.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means fewer/less ... than."
+  },
+  {
+    "id": "grammar-033",
+    "sentence": "Et ass haut ___ waarm wéi gëschter.",
+    "translation": "It is less warm today than yesterday.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "ganz",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner + adjective + wéi expresses a lower degree."
+  },
+  {
+    "id": "grammar-034",
+    "sentence": "Mäi Brudder huet ___ Zäit wéi ech.",
+    "translation": "My brother has less time than I do.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means less ... than."
+  },
+  {
+    "id": "grammar-035",
+    "sentence": "Dëse Mount hu mir ___ Suen wéi de leschte Mount.",
+    "translation": "This month we have less money than last month.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means less ... than."
+  },
+  {
+    "id": "grammar-036",
+    "sentence": "Hien huet ___ Frënn wéi seng Schwëster.",
+    "translation": "He has fewer friends than his sister.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means fewer ... than."
+  },
+  {
+    "id": "grammar-037",
+    "sentence": "Am Wanter ass et ___ waarm wéi am Summer.",
+    "translation": "In winter it is less warm than in summer.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "ganz",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner + adjective + wéi expresses a lower degree."
+  },
+  {
+    "id": "grammar-038",
+    "sentence": "Ech hunn haut ___ Aarbecht wéi gëschter.",
+    "translation": "I have less work today than yesterday.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means less ... than."
+  },
+  {
+    "id": "grammar-039",
+    "sentence": "De Restaurant huet ___ Clienten wéi d'lescht Joer.",
+    "translation": "The restaurant has fewer customers than last year.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means fewer ... than."
+  },
+  {
+    "id": "grammar-040",
+    "sentence": "Dëse Film ass ___ interessant wéi deen aneren.",
+    "translation": "This film is less interesting than the other one.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "ganz",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner + adjective + wéi expresses a lower degree."
+  },
+  {
+    "id": "grammar-041",
+    "sentence": "Mäin Auto verbraucht ___ Bensin wéi däin.",
+    "translation": "My car uses less petrol than yours.",
+    "options": [
+      "manner",
+      "méi",
+      "esou",
+      "grad esou",
+      "vill méi",
+      "esou vill"
+    ],
+    "correctAnswer": "manner",
+    "rule": "manner ... wéi means less ... than."
+  },
+  {
+    "id": "grammar-042",
+    "sentence": "Mäin Auto ass ___ däin Auto.",
+    "translation": "My car is faster than your car.",
+    "options": [
+      "méi séier wéi",
+      "méi séier esou",
+      "méi wéi séier",
+      "manner séier wéi",
+      "esou séier wéi",
+      "grad méi séier wéi"
+    ],
+    "correctAnswer": "méi séier wéi",
+    "rule": "Comparison with a higher degree uses méi + adjective + wéi."
+  },
+  {
+    "id": "grammar-043",
+    "sentence": "Dëse Film ass ___ dee Film.",
+    "translation": "This film is less interesting than that film.",
+    "options": [
+      "manner interessant wéi",
+      "manner wéi interessant",
+      "méi interessant wéi",
+      "esou interessant wéi",
+      "grad manner interessant wéi",
+      "manner esou interessant wéi"
+    ],
+    "correctAnswer": "manner interessant wéi",
+    "rule": "Comparison with a lower degree uses manner + adjective + wéi."
+  },
+  {
+    "id": "grammar-044",
+    "sentence": "Mäi Brudder ass ___ ech.",
+    "translation": "My brother is just as tall as I am.",
+    "options": [
+      "grad esou grouss wéi",
+      "méi wéi grouss",
+      "manner grouss wéi",
+      "esou méi grouss wéi",
+      "grad esou grouss",
+      "méi grouss esou wéi"
+    ],
+    "correctAnswer": "grad esou grouss wéi",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-045",
+    "sentence": "Lëtzebuerg ass ___ Däitschland.",
+    "translation": "Luxembourg is smaller than Germany.",
+    "options": [
+      "méi kleng wéi",
+      "méi wéi kleng",
+      "manner kleng wéi",
+      "esou kleng wéi",
+      "méi esou kleng wéi",
+      "kleng méi wéi"
+    ],
+    "correctAnswer": "méi kleng wéi",
+    "rule": "A higher degree of the adjective uses méi + adjective + wéi."
+  },
+  {
+    "id": "grammar-046",
+    "sentence": "Dës Aufgab ass ___ déi aner.",
+    "translation": "This exercise is less difficult than the other one.",
+    "options": [
+      "manner schwéier wéi",
+      "méi schwéier wéi",
+      "manner wéi schwéier",
+      "esou schwéier méi",
+      "grad manner schwéier",
+      "manner esou schwéier wéi"
+    ],
+    "correctAnswer": "manner schwéier wéi",
+    "rule": "A lower degree uses manner + adjective + wéi."
+  },
+  {
+    "id": "grammar-047",
+    "sentence": "Mäi Computer ass ___ däin.",
+    "translation": "My computer is just as fast as yours.",
+    "options": [
+      "grad esou séier wéi",
+      "méi séier wéi",
+      "manner séier wéi",
+      "esou méi séier wéi",
+      "grad esou séier",
+      "méi wéi séier"
+    ],
+    "correctAnswer": "grad esou séier wéi",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-048",
+    "sentence": "Dëse Restaurant ass ___ dee Restaurant.",
+    "translation": "This restaurant is more expensive than that restaurant.",
+    "options": [
+      "méi deier wéi",
+      "méi wéi deier",
+      "manner deier wéi",
+      "esou deier wéi",
+      "grad méi deier",
+      "méi esou deier wéi"
+    ],
+    "correctAnswer": "méi deier wéi",
+    "rule": "A higher degree uses méi + adjective + wéi."
+  },
+  {
+    "id": "grammar-049",
+    "sentence": "Hien ass ___ säi Brudder.",
+    "translation": "He is less tall than his brother.",
+    "options": [
+      "manner grouss wéi",
+      "manner wéi grouss",
+      "méi grouss wéi",
+      "esou méi grouss wéi",
+      "manner esou grouss",
+      "méi wéi grouss"
+    ],
+    "correctAnswer": "manner grouss wéi",
+    "rule": "A lower degree uses manner + adjective + wéi."
+  },
+  {
+    "id": "grammar-050",
+    "sentence": "D'Wieder haut ass ___ gëschter.",
+    "translation": "The weather today is just as good as yesterday.",
+    "options": [
+      "grad esou gutt wéi",
+      "méi gutt wéi",
+      "manner gutt wéi",
+      "esou méi gutt wéi",
+      "grad esou gutt",
+      "gutt esou wéi"
+    ],
+    "correctAnswer": "grad esou gutt wéi",
+    "rule": "Equality uses (grad) esou + adjective + wéi."
+  },
+  {
+    "id": "grammar-051",
+    "sentence": "Mäin Handy ass ___ däin Handy.",
+    "translation": "My phone is more modern than your phone.",
+    "options": [
+      "méi modern wéi",
+      "méi wéi modern",
+      "manner modern wéi",
+      "esou méi modern wéi",
+      "grad méi modern",
+      "méi esou modern wéi"
+    ],
+    "correctAnswer": "méi modern wéi",
+    "rule": "A higher degree uses méi + adjective + wéi."
+  },
+  {
+    "id": "grammar-052",
+    "sentence": "Ech hunn e Buch ___.",
+    "translation": "I bought a book.",
+    "options": [
+      "kaaft",
+      "kafen",
+      "gekaaft",
+      "kaf",
+      "kaaf",
+      "gekaf"
+    ],
+    "correctAnswer": "kaaft",
+    "rule": "kaafen is a special perfect form without ge-: kaaft."
+  },
+  {
+    "id": "grammar-053",
+    "sentence": "Hien huet seng Mamm ___.",
+    "translation": "He called his mother.",
+    "options": [
+      "telefonéiert",
+      "telefonéieren",
+      "telefonéiere",
+      "telefonéiertt",
+      "getelefonéiert",
+      "telefonéiertet"
+    ],
+    "correctAnswer": "telefonéiert",
+    "rule": "Verbs ending in -éieren form the perfect without ge-: telefonéiert."
+  },
+  {
+    "id": "grammar-054",
+    "sentence": "Mir hunn vill Musek ___.",
+    "translation": "We listened to a lot of music.",
+    "options": [
+      "héieren",
+      "gehéiert",
+      "héiert",
+      "héierenen",
+      "héier",
+      "gehéiertet"
+    ],
+    "correctAnswer": "héieren",
+    "rule": "héieren is a special perfect form without ge-."
+  },
+  {
+    "id": "grammar-055",
+    "sentence": "Si ass gëschter ___.",
+    "translation": "She came yesterday.",
+    "options": [
+      "komm",
+      "kommert",
+      "kommen",
+      "kommst",
+      "geet",
+      "gekomm"
+    ],
+    "correctAnswer": "komm",
+    "rule": "kommen has the special perfect form komm, without ge-."
+  },
+  {
+    "id": "grammar-056",
+    "sentence": "Ech hunn en neien Auto ___.",
+    "translation": "I bought a new car.",
+    "options": [
+      "kaaft",
+      "kafen",
+      "gekaaft",
+      "kaf",
+      "kaaf",
+      "gekaf"
+    ],
+    "correctAnswer": "kaaft",
+    "rule": "kaafen is a special perfect form without ge-: kaaft."
+  },
+  {
+    "id": "grammar-057",
+    "sentence": "Du hues de Client ___.",
+    "translation": "You called the client.",
+    "options": [
+      "telefonéiert",
+      "telefonéieren",
+      "telefonéiere",
+      "telefonéiertt",
+      "getelefonéiert",
+      "telefonéiertet"
+    ],
+    "correctAnswer": "telefonéiert",
+    "rule": "Verbs ending in -éieren form the perfect without ge-: telefonéiert."
+  },
+  {
+    "id": "grammar-058",
+    "sentence": "Hien huet d'Noriichten ___.",
+    "translation": "He listened to the news.",
+    "options": [
+      "héieren",
+      "gehéiert",
+      "héiert",
+      "héierenen",
+      "héier",
+      "gehéiertet"
+    ],
+    "correctAnswer": "héieren",
+    "rule": "héieren is a special perfect form without ge-."
+  },
+  {
+    "id": "grammar-059",
+    "sentence": "Mir sinn spéit ___.",
+    "translation": "We arrived late.",
+    "options": [
+      "komm",
+      "kommert",
+      "kommen",
+      "kommst",
+      "geet",
+      "gekomm"
+    ],
+    "correctAnswer": "komm",
+    "rule": "kommen has the special perfect form komm, without ge-."
+  },
+  {
+    "id": "grammar-060",
+    "sentence": "Si huet e Cadeau ___.",
+    "translation": "She bought a present.",
+    "options": [
+      "kaaft",
+      "kafen",
+      "gekaaft",
+      "kaf",
+      "kaaf",
+      "gekaf"
+    ],
+    "correctAnswer": "kaaft",
+    "rule": "kaafen is a special perfect form without ge-: kaaft."
+  },
+  {
+    "id": "grammar-061",
+    "sentence": "Ech hunn den Dokter ___.",
+    "translation": "I called the doctor.",
+    "options": [
+      "telefonéiert",
+      "telefonéieren",
+      "telefonéiere",
+      "telefonéiertt",
+      "getelefonéiert",
+      "telefonéiertet"
+    ],
+    "correctAnswer": "telefonéiert",
+    "rule": "Verbs ending in -éieren form the perfect without ge-: telefonéiert."
+  },
+  {
+    "id": "grammar-062",
+    "sentence": "Ech hunn gëschter e Lidd ___.",
+    "translation": "I sang a song yesterday.",
+    "options": [
+      "gesongen",
+      "gesangt",
+      "gesang",
+      "gesongt",
+      "gesing",
+      "gesongenet"
+    ],
+    "correctAnswer": "gesongen",
+    "rule": "Irregular verbs can form the perfect with ge-...-en: sangen → gesongen."
+  },
+  {
+    "id": "grammar-063",
+    "sentence": "Hien huet e Bréif ___.",
+    "translation": "He wrote a letter.",
+    "options": [
+      "geschriwwen",
+      "geschreift",
+      "geschriwwt",
+      "geschriw",
+      "geschréiwen",
+      "geschriwen"
+    ],
+    "correctAnswer": "geschriwwen",
+    "rule": "schreiwen is irregular: geschriwwen."
+  },
+  {
+    "id": "grammar-064",
+    "sentence": "Mir hunn zesummen ___.",
+    "translation": "We sang together.",
+    "options": [
+      "gesongen",
+      "gesangt",
+      "gesang",
+      "gesongt",
+      "gesing",
+      "gesongenet"
+    ],
+    "correctAnswer": "gesongen",
+    "rule": "sangen → gesongen in the perfect."
+  },
+  {
+    "id": "grammar-065",
+    "sentence": "Si huet eng E-Mail ___.",
+    "translation": "She wrote an email.",
+    "options": [
+      "geschriwwen",
+      "geschreift",
+      "geschriwwt",
+      "geschriw",
+      "geschréiwen",
+      "geschriwen"
+    ],
+    "correctAnswer": "geschriwwen",
+    "rule": "schreiwen → geschriwwen in the perfect."
+  },
+  {
+    "id": "grammar-066",
+    "sentence": "Ech hunn meng Mamm ___.",
+    "translation": "I called my mother.",
+    "options": [
+      "ugeruff",
+      "geuruff",
+      "urufft",
+      "ugerufft",
+      "ugerouff",
+      "geruff"
+    ],
+    "correctAnswer": "ugeruff",
+    "rule": "With a separable prefix, ge- comes after the prefix: uruffen → ugeruff."
+  },
+  {
+    "id": "grammar-067",
+    "sentence": "Hien huet säi Frënd ___.",
+    "translation": "He called his friend.",
+    "options": [
+      "ugeruff",
+      "geuruff",
+      "urufft",
+      "ugerufft",
+      "ugerouff",
+      "geruff"
+    ],
+    "correctAnswer": "ugeruff",
+    "rule": "With a separable prefix, ge- comes after the prefix: uruffen → ugeruff."
+  },
+  {
+    "id": "grammar-068",
+    "sentence": "Mir sinn um siwen Auer ___.",
+    "translation": "We left at seven o'clock.",
+    "options": [
+      "fortgefuer",
+      "fortgefueren",
+      "fortgefiert",
+      "fortgefueret",
+      "gefortfueren",
+      "fortfueren"
+    ],
+    "correctAnswer": "fortgefuer",
+    "rule": "With fortfueren, the separable prefix stays before ge-: fortgefuer."
+  },
+  {
+    "id": "grammar-069",
+    "sentence": "Si ass moies fréi ___.",
+    "translation": "She left early in the morning.",
+    "options": [
+      "fortgefuer",
+      "fortgefueren",
+      "fortgefiert",
+      "fortgefueret",
+      "gefortfueren",
+      "fortfueren"
+    ],
+    "correctAnswer": "fortgefuer",
+    "rule": "With fortfueren, the separable prefix stays before ge-: fortgefuer."
+  },
+  {
+    "id": "grammar-070",
+    "sentence": "Ech hunn den Enseignant ___.",
+    "translation": "I called the teacher.",
+    "options": [
+      "ugeruff",
+      "geuruff",
+      "urufft",
+      "ugerufft",
+      "ugerouff",
+      "geruff"
+    ],
+    "correctAnswer": "ugeruff",
+    "rule": "uruffen → ugeruff: the separable prefix stays before ge-."
+  },
+  {
+    "id": "grammar-071",
+    "sentence": "Hien ass mam Auto ___.",
+    "translation": "He left by car.",
+    "options": [
+      "fortgefuer",
+      "fortgefueren",
+      "fortgefiert",
+      "fortgefueret",
+      "gefortfueren",
+      "fortfueren"
+    ],
+    "correctAnswer": "fortgefuer",
+    "rule": "fortfueren → fortgefuer in the perfect."
+  },
+  {
+    "id": "grammar-072",
+    "sentence": "Ech hunn gëschter vill ___.",
+    "translation": "I laughed a lot yesterday.",
+    "options": [
+      "gelaacht",
+      "gelacht",
+      "gelaachen",
+      "gelaachtet",
+      "gelaach",
+      "gelaachtet"
+    ],
+    "correctAnswer": "gelaacht",
+    "rule": "Regular verbs generally form the perfect with ge-...-t: laachen → gelaacht."
+  },
+  {
+    "id": "grammar-073",
+    "sentence": "Mir hunn zu Lëtzebuerg ___.",
+    "translation": "We lived in Luxembourg.",
+    "options": [
+      "gewunnt",
+      "gewunnen",
+      "gewunntet",
+      "gewun",
+      "gewunnt",
+      "gewunn"
+    ],
+    "correctAnswer": "gewunnt",
+    "rule": "Regular wunnen forms the perfect as gewunnt."
+  },
+  {
+    "id": "grammar-074",
+    "sentence": "D'Kanner hunn Fussball ___.",
+    "translation": "The children played football.",
+    "options": [
+      "gespillt",
+      "gespillen",
+      "gespilltet",
+      "gespilt",
+      "gespill",
+      "gespillt-en"
+    ],
+    "correctAnswer": "gespillt",
+    "rule": "Regular spillen forms the perfect as gespillt."
+  },
+  {
+    "id": "grammar-075",
+    "sentence": "Hien huet vill ___.",
+    "translation": "He laughed a lot.",
+    "options": [
+      "gelaacht",
+      "gelacht",
+      "gelaachen",
+      "gelaachtet",
+      "gelaach",
+      "gelaachtet"
+    ],
+    "correctAnswer": "gelaacht",
+    "rule": "laachen → gelaacht in the perfect."
+  },
+  {
+    "id": "grammar-076",
+    "sentence": "Ech hunn e puer Joer hei ___.",
+    "translation": "I lived here for a few years.",
+    "options": [
+      "gewunnt",
+      "gewunnen",
+      "gewunntet",
+      "gewun",
+      "gewunn",
+      "gewunnenen"
+    ],
+    "correctAnswer": "gewunnt",
+    "rule": "wunnen → gewunnt in the perfect."
+  },
+  {
+    "id": "grammar-077",
+    "sentence": "Mir hunn am Park ___.",
+    "translation": "We played in the park.",
+    "options": [
+      "gespillt",
+      "gespillen",
+      "gespilltet",
+      "gespilt",
+      "gespill",
+      "gespillt-en"
+    ],
+    "correctAnswer": "gespillt",
+    "rule": "spillen → gespillt in the perfect."
+  },
+  {
+    "id": "grammar-078",
+    "sentence": "Si huet vill ___.",
+    "translation": "She did a lot.",
+    "options": [
+      "gemaach",
+      "gemaaacht",
+      "gemaacht",
+      "gemaachet",
+      "gemaachent",
+      "gemach"
+    ],
+    "correctAnswer": "gemaach",
+    "rule": "maachen → gemaach in the perfect."
+  },
+  {
+    "id": "grammar-079",
+    "sentence": "Ech sinn mam Auto ___.",
+    "translation": "I drove by car.",
+    "options": [
+      "gefuer",
+      "gefueren",
+      "gefahrt",
+      "gefiert",
+      "gefueret",
+      "gefuhrt"
+    ],
+    "correctAnswer": "gefuer",
+    "rule": "fueren is irregular: gefuer."
+  },
+  {
+    "id": "grammar-080",
+    "sentence": "Hien huet déi ganz Nuecht ___.",
+    "translation": "He slept all night.",
+    "options": [
+      "geschlof",
+      "geschlofen",
+      "geschlooft",
+      "geschléift",
+      "geschloof",
+      "geschlofet"
+    ],
+    "correctAnswer": "geschlof",
+    "rule": "schlofen is irregular: geschlof."
+  },
+  {
+    "id": "grammar-081",
+    "sentence": "Mir hunn vill Saachen ___.",
+    "translation": "We did many things.",
+    "options": [
+      "gemaach",
+      "gemaaacht",
+      "gemaacht",
+      "gemaachet",
+      "gemaachent",
+      "gemach"
+    ],
+    "correctAnswer": "gemaach",
+    "rule": "maachen → gemaach in the perfect."
+  },
+  {
+    "id": "grammar-082",
+    "sentence": "Si ass mat eis ___.",
+    "translation": "She travelled with us.",
+    "options": [
+      "gefuer",
+      "gefueren",
+      "gefahrt",
+      "gefiert",
+      "gefueret",
+      "gefuhrt"
+    ],
+    "correctAnswer": "gefuer",
+    "rule": "fueren → gefuer in the perfect."
+  },
+  {
+    "id": "grammar-083",
+    "sentence": "D'Kand huet gutt ___.",
+    "translation": "The child slept well.",
+    "options": [
+      "geschlof",
+      "geschlofen",
+      "geschlooft",
+      "geschléift",
+      "geschloof",
+      "geschlofet"
+    ],
+    "correctAnswer": "geschlof",
+    "rule": "schlofen → geschlof in the perfect."
+  },
+  {
+    "id": "grammar-084",
+    "sentence": "Ech ___ all Dag vill ze vill.",
+    "translation": "I worked too much every day.",
+    "options": [
+      "geschafft",
+      "schaffen",
+      "geschafen",
+      "geschaff",
+      "geschafftet",
+      "schaffenen"
+    ],
+    "correctAnswer": "geschafft",
+    "rule": "schaffen → geschafft in the perfect."
+  },
+  {
+    "id": "grammar-085",
+    "sentence": "Hien huet vill ___.",
+    "translation": "He learned a lot.",
+    "options": [
+      "geléiert",
+      "léieren",
+      "geleiert",
+      "geléiertet",
+      "geléiert",
+      "geléiert"
+    ],
+    "correctAnswer": "geléiert",
+    "rule": "léieren → geléiert in the perfect."
+  },
+  {
+    "id": "grammar-086",
+    "sentence": "Mir hunn zesummen ___.",
+    "translation": "We cooked together.",
+    "options": [
+      "gekacht",
+      "kachen",
+      "gekachen",
+      "gekachtet",
+      "gekocht",
+      "gekachten"
+    ],
+    "correctAnswer": "gekacht",
+    "rule": "kachen → gekacht in the perfect."
+  },
+  {
+    "id": "grammar-087",
+    "sentence": "Si huet d'Fënster ___.",
+    "translation": "She cleaned the window.",
+    "options": [
+      "gebotzt",
+      "botzen",
+      "gebotzen",
+      "gebotztet",
+      "gebott",
+      "gebotzten"
+    ],
+    "correctAnswer": "gebotzt",
+    "rule": "botzen → gebotzt in the perfect."
+  },
+  {
+    "id": "grammar-088",
+    "sentence": "Ech hunn e Buch ___.",
+    "translation": "I read a book.",
+    "options": [
+      "gelies",
+      "lesen",
+      "geliest",
+      "geliesst",
+      "geliest",
+      "geliesen"
+    ],
+    "correctAnswer": "gelies",
+    "rule": "liesen → gelies in the perfect."
+  },
+  {
+    "id": "grammar-089",
+    "sentence": "Hien huet de Film ___.",
+    "translation": "He watched the film.",
+    "options": [
+      "gekuckt",
+      "kucken",
+      "gekuck",
+      "gekuckten",
+      "gekuckt-en",
+      "gekucktelt"
+    ],
+    "correctAnswer": "gekuckt",
+    "rule": "kucken → gekuckt in the perfect."
+  },
+  {
+    "id": "grammar-090",
+    "sentence": "Mir hunn d'Haus ___.",
+    "translation": "We cleaned the house.",
+    "options": [
+      "gebotzt",
+      "botzen",
+      "gebotzen",
+      "gebott",
+      "gebotzten",
+      "gebotztet"
+    ],
+    "correctAnswer": "gebotzt",
+    "rule": "botzen → gebotzt in the perfect."
+  },
+  {
+    "id": "grammar-091",
+    "sentence": "Du hues vill ___.",
+    "translation": "You worked a lot.",
+    "options": [
+      "geschafft",
+      "schaffen",
+      "geschafen",
+      "geschaff",
+      "geschafftet",
+      "geschaffenen"
+    ],
+    "correctAnswer": "geschafft",
+    "rule": "schaffen → geschafft in the perfect."
+  },
+  {
+    "id": "grammar-092",
+    "sentence": "Si hunn zesummen ___.",
+    "translation": "They learned together.",
+    "options": [
+      "geléiert",
+      "léieren",
+      "geleiert",
+      "geléiertet",
+      "geléierten",
+      "geléiertst"
+    ],
+    "correctAnswer": "geléiert",
+    "rule": "léieren → geléiert in the perfect."
+  },
+  {
+    "id": "grammar-093",
+    "sentence": "Ech hunn d'Iessen ___.",
+    "translation": "I cooked the food.",
+    "options": [
+      "gekacht",
+      "kachen",
+      "gekachen",
+      "gekachtet",
+      "gekocht",
+      "gekachten"
+    ],
+    "correctAnswer": "gekacht",
+    "rule": "kachen → gekacht in the perfect."
+  },
+  {
+    "id": "grammar-094",
+    "sentence": "Ech ___ muer fréi opstoen.",
+    "translation": "I have to get up early tomorrow.",
+    "options": [
+      "muss",
+      "kann",
+      "soll",
+      "däerf",
+      "wëll",
+      "musse"
+    ],
+    "correctAnswer": "muss",
+    "rule": "mussen is conjugated muss with ech. A modal is followed by the infinitive."
+  },
+  {
+    "id": "grammar-095",
+    "sentence": "Du ___ ganz gutt Lëtzebuergesch schwätzen.",
+    "translation": "You can speak Luxembourgish very well.",
+    "options": [
+      "kanns",
+      "muss",
+      "soll",
+      "däerfs",
+      "wëlls",
+      "kënnen"
+    ],
+    "correctAnswer": "kanns",
+    "rule": "kënnen is conjugated kanns with du. The infinitive follows."
+  },
+  {
+    "id": "grammar-096",
+    "sentence": "Hien ___ haut méi fréi heemgoen.",
+    "translation": "He should go home earlier today.",
+    "options": [
+      "soll",
+      "muss",
+      "kann",
+      "däerf",
+      "wëll",
+      "sollen"
+    ],
+    "correctAnswer": "soll",
+    "rule": "sollen is conjugated soll with hien. The infinitive follows."
+  },
+  {
+    "id": "grammar-097",
+    "sentence": "Mir ___ hei net fëmmen.",
+    "translation": "We are not allowed to smoke here.",
+    "options": [
+      "däerfen",
+      "mussen",
+      "kënnen",
+      "sollen",
+      "wëllen",
+      "däerft"
+    ],
+    "correctAnswer": "däerfen",
+    "rule": "däerfen is conjugated däerfen with mir. The infinitive follows."
+  },
+  {
+    "id": "grammar-098",
+    "sentence": "Si ___ e Kaffi drénken.",
+    "translation": "She wants to drink a coffee.",
+    "options": [
+      "wëll",
+      "muss",
+      "kann",
+      "soll",
+      "däerf",
+      "wëllen"
+    ],
+    "correctAnswer": "wëll",
+    "rule": "wëllen is conjugated wëll with si (singular). The infinitive follows."
+  },
+  {
+    "id": "grammar-099",
+    "sentence": "Du ___ haut mat eis kommen.",
+    "translation": "You can come with us today.",
+    "options": [
+      "kanns",
+      "muss",
+      "soll",
+      "däerfs",
+      "wëlls",
+      "kënne"
+    ],
+    "correctAnswer": "kanns",
+    "rule": "kënnen with du is kanns. A modal is followed by the infinitive."
+  },
+  {
+    "id": "grammar-100",
+    "sentence": "Hien ___ seng Hausaufgaben maachen.",
+    "translation": "He has to do his homework.",
+    "options": [
+      "muss",
+      "kann",
+      "soll",
+      "däerf",
+      "wëll",
+      "mussen"
+    ],
+    "correctAnswer": "muss",
+    "rule": "mussen with hien is muss. The infinitive follows."
+  },
+  {
+    "id": "grammar-101",
+    "sentence": "Mir ___ haut den Auto huelen.",
+    "translation": "We want to take the car today.",
+    "options": [
+      "wëllen",
+      "mussen",
+      "kënnen",
+      "sollen",
+      "däerfen",
+      "wëllt"
+    ],
+    "correctAnswer": "wëllen",
+    "rule": "wëllen with mir is wëllen. The infinitive follows."
+  },
+  {
+    "id": "grammar-102",
+    "sentence": "Dir ___ hei sëtze bleiwen.",
+    "translation": "You are allowed to stay sitting here.",
+    "options": [
+      "däerft",
+      "musst",
+      "kënnt",
+      "sollt",
+      "wëllt",
+      "däerfen"
+    ],
+    "correctAnswer": "däerft",
+    "rule": "däerfen with dir is däerft. The infinitive follows."
+  },
+  {
+    "id": "grammar-103",
+    "sentence": "Si ___ méi spéit kommen.",
+    "translation": "They can come later.",
+    "options": [
+      "kënne",
+      "mussen",
+      "sollen",
+      "däerfen",
+      "wëllen",
+      "kann"
+    ],
+    "correctAnswer": "kënne",
+    "rule": "kënnen with si (plural) is kënne. The infinitive follows."
+  },
+  {
+    "id": "grammar-104",
+    "sentence": "Ech ___ net esou vill iessen.",
+    "translation": "I do not want to eat so much.",
+    "options": [
+      "wëll",
+      "muss",
+      "kann",
+      "soll",
+      "däerf",
+      "wëllen"
+    ],
+    "correctAnswer": "wëll",
+    "rule": "wëllen with ech is wëll. The infinitive follows."
+  },
+  {
+    "id": "grammar-105",
+    "sentence": "Ech ___ mech all Moien ___.",
+    "translation": "I get dressed every morning.",
+    "options": [
+      "doe / un",
+      "doen / un",
+      "dees / un",
+      "maachen / un",
+      "doe / aus",
+      "maachen / aus"
+    ],
+    "correctAnswer": "doe / un",
+    "rule": "sech undoen is separable. With ech: ech doe mech un."
+  },
+  {
+    "id": "grammar-106",
+    "sentence": "Du ___ dech séier ___.",
+    "translation": "You get dressed quickly.",
+    "options": [
+      "dees / un",
+      "doen / un",
+      "dees / aus",
+      "méchs / un",
+      "doen / aus",
+      "dees / op"
+    ],
+    "correctAnswer": "dees / un",
+    "rule": "sech undoen with du is dees dech un. The reflexive pronoun matches the subject."
+  },
+  {
+    "id": "grammar-107",
+    "sentence": "Hien ___ sech virun der Aarbecht ___.",
+    "translation": "He gets dressed before work.",
+    "options": [
+      "deet / un",
+      "doe / un",
+      "deet / aus",
+      "mécht / un",
+      "doen / un",
+      "deet / op"
+    ],
+    "correctAnswer": "deet / un",
+    "rule": "sech undoen with hien is deet sech un."
+  },
+  {
+    "id": "grammar-108",
+    "sentence": "Mir ___ eis fir d'Party ___.",
+    "translation": "We get dressed for the party.",
+    "options": [
+      "doen / un",
+      "doe / un",
+      "maachen / un",
+      "doen / aus",
+      "doen / op",
+      "deet / un"
+    ],
+    "correctAnswer": "doen / un",
+    "rule": "sech undoen with mir is doen eis un."
+  },
+  {
+    "id": "grammar-109",
+    "sentence": "Dir ___ iech moies ___.",
+    "translation": "You get dressed in the morning.",
+    "options": [
+      "doet / un",
+      "doe / un",
+      "doen / un",
+      "maacht / un",
+      "doet / aus",
+      "doet / op"
+    ],
+    "correctAnswer": "doet / un",
+    "rule": "sech undoen with dir is doet iech un."
+  },
+  {
+    "id": "grammar-110",
+    "sentence": "Si ___ sech virun der Klass ___.",
+    "translation": "They get dressed in front of the class.",
+    "options": [
+      "doen / un",
+      "doe / un",
+      "mécht / un",
+      "doen / aus",
+      "deet / un",
+      "doen / op"
+    ],
+    "correctAnswer": "doen / un",
+    "rule": "sech undoen with si (plural) is doen sech un."
+  },
+  {
+    "id": "grammar-111",
+    "sentence": "Ech hunn e ___ Hutt.",
+    "translation": "I have a red hat.",
+    "options": [
+      "rouden",
+      "roud",
+      "roude",
+      "rouder",
+      "roudt",
+      "roudenen"
+    ],
+    "correctAnswer": "rouden",
+    "rule": "Before a masculine noun with e, adjectives ending in t change to d and take -en: e rouden Hutt."
+  },
+  {
+    "id": "grammar-112",
+    "sentence": "Hien huet e ___ Hond.",
+    "translation": "He has a kind dog.",
+    "options": [
+      "léiwen",
+      "léifen",
+      "léif",
+      "léiwe",
+      "léiwer",
+      "léift"
+    ],
+    "correctAnswer": "léiwen",
+    "rule": "Before a masculine noun with e, léif becomes léiwen."
+  },
+  {
+    "id": "grammar-113",
+    "sentence": "Si gesäit e ___ Kran.",
+    "translation": "She sees a tall crane.",
+    "options": [
+      "héije",
+      "héiche",
+      "héich",
+      "héichen",
+      "héicher",
+      "héicht"
+    ],
+    "correctAnswer": "héije",
+    "rule": "Before a masculine noun with e, héich changes to héije."
+  },
+  {
+    "id": "grammar-114",
+    "sentence": "Ech kafen en ___ Mantel.",
+    "translation": "I am buying a red coat.",
+    "options": [
+      "rouden",
+      "roud",
+      "roude",
+      "rouder",
+      "roudt",
+      "roudenen"
+    ],
+    "correctAnswer": "rouden",
+    "rule": "With masculine en, the adjective takes -en: en rouden Mantel."
+  },
+  {
+    "id": "grammar-115",
+    "sentence": "Mir hunn e ___ Wollef gesinn.",
+    "translation": "We saw a kind wolf.",
+    "options": [
+      "léiwen",
+      "léifen",
+      "léif",
+      "léiwe",
+      "léiwer",
+      "léift"
+    ],
+    "correctAnswer": "léiwen",
+    "rule": "léif changes to léiwen before a masculine noun with e."
+  },
+  {
+    "id": "grammar-116",
+    "sentence": "Op der Strooss steet en ___ Kran.",
+    "translation": "There is a tall crane standing in the street.",
+    "options": [
+      "héije",
+      "héiche",
+      "héich",
+      "héichen",
+      "héicher",
+      "héicht"
+    ],
+    "correctAnswer": "héije",
+    "rule": "héich changes to héije before a masculine noun with en."
+  },
+  {
+    "id": "grammar-117",
+    "sentence": "Hien dréit e ___ Pullover.",
+    "translation": "He is wearing a red sweater.",
+    "options": [
+      "rouden",
+      "roud",
+      "roude",
+      "rouder",
+      "roudt",
+      "roudenen"
+    ],
+    "correctAnswer": "rouden",
+    "rule": "roud becomes rouden before a masculine noun with e."
+  },
+  {
+    "id": "grammar-118",
+    "sentence": "Ech gesinn en ___ Hond am Park.",
+    "translation": "I see a kind dog in the park.",
+    "options": [
+      "léiwen",
+      "léifen",
+      "léif",
+      "léiwe",
+      "léiwer",
+      "léift"
+    ],
+    "correctAnswer": "léiwen",
+    "rule": "léif becomes léiwen before a masculine noun with en."
+  },
+  {
+    "id": "grammar-119",
+    "sentence": "D'Aarbechter bauen en ___ Kran.",
+    "translation": "The workers are building a tall crane.",
+    "options": [
+      "héije",
+      "héiche",
+      "héich",
+      "héichen",
+      "héicher",
+      "héicht"
+    ],
+    "correctAnswer": "héije",
+    "rule": "héich changes to héije before a masculine noun with en."
+  },
+  {
+    "id": "grammar-120",
+    "sentence": "Ech hunn e ___ Mantel.",
+    "translation": "I have a beautiful coat.",
+    "options": [
+      "schéine",
+      "schéin",
+      "schéiner",
+      "schéint",
+      "schéinen",
+      "schéinenen"
+    ],
+    "correctAnswer": "schéine",
+    "rule": "Before a masculine noun with e, the adjective takes -en: e schéine Mantel."
+  },
+  {
+    "id": "grammar-121",
+    "sentence": "Hien huet en ___ Auto.",
+    "translation": "He has a blue car.",
+    "options": [
+      "bloen",
+      "blo",
+      "bloe",
+      "bloer",
+      "blot",
+      "bloenen"
+    ],
+    "correctAnswer": "bloen",
+    "rule": "Before a masculine noun with en, the adjective takes -en: en bloen Auto."
+  },
+  {
+    "id": "grammar-122",
+    "sentence": "Si huet eng ___ Jackett.",
+    "translation": "She has a beautiful jacket.",
+    "options": [
+      "schéin",
+      "schéine",
+      "schéiner",
+      "schéint",
+      "schéinen",
+      "schéinenen"
+    ],
+    "correctAnswer": "schéin",
+    "rule": "Before a feminine noun with eng, the adjective has no ending: eng schéin Jackett."
+  },
+  {
+    "id": "grammar-123",
+    "sentence": "Mir kafen e ___ Haus.",
+    "translation": "We are buying a beautiful house.",
+    "options": [
+      "schéint",
+      "schéin",
+      "schéine",
+      "schéinen",
+      "schéiner",
+      "schéinenen"
+    ],
+    "correctAnswer": "schéint",
+    "rule": "Before a neuter noun with e, the adjective takes -t: e schéint Haus."
+  },
+  {
+    "id": "grammar-124",
+    "sentence": "Ech gesinn en ___ Vëlo.",
+    "translation": "I see a red bicycle.",
+    "options": [
+      "roude",
+      "rout",
+      "rouden",
+      "rouder",
+      "roudt",
+      "roudenen"
+    ],
+    "correctAnswer": "roude",
+    "rule": "Vëlo is masculine, but the form with en is en roude Vëlo."
+  },
+  {
+    "id": "grammar-125",
+    "sentence": "Si huet e ___ Kleed.",
+    "translation": "She has a blue dress.",
+    "options": [
+      "bloent",
+      "blo",
+      "bloe",
+      "bloen",
+      "bloer",
+      "bloenen"
+    ],
+    "correctAnswer": "bloent",
+    "rule": "Before a neuter noun with e, blo takes -ent: e bloent Kleed."
+  },
+  {
+    "id": "grammar-126",
+    "sentence": "Hien dréit e ___ Hiem.",
+    "translation": "He is wearing a white shirt.",
+    "options": [
+      "wäisst",
+      "wäiss",
+      "wäisse",
+      "wäissen",
+      "wäisser",
+      "wäissenen"
+    ],
+    "correctAnswer": "wäisst",
+    "rule": "Before a neuter noun with e, the adjective takes -t: e wäisst Hiem."
+  },
+  {
+    "id": "grammar-127",
+    "sentence": "Ech hunn eng ___ Täsch.",
+    "translation": "I have a red bag.",
+    "options": [
+      "rout",
+      "roude",
+      "rouden",
+      "rouder",
+      "roudt",
+      "roudenen"
+    ],
+    "correctAnswer": "rout",
+    "rule": "Before a feminine noun with eng, the adjective has no ending: eng rout Täsch."
+  },
+  {
+    "id": "grammar-128",
+    "sentence": "Mir hunn e ___ Hond.",
+    "translation": "We have a small dog.",
+    "options": [
+      "klenge",
+      "kleng",
+      "klengen",
+      "klenger",
+      "klengt",
+      "klengenen"
+    ],
+    "correctAnswer": "klenge",
+    "rule": "Before a masculine noun with e, kleng takes -e: e klenge Hond."
+  },
+  {
+    "id": "grammar-129",
+    "sentence": "Si kafen en ___ Dësch.",
+    "translation": "They are buying a yellow table.",
+    "options": [
+      "gielen",
+      "giel",
+      "giele",
+      "gieler",
+      "gielt",
+      "gielenen"
+    ],
+    "correctAnswer": "gielen",
+    "rule": "Before a masculine noun with en, the adjective takes -en: en gielen Dësch."
+  },
+  {
+    "id": "grammar-130",
+    "sentence": "Ech hunn zwee ___.",
+    "translation": "I have two apples.",
+    "options": [
+      "Äppel",
+      "Apel",
+      "Äpelen",
+      "Appelen",
+      "Äppelcher",
+      "Äppler"
+    ],
+    "correctAnswer": "Äppel",
+    "rule": "Apel → Äppel is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-131",
+    "sentence": "Am Bësch gesinn ech zwee ___.",
+    "translation": "In the forest I see two wolves.",
+    "options": [
+      "Wëllef",
+      "Wollef",
+      "Wëllefer",
+      "Wellef",
+      "Wollewen",
+      "Wëllewen"
+    ],
+    "correctAnswer": "Wëllef",
+    "rule": "Wollef → Wëllef is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-132",
+    "sentence": "An der Stuff stinn zwee ___.",
+    "translation": "There are two drawers in the living room.",
+    "options": [
+      "Tiräng",
+      "Tirang",
+      "Tirängen",
+      "Tiranger",
+      "Tirangen",
+      "Tirängele"
+    ],
+    "correctAnswer": "Tiräng",
+    "rule": "Tirang → Tiräng is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-133",
+    "sentence": "Ech hunn zwee ___ beim Spadséieren.",
+    "translation": "I have two feet while walking.",
+    "options": [
+      "Féiss",
+      "Fouss",
+      "Féisser",
+      "Féissen",
+      "Fousser",
+      "Féis"
+    ],
+    "correctAnswer": "Féiss",
+    "rule": "Fouss → Féiss is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-134",
+    "sentence": "An der Bibliothéik sinn zwee ___.",
+    "translation": "There are two books in the library.",
+    "options": [
+      "Bicher",
+      "Buch",
+      "Bichen",
+      "Bicherer",
+      "Bücher",
+      "Bucher"
+    ],
+    "correctAnswer": "Bicher",
+    "rule": "Buch → Bicher is an irregular plural."
+  },
+  {
+    "id": "grammar-135",
+    "sentence": "Am Gaart stinn dräi ___.",
+    "translation": "There are three trees in the garden.",
+    "options": [
+      "Beem",
+      "Bam",
+      "Bamer",
+      "Bäim",
+      "Bäemer",
+      "Beemer"
+    ],
+    "correctAnswer": "Beem",
+    "rule": "Bam → Beem is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-136",
+    "sentence": "Ech kafen dräi ___.",
+    "translation": "I am buying three apples.",
+    "options": [
+      "Äppel",
+      "Apel",
+      "Äpelen",
+      "Appelen",
+      "Äppelcher",
+      "Äppler"
+    ],
+    "correctAnswer": "Äppel",
+    "rule": "Apel → Äppel is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-137",
+    "sentence": "Mir gesinn véier ___ am Bësch.",
+    "translation": "We see four wolves in the forest.",
+    "options": [
+      "Wëllef",
+      "Wollef",
+      "Wëllefer",
+      "Wellef",
+      "Wollewen",
+      "Wëllewen"
+    ],
+    "correctAnswer": "Wëllef",
+    "rule": "Wollef → Wëllef is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-138",
+    "sentence": "D'Kanner maachen den ___ op.",
+    "translation": "The children open the drawers.",
+    "options": [
+      "Tiräng",
+      "Tirang",
+      "Tirängen",
+      "Tiranger",
+      "Tirangen",
+      "Tirängele"
+    ],
+    "correctAnswer": "Tiräng",
+    "rule": "Tirang → Tiräng is an irregular plural."
+  },
+  {
+    "id": "grammar-139",
+    "sentence": "Ech wäschen meng ___.",
+    "translation": "I wash my feet.",
+    "options": [
+      "Féiss",
+      "Fouss",
+      "Féisser",
+      "Féissen",
+      "Fousser",
+      "Féis"
+    ],
+    "correctAnswer": "Féiss",
+    "rule": "Fouss → Féiss is an irregular plural."
+  },
+  {
+    "id": "grammar-140",
+    "sentence": "Am Regal stinn vill ___.",
+    "translation": "There are many books on the shelf.",
+    "options": [
+      "Bicher",
+      "Buch",
+      "Bichen",
+      "Bicherer",
+      "Bücher",
+      "Bucher"
+    ],
+    "correctAnswer": "Bicher",
+    "rule": "Buch → Bicher is an irregular plural."
+  },
+  {
+    "id": "grammar-141",
+    "sentence": "Am Park gesinn ech vill ___.",
+    "translation": "I see many trees in the park.",
+    "options": [
+      "Beem",
+      "Bam",
+      "Bamer",
+      "Bäim",
+      "Bäemer",
+      "Beemer"
+    ],
+    "correctAnswer": "Beem",
+    "rule": "Bam → Beem is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-142",
+    "sentence": "Ech gesinn zwee ___.",
+    "translation": "I see two fish.",
+    "options": [
+      "Fesch",
+      "Fësch",
+      "Fëscher",
+      "Fëschen",
+      "Fescher",
+      "Fëschs"
+    ],
+    "correctAnswer": "Fesch",
+    "rule": "Fësch → Fesch is a special plural with a vowel change."
+  },
+  {
+    "id": "grammar-143",
+    "sentence": "Mir kafen zwee ___.",
+    "translation": "We are buying two fish.",
+    "options": [
+      "Fesch",
+      "Fësch",
+      "Fëscher",
+      "Fëschen",
+      "Fescher",
+      "Fëschs"
+    ],
+    "correctAnswer": "Fesch",
+    "rule": "Fësch → Fesch is a special plural with a vowel change."
+  },
+  {
+    "id": "grammar-144",
+    "sentence": "Am Séi schwamme vill ___.",
+    "translation": "Many fish are swimming in the lake.",
+    "options": [
+      "Fësch",
+      "Fesch",
+      "Fëscher",
+      "Fëschen",
+      "Fescher",
+      "Fëschs"
+    ],
+    "correctAnswer": "Fësch",
+    "rule": "Fësch is also used as the plural form in this context."
+  },
+  {
+    "id": "grammar-145",
+    "sentence": "Ech hunn zwee ___.",
+    "translation": "I have two dogs.",
+    "options": [
+      "Hënn",
+      "Hond",
+      "Hënnen",
+      "Honder",
+      "Honds",
+      "Hennen"
+    ],
+    "correctAnswer": "Hënn",
+    "rule": "Hond → Hënn is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-146",
+    "sentence": "Am Park gesinn ech zwee ___.",
+    "translation": "I see two dogs in the park.",
+    "options": [
+      "Hënn",
+      "Hond",
+      "Hënnen",
+      "Honder",
+      "Honds",
+      "Hennen"
+    ],
+    "correctAnswer": "Hënn",
+    "rule": "Hond → Hënn is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-147",
+    "sentence": "D'Noperen hunn dräi ___.",
+    "translation": "The neighbours have three dogs.",
+    "options": [
+      "Hënn",
+      "Hond",
+      "Hënnen",
+      "Honder",
+      "Honds",
+      "Hennen"
+    ],
+    "correctAnswer": "Hënn",
+    "rule": "Hond → Hënn is an irregular plural with a vowel change."
+  },
+  {
+    "id": "grammar-148",
+    "sentence": "Ech gesinn e ___ am Waasser.",
+    "translation": "I see a fish in the water.",
+    "options": [
+      "Fësch",
+      "Fesch",
+      "Fëscher",
+      "Fëschen",
+      "Fescher",
+      "Fëschs"
+    ],
+    "correctAnswer": "Fësch",
+    "rule": "Fësch is the singular form with a fish as the object."
+  },
+  {
+    "id": "grammar-149",
+    "sentence": "Ech gesinn e ___ am Waasser.",
+    "translation": "I see a fish in the water.",
+    "options": [
+      "Fësch",
+      "Fesch",
+      "Fëscher",
+      "Fëschen",
+      "Fescher",
+      "Fëschs"
+    ],
+    "correctAnswer": "Fësch",
+    "rule": "Fësch is the singular form with a fish as the object."
+  },
+  {
+    "id": "grammar-150",
+    "sentence": "Mir hunn zwee ___ doheem.",
+    "translation": "We have two dogs at home.",
+    "options": [
+      "Hënn",
+      "Hond",
+      "Hënnen",
+      "Honder",
+      "Honds",
+      "Hennen"
+    ],
+    "correctAnswer": "Hënn",
+    "rule": "Plural of Hond is Hënn."
+  },
+  {
+    "id": "grammar-151",
+    "sentence": "Ech hunn zwee ___ an der Kichen.",
+    "translation": "I have two tables in the kitchen.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherer",
+      "Dëscherën"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-152",
+    "sentence": "Mir hunn zwee ___ an der Stuff.",
+    "translation": "We have two carpets in the living room.",
+    "options": [
+      "Teppecher",
+      "Teppech",
+      "Teppechen",
+      "Teppeche",
+      "Teppecherer",
+      "Teppecherën"
+    ],
+    "correctAnswer": "Teppecher",
+    "rule": "Plural of Teppech is Teppecher."
+  },
+  {
+    "id": "grammar-153",
+    "sentence": "D'Kanner sëtzen op zwee ___.",
+    "translation": "The children are sitting on two carpets.",
+    "options": [
+      "Teppecher",
+      "Teppech",
+      "Teppechen",
+      "Teppeche",
+      "Teppecherer",
+      "Teppecherën"
+    ],
+    "correctAnswer": "Teppecher",
+    "rule": "Plural of Teppech is Teppecher."
+  },
+  {
+    "id": "grammar-154",
+    "sentence": "Ech gesinn zwee ___ am Büro.",
+    "translation": "I see two tables in the office.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherer",
+      "Dëscherën"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-155",
+    "sentence": "Mir kafen dräi ___ fir d'Wunneng.",
+    "translation": "We are buying three carpets for the apartment.",
+    "options": [
+      "Teppecher",
+      "Teppech",
+      "Teppechen",
+      "Teppeche",
+      "Teppecherer",
+      "Teppecherën"
+    ],
+    "correctAnswer": "Teppecher",
+    "rule": "Plural of Teppech is Teppecher."
+  },
+  {
+    "id": "grammar-156",
+    "sentence": "An der Klass stinn véier ___.",
+    "translation": "There are four tables in the classroom.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherer",
+      "Dëscherën"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-157",
+    "sentence": "Si wäscht zwee ___ haut.",
+    "translation": "She is washing two carpets today.",
+    "options": [
+      "Teppecher",
+      "Teppech",
+      "Teppechen",
+      "Teppeche",
+      "Teppecherer",
+      "Teppecherën"
+    ],
+    "correctAnswer": "Teppecher",
+    "rule": "Plural of Teppech is Teppecher."
+  },
+  {
+    "id": "grammar-158",
+    "sentence": "Ech botzen zwee ___ am Restaurant.",
+    "translation": "I clean two tables in the restaurant.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherer",
+      "Dëscherën"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-159",
+    "sentence": "Mir brauchen dräi ___ fir d'Zëmmer.",
+    "translation": "We need three carpets for the room.",
+    "options": [
+      "Teppecher",
+      "Teppech",
+      "Teppechen",
+      "Teppeche",
+      "Teppecherer",
+      "Teppecherën"
+    ],
+    "correctAnswer": "Teppecher",
+    "rule": "Plural of Teppech is Teppecher."
+  },
+  {
+    "id": "grammar-160",
+    "sentence": "D'Firma huet fënnef ___ am Büro.",
+    "translation": "The company has five tables in the office.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherer",
+      "Dëscherën"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-161",
+    "sentence": "Ech kennen zwou ___.",
+    "translation": "I know two female journalists.",
+    "options": [
+      "Journalistinnen",
+      "Journalistin",
+      "Journalisten",
+      "Journalistinen",
+      "Journalistinn",
+      "Journalistinne"
+    ],
+    "correctAnswer": "Journalistinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-162",
+    "sentence": "Mir gesinn dräi ___.",
+    "translation": "We see three female lawyers.",
+    "options": [
+      "Affekotinnen",
+      "Affekotin",
+      "Affekoten",
+      "Affekotinen",
+      "Affekotinn",
+      "Affekotinne"
+    ],
+    "correctAnswer": "Affekotinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-163",
+    "sentence": "Si schwätzt mat zwou ___.",
+    "translation": "She is speaking with two female journalists.",
+    "options": [
+      "Journalistinnen",
+      "Journalistin",
+      "Journalisten",
+      "Journalistinen",
+      "Journalistinn",
+      "Journalistinne"
+    ],
+    "correctAnswer": "Journalistinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-164",
+    "sentence": "Hien kennt dräi ___.",
+    "translation": "He knows three female lawyers.",
+    "options": [
+      "Affekotinnen",
+      "Affekotin",
+      "Affekoten",
+      "Affekotinen",
+      "Affekotinn",
+      "Affekotinne"
+    ],
+    "correctAnswer": "Affekotinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-165",
+    "sentence": "D'Zeitung interviewt zwou ___.",
+    "translation": "The newspaper is interviewing two female journalists.",
+    "options": [
+      "Journalistinnen",
+      "Journalistin",
+      "Journalisten",
+      "Journalistinen",
+      "Journalistinn",
+      "Journalistinne"
+    ],
+    "correctAnswer": "Journalistinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-166",
+    "sentence": "Op der Konferenz sinn véier ___.",
+    "translation": "There are four female lawyers at the conference.",
+    "options": [
+      "Affekotinnen",
+      "Affekotin",
+      "Affekoten",
+      "Affekotinen",
+      "Affekotinn",
+      "Affekotinne"
+    ],
+    "correctAnswer": "Affekotinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-167",
+    "sentence": "Ech gesinn zwou __ am Büro.",
+    "translation": "I see two female journalists in the office.",
+    "options": [
+      "Journalistinnen",
+      "Journalistin",
+      "Journalisten",
+      "Journalistinen",
+      "Journalistinn",
+      "Journalistinne"
+    ],
+    "correctAnswer": "Journalistinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-168",
+    "sentence": "D'Firma beschäftegt dräi ___.",
+    "translation": "The company employs three female lawyers.",
+    "options": [
+      "Affekotinnen",
+      "Affekotin",
+      "Affekoten",
+      "Affekotinen",
+      "Affekotinn",
+      "Affekotinne"
+    ],
+    "correctAnswer": "Affekotinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-169",
+    "sentence": "Mir schwätze mat zwou ___.",
+    "translation": "We are speaking with two female journalists.",
+    "options": [
+      "Journalistinnen",
+      "Journalistin",
+      "Journalisten",
+      "Journalistinen",
+      "Journalistinn",
+      "Journalistinne"
+    ],
+    "correctAnswer": "Journalistinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-170",
+    "sentence": "Si kennt véier ___.",
+    "translation": "She knows four female lawyers.",
+    "options": [
+      "Affekotinnen",
+      "Affekotin",
+      "Affekoten",
+      "Affekotinen",
+      "Affekotinn",
+      "Affekotinne"
+    ],
+    "correctAnswer": "Affekotinnen",
+    "rule": "Feminine nouns ending in -in form the plural with -innen."
+  },
+  {
+    "id": "grammar-171",
+    "sentence": "Ech hunn zwee ___ an der Kichen.",
+    "translation": "I have two knives in the kitchen.",
+    "options": [
+      "Messeren",
+      "Messer",
+      "Messerer",
+      "Messere",
+      "Messerenen",
+      "Messers"
+    ],
+    "correctAnswer": "Messeren",
+    "rule": "Plural of Messer is Messeren."
+  },
+  {
+    "id": "grammar-172",
+    "sentence": "Ech hunn dräi ___ doheem.",
+    "translation": "I have three cats at home.",
+    "options": [
+      "Kazen",
+      "Kaz",
+      "Kaze",
+      "Kazenën",
+      "Kazer",
+      "Kazer"
+    ],
+    "correctAnswer": "Kazen",
+    "rule": "Plural of Kaz is Kazen."
+  },
+  {
+    "id": "grammar-173",
+    "sentence": "Mir kafen zwee ___ am Supermarché.",
+    "translation": "We are buying two loaves of bread at the supermarket.",
+    "options": [
+      "Brouten",
+      "Brout",
+      "Broutsen",
+      "Broutë",
+      "Brouts",
+      "Brouten"
+    ],
+    "correctAnswer": "Brouten",
+    "rule": "Plural of Brout is Brouten."
+  },
+  {
+    "id": "grammar-174",
+    "sentence": "Si huet véier ___ an der Täsch.",
+    "translation": "She has four pens in her bag.",
+    "options": [
+      "Bicen",
+      "Bic",
+      "Bics",
+      "Bice",
+      "Bicën",
+      "Bicer"
+    ],
+    "correctAnswer": "Bicen",
+    "rule": "Plural of Bic is Bicen."
+  },
+  {
+    "id": "grammar-175",
+    "sentence": "Ech gesinn zwee ___ am Park.",
+    "translation": "I see two dogs in the park.",
+    "options": [
+      "Hënn",
+      "Hond",
+      "Honden",
+      "Hondes",
+      "Honds",
+      "Honder"
+    ],
+    "correctAnswer": "Hënn",
+    "rule": "Plural of Hond is Hënn."
+  },
+  {
+    "id": "grammar-176",
+    "sentence": "Hien huet dräi ___ doheem.",
+    "translation": "He has three books at home.",
+    "options": [
+      "Bicher",
+      "Buch",
+      "Buchen",
+      "Bucher",
+      "Buchs",
+      "Buche"
+    ],
+    "correctAnswer": "Bicher",
+    "rule": "Plural of Buch is Bicher."
+  },
+  {
+    "id": "grammar-177",
+    "sentence": "Mir hunn zwee ___ an der Garage.",
+    "translation": "We have two bicycles in the garage.",
+    "options": [
+      "Vëloen",
+      "Vëlo",
+      "Vëlos",
+      "Vëloe",
+      "Vëloer",
+      "Vëloën"
+    ],
+    "correctAnswer": "Vëloen",
+    "rule": "Plural of Vëlo is Vëloen."
+  },
+  {
+    "id": "grammar-178",
+    "sentence": "Si kafen dräi ___ fir d'Party.",
+    "translation": "They are buying three glasses for the party.",
+    "options": [
+      "Glieser",
+      "Glas",
+      "Glasen",
+      "Glaser",
+      "Gliesen",
+      "Glies"
+    ],
+    "correctAnswer": "Glieser",
+    "rule": "Plural of Glas is Glieser."
+  },
+  {
+    "id": "grammar-179",
+    "sentence": "Ech gesinn vill ___ op der Strooss.",
+    "translation": "I see many cars on the street.",
+    "options": [
+      "Autoen",
+      "Auto",
+      "Autosen",
+      "Auter",
+      "Autoën",
+      "Autos"
+    ],
+    "correctAnswer": "Autoen",
+    "rule": "Plural of Auto is Autoen."
+  },
+  {
+    "id": "grammar-180",
+    "sentence": "D'Kanner hunn zwee ___ an der Hand.",
+    "translation": "The children have two balls in their hands.",
+    "options": [
+      "Ballen",
+      "Ball",
+      "Bäll",
+      "Baller",
+      "Balle",
+      "Balls"
+    ],
+    "correctAnswer": "Ballen",
+    "rule": "Plural of Ball is Ballen."
+  },
+  {
+    "id": "grammar-181",
+    "sentence": "Mir hunn dräi ___ an der Klass.",
+    "translation": "We have three tables in the classroom.",
+    "options": [
+      "Dëscher",
+      "Dësch",
+      "Dëschen",
+      "Dësche",
+      "Dëscherën",
+      "Dëscherer"
+    ],
+    "correctAnswer": "Dëscher",
+    "rule": "Plural of Dësch is Dëscher."
+  },
+  {
+    "id": "grammar-182",
+    "sentence": "Ech kafen zwee ___ fir d'Kichen.",
+    "translation": "I am buying two plates for the kitchen.",
+    "options": [
+      "Telleren",
+      "Teller",
+      "Tellere",
+      "Tellerer",
+      "Tellers",
+      "Tellern"
+    ],
+    "correctAnswer": "Telleren",
+    "rule": "Plural of Teller is Telleren."
+  },
+  {
+    "id": "grammar-183",
+    "sentence": "Ech ___ all Nuecht aacht Stonnen.",
+    "translation": "I sleep eight hours every night.",
+    "options": [
+      "schlofen",
+      "schléifs",
+      "schléift",
+      "schloft",
+      "schléfen",
+      "schlofe"
+    ],
+    "correctAnswer": "schlofen",
+    "rule": "With Ech, schlofen keeps the infinitive form."
+  },
+  {
+    "id": "grammar-184",
+    "sentence": "Du ___ normalerweis spéit.",
+    "translation": "You usually go to sleep late.",
+    "options": [
+      "schléifs",
+      "schlofs",
+      "schléift",
+      "schloft",
+      "schlofen",
+      "schléfen"
+    ],
+    "correctAnswer": "schléifs",
+    "rule": "schlofen changes its vowel: du schléifs."
+  },
+  {
+    "id": "grammar-185",
+    "sentence": "Hien ___ nach.",
+    "translation": "He is still sleeping.",
+    "options": [
+      "schléift",
+      "schléifs",
+      "schloft",
+      "schlofen",
+      "schléfen",
+      "schlofe"
+    ],
+    "correctAnswer": "schléift",
+    "rule": "schlofen changes its vowel: hien schléift."
+  },
+  {
+    "id": "grammar-186",
+    "sentence": "Ech ___ moies e Brout.",
+    "translation": "I eat bread in the morning.",
+    "options": [
+      "iessen",
+      "ëss",
+      "ësst",
+      "iesst",
+      "iesse",
+      "ëssen"
+    ],
+    "correctAnswer": "iessen",
+    "rule": "With Ech, iessen keeps the infinitive form."
+  },
+  {
+    "id": "grammar-187",
+    "sentence": "Du ___ gär Pizza.",
+    "translation": "You like to eat pizza.",
+    "options": [
+      "ëss",
+      "iess",
+      "ësst",
+      "iesst",
+      "iessen",
+      "ëssen"
+    ],
+    "correctAnswer": "ëss",
+    "rule": "iessen changes its vowel: du ëss."
+  },
+  {
+    "id": "grammar-188",
+    "sentence": "Hatt ___ all Dag an der Kantin.",
+    "translation": "She eats in the canteen every day.",
+    "options": [
+      "ësst",
+      "ëss",
+      "iessen",
+      "iesst",
+      "iess",
+      "ëssen"
+    ],
+    "correctAnswer": "ësst",
+    "rule": "iessen changes its vowel: hatt ësst."
+  },
+  {
+    "id": "grammar-189",
+    "sentence": "Ech ___ e neien Auto.",
+    "translation": "I am buying a new car.",
+    "options": [
+      "kafen",
+      "keefs",
+      "keeft",
+      "kafs",
+      "kaaft",
+      "kafe"
+    ],
+    "correctAnswer": "kafen",
+    "rule": "With Ech, kafen keeps the infinitive form."
+  },
+  {
+    "id": "grammar-190",
+    "sentence": "Du ___ d'Brout am Supermarché.",
+    "translation": "You buy the bread at the supermarket.",
+    "options": [
+      "keefs",
+      "kafs",
+      "keeft",
+      "kafen",
+      "kaafs",
+      "kafe"
+    ],
+    "correctAnswer": "keefs",
+    "rule": "kafen changes its vowel: du keefs."
+  },
+  {
+    "id": "grammar-191",
+    "sentence": "Si ___ Kleeder online.",
+    "translation": "She buys clothes online.",
+    "options": [
+      "keeft",
+      "keefs",
+      "kafen",
+      "kafs",
+      "kaaft",
+      "keef"
+    ],
+    "correctAnswer": "keeft",
+    "rule": "kafen changes its vowel: si keeft."
+  },
+  {
+    "id": "grammar-192",
+    "sentence": "Ech ___ all Dag mam Bus.",
+    "translation": "I take the bus every day.",
+    "options": [
+      "fueren",
+      "fiers",
+      "fiert",
+      "fuers",
+      "fuert",
+      "féiers"
+    ],
+    "correctAnswer": "fueren",
+    "rule": "With Ech, fueren keeps the infinitive form."
+  },
+  {
+    "id": "grammar-193",
+    "sentence": "Du ___ haut op Lëtzebuerg.",
+    "translation": "You are going to Luxembourg today.",
+    "options": [
+      "fiers",
+      "fuers",
+      "fiert",
+      "fueren",
+      "fuert",
+      "féiers"
+    ],
+    "correctAnswer": "fiers",
+    "rule": "fueren changes its vowel: du fiers."
+  },
+  {
+    "id": "grammar-194",
+    "sentence": "Hien ___ mam Auto op d'Aarbecht.",
+    "translation": "He drives to work by car.",
+    "options": [
+      "fiert",
+      "fiers",
+      "fuert",
+      "fueren",
+      "fuers",
+      "féiert"
+    ],
+    "correctAnswer": "fiert",
+    "rule": "fueren changes its vowel: hien fiert."
+  },
+  {
+    "id": "grammar-195",
+    "sentence": "Ech ___ gär am Summer.",
+    "translation": "I like swimming in summer.",
+    "options": [
+      "schwammen",
+      "schwëmms",
+      "schwëmmt",
+      "schwamms",
+      "schwammt",
+      "schwëmmen"
+    ],
+    "correctAnswer": "schwammen",
+    "rule": "With Ech, schwammen keeps the infinitive form."
+  },
+  {
+    "id": "grammar-196",
+    "sentence": "Du ___ all Weekend an der Schwämm.",
+    "translation": "You swim every weekend at the swimming pool.",
+    "options": [
+      "schwëmmst",
+      "schwamms",
+      "schwëmmt",
+      "schwammen",
+      "schwëmms",
+      "schwammt"
+    ],
+    "correctAnswer": "schwëmmst",
+    "rule": "schwammen changes its vowel: du schwëmmst."
+  },
+  {
+    "id": "grammar-197",
+    "sentence": "Hien ___ ganz gutt.",
+    "translation": "He swims very well.",
+    "options": [
+      "schwëmmt",
+      "schwëmmst",
+      "schwammt",
+      "schwammen",
+      "schwëmms",
+      "schwammen"
+    ],
+    "correctAnswer": "schwëmmt",
+    "rule": "schwammen changes its vowel: hien schwëmmt."
+  },
+  {
+    "id": "grammar-198",
+    "sentence": "Ech ___ d'Wourecht.",
+    "translation": "I tell the truth.",
+    "options": [
+      "soen",
+      "sees",
+      "seet",
+      "so",
+      "soot",
+      "soten"
+    ],
+    "correctAnswer": "soen",
+    "rule": "With Ech, soen keeps the infinitive form."
+  },
+  {
+    "id": "grammar-199",
+    "sentence": "Du ___ ëmmer d'Wourecht.",
+    "translation": "You always tell the truth.",
+    "options": [
+      "sees",
+      "soen",
+      "seet",
+      "so",
+      "sot",
+      "sies"
+    ],
+    "correctAnswer": "sees",
+    "rule": "soen changes to sees with Du."
+  },
+  {
+    "id": "grammar-200",
+    "sentence": "Hatt ___ näischt.",
+    "translation": "She says nothing.",
+    "options": [
+      "seet",
+      "sees",
+      "soen",
+      "sot",
+      "so",
+      "seet dir"
+    ],
+    "correctAnswer": "seet",
+    "rule": "With Hatt, soen becomes seet."
+  },
+  {
+    "id": "grammar-201",
+    "sentence": "Ech ___ all Dag meng Hausaufgaben.",
+    "translation": "I do my homework every day.",
+    "options": [
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "maach",
+    "rule": "maachen changes to maach with Ech."
+  },
+  {
+    "id": "grammar-202",
+    "sentence": "Du ___ vill Sport.",
+    "translation": "You do a lot of sport.",
+    "options": [
+      "méchs",
+      "maachs",
+      "mécht",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "méchs",
+    "rule": "maachen changes to méchs with Du."
+  },
+  {
+    "id": "grammar-203",
+    "sentence": "Hien ___ d'Dier op.",
+    "translation": "He opens the door.",
+    "options": [
+      "mécht",
+      "maach",
+      "méchs",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "mécht",
+    "rule": "maachen changes to mécht with Hien."
+  },
+  {
+    "id": "grammar-204",
+    "sentence": "Hatt ___ d'Kichen propper.",
+    "translation": "She cleans the kitchen.",
+    "options": [
+      "mécht",
+      "maach",
+      "méchs",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "mécht",
+    "rule": "maachen changes to mécht with Hatt."
+  },
+  {
+    "id": "grammar-205",
+    "sentence": "Mir ___ haut e Kuch.",
+    "translation": "We are making a cake today.",
+    "options": [
+      "maachen",
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "méchen"
+    ],
+    "correctAnswer": "maachen",
+    "rule": "Mir uses maachen."
+  },
+  {
+    "id": "grammar-206",
+    "sentence": "Dir ___ vill Saachen zesummen.",
+    "translation": "You do many things together.",
+    "options": [
+      "maacht",
+      "maach",
+      "méchs",
+      "mécht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "maacht",
+    "rule": "Dir uses maacht."
+  },
+  {
+    "id": "grammar-207",
+    "sentence": "Si ___ hir Aarbecht moies.",
+    "translation": "They do their work in the morning.",
+    "options": [
+      "maachen",
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "méchen"
+    ],
+    "correctAnswer": "maachen",
+    "rule": "Si uses maachen."
+  },
+  {
+    "id": "grammar-208",
+    "sentence": "Wat ___ du elo?",
+    "translation": "What are you doing now?",
+    "options": [
+      "méchs",
+      "maachs",
+      "mécht",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "méchs",
+    "rule": "Du uses méchs."
+  },
+  {
+    "id": "grammar-209",
+    "sentence": "Wat ___ hien do?",
+    "translation": "What is he doing there?",
+    "options": [
+      "mécht",
+      "maach",
+      "méchs",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "mécht",
+    "rule": "Hien uses mécht."
+  },
+  {
+    "id": "grammar-210",
+    "sentence": "Ech ___ dat gären.",
+    "translation": "I like doing that.",
+    "options": [
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "maachen",
+      "méchen"
+    ],
+    "correctAnswer": "maach",
+    "rule": "Ech uses maach."
+  },
+  {
+    "id": "grammar-211",
+    "sentence": "Mir ___ eppes Iessen.",
+    "translation": "We are making some food.",
+    "options": [
+      "maachen",
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "méchen"
+    ],
+    "correctAnswer": "maachen",
+    "rule": "Mir uses maachen."
+  },
+  {
+    "id": "grammar-212",
+    "sentence": "Si ___ dat all Weekend.",
+    "translation": "They do that every weekend.",
+    "options": [
+      "maachen",
+      "maach",
+      "méchs",
+      "mécht",
+      "maacht",
+      "méchen"
+    ],
+    "correctAnswer": "maachen",
+    "rule": "Si uses maachen."
+  },
+  {
+    "id": "grammar-213",
+    "sentence": "Dat ass ___ Kand.",
+    "translation": "That is my child.",
+    "options": [
+      "mäi",
+      "mäin",
+      "meng",
+      "däi",
+      "säi",
+      "eist"
+    ],
+    "correctAnswer": "mäi",
+    "rule": "Before a neuter noun, Ech uses mäi."
+  },
+  {
+    "id": "grammar-214",
+    "sentence": "Dat ass ___ Kand, Tom.",
+    "translation": "That is your child, Tom.",
+    "options": [
+      "däi",
+      "mäi",
+      "däin",
+      "seng",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "däi",
+    "rule": "Before a neuter noun, Du uses däi."
+  },
+  {
+    "id": "grammar-215",
+    "sentence": "Dat ass ___ Kand.",
+    "translation": "That is his/her child.",
+    "options": [
+      "säi",
+      "mäi",
+      "mäin",
+      "däin",
+      "eist",
+      "hirt"
+    ],
+    "correctAnswer": "säi",
+    "rule": "Before a neuter noun, Hien/Hatt uses säi."
+  },
+  {
+    "id": "grammar-216",
+    "sentence": "Dat ass ___ Kand.",
+    "translation": "That is our child.",
+    "options": [
+      "eist",
+      "mäi",
+      "däi",
+      "säi",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "eist",
+    "rule": "Before a neuter noun, Mir uses eist."
+  },
+  {
+    "id": "grammar-217",
+    "sentence": "Dat ass ___ Kand.",
+    "translation": "That is your child.",
+    "options": [
+      "äert",
+      "mäi",
+      "däin",
+      "säin",
+      "eist",
+      "hirt"
+    ],
+    "correctAnswer": "äert",
+    "rule": "Before a neuter noun, Dir uses äert."
+  },
+  {
+    "id": "grammar-218",
+    "sentence": "Dat ass ___ Kand.",
+    "translation": "That is their child.",
+    "options": [
+      "hirt",
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "äert"
+    ],
+    "correctAnswer": "hirt",
+    "rule": "Before a neuter noun, Si uses hirt."
+  },
+  {
+    "id": "grammar-219",
+    "sentence": "Dat Kand ass ___. (Ech)",
+    "translation": "The child is mine.",
+    "options": [
+      "mäint",
+      "mäi",
+      "mengt",
+      "däint",
+      "säint",
+      "eist"
+    ],
+    "correctAnswer": "mäint",
+    "rule": "The standalone neuter possessive pronoun for Ech is mäint."
+  },
+  {
+    "id": "grammar-220",
+    "sentence": "Dat Kand ass ___. (Du)",
+    "translation": "The child is yours.",
+    "options": [
+      "däint",
+      "mäint",
+      "däi",
+      "säint",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "däint",
+    "rule": "The standalone neuter possessive pronoun for Du is däint."
+  },
+  {
+    "id": "grammar-221",
+    "sentence": "Dat Kand ass ___. (Hien)",
+    "translation": "The child is his.",
+    "options": [
+      "säint",
+      "mäint",
+      "däint",
+      "mäi",
+      "eist",
+      "äert"
+    ],
+    "correctAnswer": "säint",
+    "rule": "The standalone neuter possessive pronoun for Hien/Hatt is säint."
+  },
+  {
+    "id": "grammar-222",
+    "sentence": "Dat Kand ass ___. (Mir)",
+    "translation": "The child is ours.",
+    "options": [
+      "eist",
+      "mäint",
+      "däint",
+      "säint",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "eist",
+    "rule": "The standalone neuter possessive pronoun for Mir is eist."
+  },
+  {
+    "id": "grammar-223",
+    "sentence": "Dat Kand ass ___. (Dir)",
+    "translation": "The child is yours.",
+    "options": [
+      "äert",
+      "mäint",
+      "däint",
+      "säint",
+      "eist",
+      "hirt"
+    ],
+    "correctAnswer": "äert",
+    "rule": "The standalone neuter possessive pronoun for Dir is äert."
+  },
+  {
+    "id": "grammar-224",
+    "sentence": "Dat Kand ass ___. (Si)",
+    "translation": "The child is theirs.",
+    "options": [
+      "hirt",
+      "mäint",
+      "däint",
+      "säint",
+      "eist",
+      "äert"
+    ],
+    "correctAnswer": "hirt",
+    "rule": "The standalone neuter possessive pronoun for Si is hirt."
+  },
+  {
+    "id": "grammar-225",
+    "sentence": "___ Kanner spillen am Gaart.",
+    "translation": "My children are playing in the garden.",
+    "options": [
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Before a plural noun, Ech uses meng."
+  },
+  {
+    "id": "grammar-226",
+    "sentence": "___ Kanner sinn haut an der Schoul.",
+    "translation": "Your children are at school today.",
+    "options": [
+      "deng",
+      "meng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "deng",
+    "rule": "Before a plural noun, Du uses deng."
+  },
+  {
+    "id": "grammar-227",
+    "sentence": "___ Kanner si ganz léif.",
+    "translation": "His/her children are very nice.",
+    "options": [
+      "seng",
+      "meng",
+      "deng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "seng",
+    "rule": "Before a plural noun, Hien/Hatt uses seng."
+  },
+  {
+    "id": "grammar-228",
+    "sentence": "___ Kanner spille gär Fussball.",
+    "translation": "Our children like playing football.",
+    "options": [
+      "eis",
+      "meng",
+      "deng",
+      "seng",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "eis",
+    "rule": "Before a plural noun, Mir uses eis."
+  },
+  {
+    "id": "grammar-229",
+    "sentence": "___ Kanner sinn nach kleng.",
+    "translation": "Your children are still young.",
+    "options": [
+      "är",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "hir"
+    ],
+    "correctAnswer": "är",
+    "rule": "Before a plural noun, Dir uses är."
+  },
+  {
+    "id": "grammar-230",
+    "sentence": "___ Kanner wunnen zu Esch.",
+    "translation": "Their children live in Esch.",
+    "options": [
+      "hir",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är"
+    ],
+    "correctAnswer": "hir",
+    "rule": "Before a plural noun, Si uses hir."
+  },
+  {
+    "id": "grammar-231",
+    "sentence": "Ech gesinn ___ Kanner all Dag.",
+    "translation": "I see my children every day.",
+    "options": [
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Ech uses meng before a plural noun."
+  },
+  {
+    "id": "grammar-232",
+    "sentence": "Wou sinn ___ Kanner, Tom?",
+    "translation": "Where are your children, Tom?",
+    "options": [
+      "deng",
+      "meng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "deng",
+    "rule": "Du uses deng before a plural noun."
+  },
+  {
+    "id": "grammar-233",
+    "sentence": "Hien hëlt ___ Kanner aus der Schoul.",
+    "translation": "He picks up his children from school.",
+    "options": [
+      "seng",
+      "meng",
+      "deng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "seng",
+    "rule": "Hien uses seng before a plural noun."
+  },
+  {
+    "id": "grammar-234",
+    "sentence": "Mir huelen ___ Kanner mat an de Park.",
+    "translation": "We take our children to the park.",
+    "options": [
+      "eis",
+      "meng",
+      "deng",
+      "seng",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "eis",
+    "rule": "Mir uses eis before a plural noun."
+  },
+  {
+    "id": "grammar-235",
+    "sentence": "Dir sicht ___ Kanner am Gaart.",
+    "translation": "You are looking for your children in the garden.",
+    "options": [
+      "är",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "hir"
+    ],
+    "correctAnswer": "är",
+    "rule": "Dir uses är before a plural noun."
+  },
+  {
+    "id": "grammar-236",
+    "sentence": "Si besichen ___ Kanner dëse Weekend.",
+    "translation": "They are visiting their children this weekend.",
+    "options": [
+      "hir",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är"
+    ],
+    "correctAnswer": "hir",
+    "rule": "Si uses hir before a plural noun."
+  },
+  {
+    "id": "grammar-237",
+    "sentence": "___ Kand ass ganz léif.",
+    "translation": "My child is very nice.",
+    "options": [
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "mäi",
+    "rule": "Ech uses mäi before a neuter noun."
+  },
+  {
+    "id": "grammar-238",
+    "sentence": "___ Kand spillt am Gaart.",
+    "translation": "Your child is playing in the garden.",
+    "options": [
+      "däi",
+      "mäi",
+      "säi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "däi",
+    "rule": "Du uses däi before a neuter noun."
+  },
+  {
+    "id": "grammar-239",
+    "sentence": "___ Kand ass nach kleng.",
+    "translation": "His/her child is still young.",
+    "options": [
+      "säi",
+      "mäi",
+      "däi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "säi",
+    "rule": "Hien/Hatt uses säi before a neuter noun."
+  },
+  {
+    "id": "grammar-240",
+    "sentence": "___ Kand geet an d'Schoul.",
+    "translation": "Our child is going to school.",
+    "options": [
+      "eist",
+      "mäi",
+      "däi",
+      "säi",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "eist",
+    "rule": "Mir uses eist before a neuter noun."
+  },
+  {
+    "id": "grammar-241",
+    "sentence": "___ Kand ass ganz roueg.",
+    "translation": "Your child is very quiet.",
+    "options": [
+      "äert",
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "hirt"
+    ],
+    "correctAnswer": "äert",
+    "rule": "Dir uses äert before a neuter noun."
+  },
+  {
+    "id": "grammar-242",
+    "sentence": "___ Kand schléift schonn.",
+    "translation": "Their child is already sleeping.",
+    "options": [
+      "hirt",
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "äert"
+    ],
+    "correctAnswer": "hirt",
+    "rule": "Si uses hirt before a neuter noun."
+  },
+  {
+    "id": "grammar-243",
+    "sentence": "Ech sichen ___ Kand.",
+    "translation": "I am looking for my child.",
+    "options": [
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "mäi",
+    "rule": "Ech uses mäi before a neuter noun."
+  },
+  {
+    "id": "grammar-244",
+    "sentence": "Wou ass ___ Kand, Tom?",
+    "translation": "Where is your child, Tom?",
+    "options": [
+      "däi",
+      "mäi",
+      "säi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "däi",
+    "rule": "Du uses däi before a neuter noun."
+  },
+  {
+    "id": "grammar-245",
+    "sentence": "Hien hëlt ___ Kand aus der Schoul.",
+    "translation": "He picks up his child from school.",
+    "options": [
+      "säi",
+      "mäi",
+      "däi",
+      "eist",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "säi",
+    "rule": "Hien uses säi before a neuter noun."
+  },
+  {
+    "id": "grammar-246",
+    "sentence": "Mir huelen ___ Kand mat an de Park.",
+    "translation": "We take our child to the park.",
+    "options": [
+      "eist",
+      "mäi",
+      "däi",
+      "säi",
+      "äert",
+      "hirt"
+    ],
+    "correctAnswer": "eist",
+    "rule": "Mir uses eist before a neuter noun."
+  },
+  {
+    "id": "grammar-247",
+    "sentence": "Dir këmmert Iech ëm ___ Kand.",
+    "translation": "You take care of your child.",
+    "options": [
+      "äert",
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "hirt"
+    ],
+    "correctAnswer": "äert",
+    "rule": "Dir uses äert before a neuter noun."
+  },
+  {
+    "id": "grammar-248",
+    "sentence": "Si sicht ___ Kand am Park.",
+    "translation": "She is looking for her child in the park.",
+    "options": [
+      "hirt",
+      "mäi",
+      "däi",
+      "säi",
+      "eist",
+      "äert"
+    ],
+    "correctAnswer": "hirt",
+    "rule": "Si uses hirt before a neuter noun."
+  },
+  {
+    "id": "grammar-249",
+    "sentence": "___ Fra ass ganz léif.",
+    "translation": "My wife is very nice.",
+    "options": [
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Before a feminine noun, Ech uses meng."
+  },
+  {
+    "id": "grammar-250",
+    "sentence": "___ Fra schafft zu Lëtzebuerg.",
+    "translation": "Your wife works in Luxembourg.",
+    "options": [
+      "deng",
+      "meng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "deng",
+    "rule": "Before a feminine noun, Du uses deng."
+  },
+  {
+    "id": "grammar-251",
+    "sentence": "___ Fra kënnt haut heem.",
+    "translation": "His/her wife is coming home today.",
+    "options": [
+      "seng",
+      "meng",
+      "deng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "seng",
+    "rule": "Before a feminine noun, Hien/Hatt uses seng."
+  },
+  {
+    "id": "grammar-252",
+    "sentence": "___ Fra ass Doktesch.",
+    "translation": "Our wife is a doctor.",
+    "options": [
+      "eis",
+      "meng",
+      "deng",
+      "seng",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "eis",
+    "rule": "Before a feminine noun, Mir uses eis."
+  },
+  {
+    "id": "grammar-253",
+    "sentence": "___ Fra schafft an enger Bank.",
+    "translation": "Your wife works in a bank.",
+    "options": [
+      "är",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "hir"
+    ],
+    "correctAnswer": "är",
+    "rule": "Before a feminine noun, Dir uses är."
+  },
+  {
+    "id": "grammar-254",
+    "sentence": "___ Fra wunnt zu Esch.",
+    "translation": "Their wife lives in Esch.",
+    "options": [
+      "hir",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är"
+    ],
+    "correctAnswer": "hir",
+    "rule": "Before a feminine noun, Si uses hir."
+  },
+  {
+    "id": "grammar-255",
+    "sentence": "Ech hunn ___ Fra gëschter gesinn.",
+    "translation": "I saw my wife yesterday.",
+    "options": [
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Before a feminine noun, Ech uses meng."
+  },
+  {
+    "id": "grammar-256",
+    "sentence": "Wou ass ___ Fra, Tom?",
+    "translation": "Where is your wife, Tom?",
+    "options": [
+      "deng",
+      "meng",
+      "seng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "deng",
+    "rule": "Before a feminine noun, Du uses deng."
+  },
+  {
+    "id": "grammar-257",
+    "sentence": "Hien telefonéiert mat ___ Fra.",
+    "translation": "He is talking on the phone with his wife.",
+    "options": [
+      "seng",
+      "meng",
+      "deng",
+      "eis",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "seng",
+    "rule": "Before a feminine noun, Hien uses seng."
+  },
+  {
+    "id": "grammar-258",
+    "sentence": "Mir besichen ___ Fra dëse Weekend.",
+    "translation": "We are visiting our wife this weekend.",
+    "options": [
+      "eis",
+      "meng",
+      "deng",
+      "seng",
+      "är",
+      "hir"
+    ],
+    "correctAnswer": "eis",
+    "rule": "Before a feminine noun, Mir uses eis."
+  },
+  {
+    "id": "grammar-259",
+    "sentence": "Dir kennt ___ Fra scho laang.",
+    "translation": "You have known your wife for a long time.",
+    "options": [
+      "är",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "hir"
+    ],
+    "correctAnswer": "är",
+    "rule": "Before a feminine noun, Dir uses är."
+  },
+  {
+    "id": "grammar-260",
+    "sentence": "Si schwätzt dacks iwwer ___ Fra.",
+    "translation": "She often talks about her wife.",
+    "options": [
+      "hir",
+      "meng",
+      "deng",
+      "seng",
+      "eis",
+      "är"
+    ],
+    "correctAnswer": "hir",
+    "rule": "Before a feminine noun, Si uses hir."
+  },
+  {
+    "id": "grammar-261",
+    "sentence": "___ Auto ass nei.",
+    "translation": "My car is new.",
+    "options": [
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Before a masculine noun, Ech uses mäin."
+  },
+  {
+    "id": "grammar-262",
+    "sentence": "___ Auto ass grouss.",
+    "translation": "Your car is big.",
+    "options": [
+      "däin",
+      "mäin",
+      "säin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "däin",
+    "rule": "Before a masculine noun, Du uses däin."
+  },
+  {
+    "id": "grammar-263",
+    "sentence": "___ Auto steet virum Haus.",
+    "translation": "His car is in front of the house.",
+    "options": [
+      "säin",
+      "mäin",
+      "däin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "säin",
+    "rule": "Before a masculine noun, Hien uses säin."
+  },
+  {
+    "id": "grammar-264",
+    "sentence": "___ Auto ass an der Garage.",
+    "translation": "Our car is in the garage.",
+    "options": [
+      "eisen",
+      "mäin",
+      "däin",
+      "säin",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "eisen",
+    "rule": "Before a masculine noun, Mir uses eisen."
+  },
+  {
+    "id": "grammar-265",
+    "sentence": "___ Auto ass ganz modern.",
+    "translation": "Your car is very modern.",
+    "options": [
+      "ären",
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "hiren"
+    ],
+    "correctAnswer": "ären",
+    "rule": "Before a masculine noun, Dir uses ären."
+  },
+  {
+    "id": "grammar-266",
+    "sentence": "___ Auto ass dobaussen.",
+    "translation": "Their car is outside.",
+    "options": [
+      "hiren",
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "ären"
+    ],
+    "correctAnswer": "hiren",
+    "rule": "Before a masculine noun, Si uses hiren."
+  },
+  {
+    "id": "grammar-267",
+    "sentence": "Ech wäschen ___ Auto all Samschdeg.",
+    "translation": "I wash my car every Saturday.",
+    "options": [
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Before a masculine noun, Ech uses mäin."
+  },
+  {
+    "id": "grammar-268",
+    "sentence": "Wou ass ___ Auto, Julien?",
+    "translation": "Where is your car, Julien?",
+    "options": [
+      "däin",
+      "mäin",
+      "säin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "däin",
+    "rule": "Before a masculine noun, Du uses däin."
+  },
+  {
+    "id": "grammar-269",
+    "sentence": "Hien fiert mat ___ Auto op d'Aarbecht.",
+    "translation": "He drives to work in his car.",
+    "options": [
+      "säin",
+      "mäin",
+      "däin",
+      "eisen",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "säin",
+    "rule": "Before a masculine noun, Hien uses säin."
+  },
+  {
+    "id": "grammar-270",
+    "sentence": "Mir fueren mat ___ Auto an d'Vakanz.",
+    "translation": "We are going on holiday in our car.",
+    "options": [
+      "eisen",
+      "mäin",
+      "däin",
+      "säin",
+      "ären",
+      "hiren"
+    ],
+    "correctAnswer": "eisen",
+    "rule": "Before a masculine noun, Mir uses eisen."
+  },
+  {
+    "id": "grammar-271",
+    "sentence": "Dir kënnt mat ___ Auto kommen.",
+    "translation": "You can come in your car.",
+    "options": [
+      "ären",
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "hiren"
+    ],
+    "correctAnswer": "ären",
+    "rule": "Before a masculine noun, Dir uses ären."
+  },
+  {
+    "id": "grammar-272",
+    "sentence": "Si sinn houfreg op ___ Auto.",
+    "translation": "They are proud of their car.",
+    "options": [
+      "hiren",
+      "mäin",
+      "däin",
+      "säin",
+      "eisen",
+      "ären"
+    ],
+    "correctAnswer": "hiren",
+    "rule": "Before a masculine noun, Si uses hiren."
+  },
+  {
+    "id": "grammar-273",
+    "sentence": "___ Auto ass nei.",
+    "translation": "My car is new.",
+    "options": [
+      "mäin",
+      "meng",
+      "mengt",
+      "mäi",
+      "mein",
+      "mengen"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Auto is masculine, so Ech uses mäin."
+  },
+  {
+    "id": "grammar-274",
+    "sentence": "___ Fra schafft zu Lëtzebuerg.",
+    "translation": "My wife works in Luxembourg.",
+    "options": [
+      "meng",
+      "mäin",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Fra is feminine, so Ech uses meng."
+  },
+  {
+    "id": "grammar-275",
+    "sentence": "___ Haus ass grouss.",
+    "translation": "My house is big.",
+    "options": [
+      "mäin",
+      "meng",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Haus is neuter, so Ech uses mäin."
+  },
+  {
+    "id": "grammar-276",
+    "sentence": "___ Kanner sinn an der Schoul.",
+    "translation": "My children are at school.",
+    "options": [
+      "meng",
+      "mäin",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Before a plural noun, Ech uses meng."
+  },
+  {
+    "id": "grammar-277",
+    "sentence": "Wou ass ___ Auto?",
+    "translation": "Where is my car?",
+    "options": [
+      "mäin",
+      "meng",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Auto is masculine, so Ech uses mäin."
+  },
+  {
+    "id": "grammar-278",
+    "sentence": "Wou ass ___ Fra?",
+    "translation": "Where is my wife?",
+    "options": [
+      "meng",
+      "mäin",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Fra is feminine, so Ech uses meng."
+  },
+  {
+    "id": "grammar-279",
+    "sentence": "Wou ass ___ Haus?",
+    "translation": "Where is my house?",
+    "options": [
+      "mäin",
+      "meng",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "mäin",
+    "rule": "Haus is neuter, so Ech uses mäin."
+  },
+  {
+    "id": "grammar-280",
+    "sentence": "Wou sinn ___ Kanner?",
+    "translation": "Where are my children?",
+    "options": [
+      "meng",
+      "mäin",
+      "mäi",
+      "mengt",
+      "mengen",
+      "meien"
+    ],
+    "correctAnswer": "meng",
+    "rule": "Before a plural noun, Ech uses meng."
+  },
+  {
+    "id": "grammar-281",
+    "sentence": "Ech ___ all Moien um sechs Auer ___.",
+    "translation": "I get up every morning at six o'clock.",
+    "options": [
+      "stinn [F] / op",
+      "stinn [F] / an",
+      "ginn [F] / bäi",
+      "maachen [F] / do",
+      "kommen [F] / dobäi",
+      "bleiwen [F] / dertescht"
+    ],
+    "correctAnswer": "stinn [F] / op",
+    "rule": "The separable verb opstoen splits: Ech stinn ... op."
+  },
+  {
+    "id": "grammar-282",
+    "sentence": "Hie ___ muer um néng Auer ___.",
+    "translation": "He starts tomorrow at nine o'clock.",
+    "options": [
+      "fänkt [F] / un",
+      "fänkt [F] / bäi",
+      "kënnt [F] / do",
+      "geet [F] / dobäi",
+      "steet [F] / an",
+      "mécht [F] / dertescht"
+    ],
+    "correctAnswer": "fänkt [F] / un",
+    "rule": "The separable verb ufänken splits: Hie fänkt ... un."
+  },
+  {
+    "id": "grammar-283",
+    "sentence": "Mir ___ nach e Glas Waasser ___.",
+    "translation": "We drink another glass of water.",
+    "options": [
+      "huelen [F] / un",
+      "drénken [F] / bäi",
+      "maachen [F] / op",
+      "ginn [F] / do",
+      "kommen [F] / an",
+      "bleiwen [F] / dertescht"
+    ],
+    "correctAnswer": "drénken [F] / bäi",
+    "rule": "The separable prefix bäi- goes to the end: drénken ... bäi."
+  },
+  {
+    "id": "grammar-284",
+    "sentence": "Si ___ d'Bicher ___.",
+    "translation": "She opens the books.",
+    "options": [
+      "mécht [F] / op",
+      "mécht [F] / un",
+      "hëlt [F] / bäi",
+      "geet [F] / do",
+      "kënnt [F] / dobäi",
+      "bleift [F] / dertescht"
+    ],
+    "correctAnswer": "mécht [F] / op",
+    "rule": "The separable verb opmaachen splits: Si mécht ... op."
+  },
+  {
+    "id": "grammar-285",
+    "sentence": "Du ___ mir bei der Aarbecht ___.",
+    "translation": "You help me with the work.",
+    "options": [
+      "hëllefs [F] / bäi",
+      "hëllefs [F] / un",
+      "gees [F] / op",
+      "stells [F] / do",
+      "hëls [F] / an",
+      "bleifs [F] / dertescht"
+    ],
+    "correctAnswer": "hëllefs [F] / bäi",
+    "rule": "The separable verb bäihëllefen splits: Du hëllefs ... bäi."
+  },
+  {
+    "id": "grammar-286",
+    "sentence": "De Cours ___ um fënnef Auer ___.",
+    "translation": "The course starts at five o'clock.",
+    "options": [
+      "geet [F] / un",
+      "geet [F] / op",
+      "fänkt [F] / bäi",
+      "kënnt [F] / do",
+      "steet [F] / dobäi",
+      "bleift [F] / dertescht"
+    ],
+    "correctAnswer": "geet [F] / un",
+    "rule": "The separable verb ugoen splits: De Cours geet ... un."
+  },
+  {
+    "id": "grammar-287",
+    "sentence": "Ech ___ dat Dokument ___.",
+    "translation": "I give that document.",
+    "options": [
+      "ginn [F] / do",
+      "maachen [F] / un",
+      "huelen [F] / op",
+      "fänken [F] / bäi",
+      "kommen [F] / an",
+      "stellen [F] / dertescht"
+    ],
+    "correctAnswer": "ginn [F] / do",
+    "rule": "The separable verb dóginn splits: Ech ginn ... do."
+  },
+  {
+    "id": "grammar-288",
+    "sentence": "Hien ___ bei eis ___.",
+    "translation": "He joins us.",
+    "options": [
+      "kënnt [F] / dobäi",
+      "kënnt [F] / un",
+      "geet [F] / op",
+      "hëlt [F] / bäi",
+      "steet [F] / an",
+      "bleift [F] / dertescht"
+    ],
+    "correctAnswer": "kënnt [F] / dobäi",
+    "rule": "The separable verb dobäikommen splits: Hien kënnt ... dobäi."
+  },
+  {
+    "id": "grammar-289",
+    "sentence": "D'Kand ___ seng Schong ___.",
+    "translation": "The child puts on its shoes.",
+    "options": [
+      "mécht [F] / un",
+      "mécht [F] / op",
+      "hëlt [F] / dobäi",
+      "geet [F] / do",
+      "kënnt [F] / bäi",
+      "steet [F] / dertescht"
+    ],
+    "correctAnswer": "mécht [F] / un",
+    "rule": "The separable verb undoen splits: D'Kand mécht ... un."
+  },
+  {
+    "id": "grammar-290",
+    "sentence": "Mir ___ mam Projet ___.",
+    "translation": "We start the project.",
+    "options": [
+      "fänken [F] / un",
+      "fänken [F] / op",
+      "maachen [F] / bäi",
+      "ginn [F] / do",
+      "kommen [F] / an",
+      "huelen [F] / dertescht"
+    ],
+    "correctAnswer": "fänken [F] / un",
+    "rule": "The separable verb ufänken splits: Mir fänken ... un."
+  },
+  {
+    "id": "grammar-291",
+    "sentence": "Ech ginn ___ Frënd an de Kino.",
+    "translation": "I am going to the cinema with my friend.",
+    "options": [
+      "mam",
+      "mat der",
+      "mat de",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mam",
+    "rule": "mat + dem = mam before a masculine/neuter noun."
+  },
+  {
+    "id": "grammar-292",
+    "sentence": "Si geet ___ Schwëster an d'Stad.",
+    "translation": "She is going to the city with her sister.",
+    "options": [
+      "mat der",
+      "mam",
+      "mat de",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mat der",
+    "rule": "Before a feminine noun, use mat der."
+  },
+  {
+    "id": "grammar-293",
+    "sentence": "D'Kanner spille ___ Frënn am Park.",
+    "translation": "The children play with their friends in the park.",
+    "options": [
+      "mat de",
+      "mam",
+      "mat der",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mat de",
+    "rule": "Before a plural noun, use mat de."
+  },
+  {
+    "id": "grammar-294",
+    "sentence": "Ech waarden ___ Bus.",
+    "translation": "I am waiting for the bus.",
+    "options": [
+      "um",
+      "mam",
+      "mat der",
+      "mat de",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem = um before a masculine/neuter noun."
+  },
+  {
+    "id": "grammar-295",
+    "sentence": "Si sëtzt ___ Bank.",
+    "translation": "She is sitting on the bench.",
+    "options": [
+      "op der",
+      "um",
+      "mam",
+      "mat der",
+      "op de",
+      "mat de"
+    ],
+    "correctAnswer": "op der",
+    "rule": "Before a feminine noun, use op der."
+  },
+  {
+    "id": "grammar-296",
+    "sentence": "Mir sinn ___ Concert.",
+    "translation": "We are at the concert.",
+    "options": [
+      "um",
+      "mam",
+      "mat der",
+      "mat de",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem = um before a masculine/neuter noun."
+  },
+  {
+    "id": "grammar-297",
+    "sentence": "Hie geet ___ Kollegen an de Restaurant.",
+    "translation": "He goes to the restaurant with his colleagues.",
+    "options": [
+      "mat de",
+      "mam",
+      "mat der",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mat de",
+    "rule": "Before a plural noun, use mat de."
+  },
+  {
+    "id": "grammar-298",
+    "sentence": "Ech fueren ___ Auto op d'Aarbecht.",
+    "translation": "I drive to work in my car.",
+    "options": [
+      "mam",
+      "mat der",
+      "mat de",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mam",
+    "rule": "mat + dem = mam before a masculine/neuter noun."
+  },
+  {
+    "id": "grammar-299",
+    "sentence": "D'Leit waarden ___ Gare.",
+    "translation": "The people are waiting at the station.",
+    "options": [
+      "op der",
+      "um",
+      "mam",
+      "mat der",
+      "mat de",
+      "op de"
+    ],
+    "correctAnswer": "op der",
+    "rule": "Before a feminine noun, use op der."
+  },
+  {
+    "id": "grammar-300",
+    "sentence": "Mir stinn ___ Maart.",
+    "translation": "We are at the market.",
+    "options": [
+      "um",
+      "mam",
+      "mat der",
+      "mat de",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem contracts to um; masculine/neuter location"
+  },
+  {
+    "id": "grammar-301",
+    "sentence": "Si kënnt ___ Kanner op d'Party.",
+    "translation": "She comes to the party with the children.",
+    "options": [
+      "mat de",
+      "mam",
+      "mat der",
+      "um",
+      "op der",
+      "op de"
+    ],
+    "correctAnswer": "mat de",
+    "rule": "mat + de is used with plural nouns"
+  },
+  {
+    "id": "grammar-302",
+    "sentence": "Ech sinn ___ Dokter am Waardesall.",
+    "translation": "I am with the doctor in the waiting room.",
+    "options": [
+      "mam",
+      "mat der",
+      "mat de",
+      "um",
+      "op der",
+      "bei der"
+    ],
+    "correctAnswer": "mam",
+    "rule": "mat + dem contracts to mam; masculine noun"
+  },
+  {
+    "id": "grammar-303",
+    "sentence": "Ech sinn ___ Büro.",
+    "translation": "I am in the office.",
+    "options": [
+      "am",
+      "an der",
+      "an de",
+      "op dem",
+      "bei der",
+      "un de"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem contracts to am; masculine/neuter noun"
+  },
+  {
+    "id": "grammar-304",
+    "sentence": "D'Kanner sinn ___ Schoul.",
+    "translation": "The children are at school.",
+    "options": [
+      "an der",
+      "am",
+      "an de",
+      "op dem",
+      "bei der",
+      "un der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-305",
+    "sentence": "D'Schüler sinn ___ Klassen.",
+    "translation": "The students are in the classes.",
+    "options": [
+      "an de",
+      "am",
+      "an der",
+      "op dem",
+      "bei der",
+      "un de"
+    ],
+    "correctAnswer": "an de",
+    "rule": "an de is used with plural nouns"
+  },
+  {
+    "id": "grammar-306",
+    "sentence": "Hie schafft ___ Supermarché.",
+    "translation": "He works at the supermarket.",
+    "options": [
+      "am",
+      "an der",
+      "an de",
+      "bei der",
+      "op dem",
+      "un der"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem contracts to am; masculine noun"
+  },
+  {
+    "id": "grammar-307",
+    "sentence": "Si ass ___ Apdikt.",
+    "translation": "She is in the pharmacy.",
+    "options": [
+      "an der",
+      "am",
+      "an de",
+      "bei dem",
+      "op der",
+      "un de"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-308",
+    "sentence": "D'Leit waarden ___ Restauranten.",
+    "translation": "The people are waiting in the restaurants.",
+    "options": [
+      "an de",
+      "am",
+      "an der",
+      "bei der",
+      "op dem",
+      "un de"
+    ],
+    "correctAnswer": "an de",
+    "rule": "an de is used with plural nouns"
+  },
+  {
+    "id": "grammar-309",
+    "sentence": "Mir sinn ___ Kino.",
+    "translation": "We are at the cinema.",
+    "options": [
+      "am",
+      "an der",
+      "an de",
+      "bei der",
+      "op der",
+      "un dem"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem contracts to am; masculine noun"
+  },
+  {
+    "id": "grammar-310",
+    "sentence": "D'Dokteren schaffen ___ Klinik.",
+    "translation": "The doctors work in the clinic.",
+    "options": [
+      "an der",
+      "am",
+      "an de",
+      "bei dem",
+      "op dem",
+      "un der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-311",
+    "sentence": "D'Kanner spillen ___ Spillplazen.",
+    "translation": "The children play in the playgrounds.",
+    "options": [
+      "an de",
+      "am",
+      "an der",
+      "bei der",
+      "op dem",
+      "un de"
+    ],
+    "correctAnswer": "an de",
+    "rule": "an de is used with plural nouns"
+  },
+  {
+    "id": "grammar-312",
+    "sentence": "Ech waarden ___ Gare.",
+    "translation": "I am waiting at the station.",
+    "options": [
+      "an der",
+      "am",
+      "an de",
+      "bei dem",
+      "op der",
+      "un dem"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-313",
+    "sentence": "D'Buch ass ___ dem Dësch.",
+    "translation": "The book is on the table.",
+    "options": [
+      "op",
+      "an",
+      "hannert",
+      "tëschent",
+      "niewent",
+      "bei"
+    ],
+    "correctAnswer": "op",
+    "rule": "op means on; with location, op dem can be used"
+  },
+  {
+    "id": "grammar-314",
+    "sentence": "D'Bild hänkt ___ der Mauer.",
+    "translation": "The picture is hanging on the wall.",
+    "options": [
+      "un",
+      "op",
+      "an",
+      "hannert",
+      "tëschent",
+      "bei"
+    ],
+    "correctAnswer": "un",
+    "rule": "un means on/against and is used here with a wall"
+  },
+  {
+    "id": "grammar-315",
+    "sentence": "De Ball ass ___ dem Canapé.",
+    "translation": "The ball is behind the sofa.",
+    "options": [
+      "hannert",
+      "an",
+      "op",
+      "tëschent",
+      "niewent",
+      "widdert"
+    ],
+    "correctAnswer": "hannert",
+    "rule": "hannert means behind"
+  },
+  {
+    "id": "grammar-316",
+    "sentence": "De Stull steet ___ dem Dësch an dem Canapé.",
+    "translation": "The chair is between the table and the sofa.",
+    "options": [
+      "tëschent",
+      "hannert",
+      "op",
+      "an",
+      "bei",
+      "widdert"
+    ],
+    "correctAnswer": "tëschent",
+    "rule": "tëschent means between"
+  },
+  {
+    "id": "grammar-317",
+    "sentence": "D'Täsch steet ___ dem Stull.",
+    "translation": "The bag is next to the chair.",
+    "options": [
+      "niewent",
+      "hannert",
+      "tëschent",
+      "op",
+      "iwwert",
+      "widdert"
+    ],
+    "correctAnswer": "niewent",
+    "rule": "niewent means next to"
+  },
+  {
+    "id": "grammar-318",
+    "sentence": "De Vëlo steet ___ dem Haus.",
+    "translation": "The bicycle is next to/at the house.",
+    "options": [
+      "bei",
+      "an",
+      "op",
+      "hannert",
+      "tëschent",
+      "iwwert"
+    ],
+    "correctAnswer": "bei",
+    "rule": "bei is used for location at/near a place"
+  },
+  {
+    "id": "grammar-319",
+    "sentence": "D'Kanner spillen ___ dem Haus.",
+    "translation": "The children play against the house.",
+    "options": [
+      "widdert",
+      "an",
+      "op",
+      "hannert",
+      "tëschent",
+      "bei"
+    ],
+    "correctAnswer": "widdert",
+    "rule": "widdert means against"
+  },
+  {
+    "id": "grammar-320",
+    "sentence": "D'Lampe hänkt ___ dem Dësch.",
+    "translation": "The lamp hangs above the table.",
+    "options": [
+      "iwwert",
+      "an",
+      "op",
+      "hannert",
+      "tëschent",
+      "widdert"
+    ],
+    "correctAnswer": "iwwert",
+    "rule": "iwwert means above/over"
+  },
+  {
+    "id": "grammar-321",
+    "sentence": "D'Kand geet ___ d'Kichen.",
+    "translation": "The child goes into the kitchen.",
+    "options": [
+      "an",
+      "op",
+      "hannert",
+      "tëschent",
+      "niewent",
+      "widdert"
+    ],
+    "correctAnswer": "an",
+    "rule": "an is used for movement into a place; an d' before feminine noun"
+  },
+  {
+    "id": "grammar-322",
+    "sentence": "Ech leeën d'Buch ___ den Dësch.",
+    "translation": "I put the book on the table.",
+    "options": [
+      "op",
+      "an",
+      "hannert",
+      "tëschent",
+      "niewent",
+      "bei"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for movement onto a surface; accusative follows"
+  },
+  {
+    "id": "grammar-323",
+    "sentence": "De Mann steet ___ der Dier.",
+    "translation": "The man is standing behind the door.",
+    "options": [
+      "hannert",
+      "an",
+      "op",
+      "tëschent",
+      "iwwert",
+      "widdert"
+    ],
+    "correctAnswer": "hannert",
+    "rule": "hannert means behind; der is feminine"
+  },
+  {
+    "id": "grammar-324",
+    "sentence": "De Kino ass ___ dem Restaurant an der Bank.",
+    "translation": "The cinema is between the restaurant and the bank.",
+    "options": [
+      "tëschent",
+      "hannert",
+      "op",
+      "an",
+      "bei",
+      "widdert"
+    ],
+    "correctAnswer": "tëschent",
+    "rule": "tëschent means between"
+  },
+  {
+    "id": "grammar-325",
+    "sentence": "Ech kommen ___ Lëtzebuerg.",
+    "translation": "I come from Luxembourg.",
+    "options": [
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "aus",
+    "rule": "aus expresses origin from a country"
+  },
+  {
+    "id": "grammar-326",
+    "sentence": "Ech fueren ___ mengem Frënd an d'Stad.",
+    "translation": "I am going to the city with my friend.",
+    "options": [
+      "mat",
+      "aus",
+      "zenter",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "mat",
+    "rule": "mat means with and takes the dative"
+  },
+  {
+    "id": "grammar-327",
+    "sentence": "Ech wunnen ___ zwee Joer zu Lëtzebuerg.",
+    "translation": "I have been living in Luxembourg for two years.",
+    "options": [
+      "zenter",
+      "aus",
+      "mat",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "zenter",
+    "rule": "zenter is a dative preposition meaning since/for"
+  },
+  {
+    "id": "grammar-328",
+    "sentence": "Ech kommen ___ der Schoul.",
+    "translation": "I come from the school.",
+    "options": [
+      "vun",
+      "aus",
+      "mat",
+      "zenter",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "vun",
+    "rule": "vun expresses origin/from and takes the dative"
+  },
+  {
+    "id": "grammar-329",
+    "sentence": "___ dem Reen bleiwen ech doheem.",
+    "translation": "Because of the rain, I stay at home.",
+    "options": [
+      "wéinst",
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "trotz"
+    ],
+    "correctAnswer": "wéinst",
+    "rule": "wéinst takes the dative"
+  },
+  {
+    "id": "grammar-330",
+    "sentence": "___ dem Reen gi mir spadséieren.",
+    "translation": "Despite the rain, we go for a walk.",
+    "options": [
+      "trotz",
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "wéinst"
+    ],
+    "correctAnswer": "trotz",
+    "rule": "trotz takes the dative"
+  },
+  {
+    "id": "grammar-331",
+    "sentence": "Ech kommen ___ Frankräich.",
+    "translation": "I come from France.",
+    "options": [
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "aus",
+    "rule": "aus is used for origin from a country"
+  },
+  {
+    "id": "grammar-332",
+    "sentence": "Si geet ___ hirer Schwëster an de Kino.",
+    "translation": "She goes to the cinema with her sister.",
+    "options": [
+      "mat",
+      "aus",
+      "zenter",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "mat",
+    "rule": "mat means with and takes the dative"
+  },
+  {
+    "id": "grammar-333",
+    "sentence": "Hie schafft ___ Januar hei.",
+    "translation": "He has been working here since January.",
+    "options": [
+      "zenter",
+      "aus",
+      "mat",
+      "vun",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "zenter",
+    "rule": "zenter expresses duration since a point in time"
+  },
+  {
+    "id": "grammar-334",
+    "sentence": "D'Kanner kommen ___ der Schoul.",
+    "translation": "The children come from school.",
+    "options": [
+      "vun",
+      "aus",
+      "mat",
+      "zenter",
+      "wéinst",
+      "trotz"
+    ],
+    "correctAnswer": "vun",
+    "rule": "vun means from and takes the dative"
+  },
+  {
+    "id": "grammar-335",
+    "sentence": "___ dem schlechte Wieder bleift de Fliger um Buedem.",
+    "translation": "Because of the bad weather, the plane stays on the ground.",
+    "options": [
+      "wéinst",
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "trotz"
+    ],
+    "correctAnswer": "wéinst",
+    "rule": "wéinst takes the dative"
+  },
+  {
+    "id": "grammar-336",
+    "sentence": "___ der Keelt gi mir lafen.",
+    "translation": "Despite the cold, we go running.",
+    "options": [
+      "trotz",
+      "aus",
+      "mat",
+      "zenter",
+      "vun",
+      "wéinst"
+    ],
+    "correctAnswer": "trotz",
+    "rule": "trotz takes the dative"
+  },
+  {
+    "id": "grammar-337",
+    "sentence": "Ech kafen e Kaddo ___ mäi Brudder.",
+    "translation": "I am buying a present for my brother.",
+    "options": [
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "fir",
+    "rule": "fir is an accusative preposition meaning for"
+  },
+  {
+    "id": "grammar-338",
+    "sentence": "Mir ginn ___ de Park.",
+    "translation": "We go through the park.",
+    "options": [
+      "duerch",
+      "fir",
+      "ouni",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "duerch",
+    "rule": "duerch means through and takes the accusative"
+  },
+  {
+    "id": "grammar-339",
+    "sentence": "Ech ginn net eraus ___ mäi Mantel.",
+    "translation": "I am not going outside without my coat.",
+    "options": [
+      "ouni",
+      "fir",
+      "duerch",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "ouni",
+    "rule": "ouni means without and takes the accusative"
+  },
+  {
+    "id": "grammar-340",
+    "sentence": "D'Kanner lafen ___ den Dësch.",
+    "translation": "The children run around the table.",
+    "options": [
+      "ëm",
+      "fir",
+      "duerch",
+      "ouni",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "ëm",
+    "rule": "ëm means around and takes the accusative"
+  },
+  {
+    "id": "grammar-341",
+    "sentence": "Ech bleiwen hei ___ muer.",
+    "translation": "I am staying here until tomorrow.",
+    "options": [
+      "bis",
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "laanscht"
+    ],
+    "correctAnswer": "bis",
+    "rule": "bis means until"
+  },
+  {
+    "id": "grammar-342",
+    "sentence": "Mir ginn ___ de Supermarché.",
+    "translation": "We go past the supermarket.",
+    "options": [
+      "laanscht",
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "bis"
+    ],
+    "correctAnswer": "laanscht",
+    "rule": "laanscht means past/alongside and takes the accusative"
+  },
+  {
+    "id": "grammar-343",
+    "sentence": "Dëse Kaddo ass ___ meng Mamm.",
+    "translation": "This present is for my mother.",
+    "options": [
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "fir",
+    "rule": "fir means for and takes the accusative"
+  },
+  {
+    "id": "grammar-344",
+    "sentence": "Si fueren ___ den Tunnel.",
+    "translation": "They drive through the tunnel.",
+    "options": [
+      "duerch",
+      "fir",
+      "ouni",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "duerch",
+    "rule": "duerch means through and takes the accusative"
+  },
+  {
+    "id": "grammar-345",
+    "sentence": "Hie kann net schaffen ___ säi Computer.",
+    "translation": "He cannot work without his computer.",
+    "options": [
+      "ouni",
+      "fir",
+      "duerch",
+      "ëm",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "ouni",
+    "rule": "ouni means without and takes the accusative"
+  },
+  {
+    "id": "grammar-346",
+    "sentence": "De Bus fiert ___ de Rondpoint.",
+    "translation": "The bus goes around the roundabout.",
+    "options": [
+      "ëm",
+      "fir",
+      "duerch",
+      "ouni",
+      "bis",
+      "laanscht"
+    ],
+    "correctAnswer": "ëm",
+    "rule": "ëm means around and takes the accusative"
+  },
+  {
+    "id": "grammar-347",
+    "sentence": "Mir schaffen ___ sechs Auer.",
+    "translation": "We work until six o'clock.",
+    "options": [
+      "bis",
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "laanscht"
+    ],
+    "correctAnswer": "bis",
+    "rule": "bis means until"
+  },
+  {
+    "id": "grammar-348",
+    "sentence": "Ech ginn all Dag ___ d'Apdikt.",
+    "translation": "I pass the pharmacy every day.",
+    "options": [
+      "laanscht",
+      "fir",
+      "duerch",
+      "ouni",
+      "ëm",
+      "bis"
+    ],
+    "correctAnswer": "laanscht",
+    "rule": "laanscht means past/alongside and takes the accusative"
+  },
+  {
+    "id": "grammar-349",
+    "sentence": "De Paul ___ net.",
+    "translation": "Paul does not make phone calls.",
+    "options": [
+      "telefonéiert",
+      "schafft",
+      "schléift",
+      "liest",
+      "schwätzt",
+      "telefonéieren"
+    ],
+    "correctAnswer": "telefonéiert",
+    "rule": "Negation with net comes after the conjugated verb; telefonéiert is the conjugated form of telefonéieren"
+  },
+  {
+    "id": "grammar-350",
+    "sentence": "D'Catherine liest ___ Buch a keng Zeitung.",
+    "translation": "Catherine reads no book and no newspaper.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "net",
+      "kengem",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with masculine/neuter singular nouns; Buch is neuter"
+  },
+  {
+    "id": "grammar-351",
+    "sentence": "D'Catherine liest kee Buch a ___ Zeitung.",
+    "translation": "Catherine reads no book and no newspaper.",
+    "options": [
+      "keng",
+      "kee",
+      "keen",
+      "net",
+      "kengem",
+      "keent"
+    ],
+    "correctAnswer": "keng",
+    "rule": "keng is used with feminine singular and plural nouns; Zeitung is feminine"
+  },
+  {
+    "id": "grammar-352",
+    "sentence": "De Gilles kacht ___ all Dag.",
+    "translation": "Gilles does not cook every day.",
+    "options": [
+      "net",
+      "kee",
+      "keng",
+      "keen",
+      "kengem",
+      "ni"
+    ],
+    "correctAnswer": "net",
+    "rule": "net negates a verb or adjective"
+  },
+  {
+    "id": "grammar-353",
+    "sentence": "De Gilles kacht ___ Fleesch a kee Fësch.",
+    "translation": "Gilles cooks no meat and no fish.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "net",
+      "kengem",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with masculine/neuter singular nouns"
+  },
+  {
+    "id": "grammar-354",
+    "sentence": "De Gilles kacht kee Fleesch a ___ Fësch.",
+    "translation": "Gilles cooks no meat and no fish.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "net",
+      "kengem",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with masculine/neuter singular nouns"
+  },
+  {
+    "id": "grammar-355",
+    "sentence": "D'Manon huet ___ Kand.",
+    "translation": "Manon has no child.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "net",
+      "kengem",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with a neuter singular noun"
+  },
+  {
+    "id": "grammar-356",
+    "sentence": "D'Manon ass ___ schwanger.",
+    "translation": "Manon is not pregnant.",
+    "options": [
+      "net",
+      "kee",
+      "keng",
+      "keen",
+      "kengem",
+      "ni"
+    ],
+    "correctAnswer": "net",
+    "rule": "net negates an adjective"
+  },
+  {
+    "id": "grammar-357",
+    "sentence": "Ech hunn ___ Auto.",
+    "translation": "I do not have a car.",
+    "options": [
+      "keen",
+      "keng",
+      "kee",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "keen",
+    "rule": "keen is the masculine form of keen/kee; Auto is masculine"
+  },
+  {
+    "id": "grammar-358",
+    "sentence": "Ech hunn ___ Haus.",
+    "translation": "I do not have a house.",
+    "options": [
+      "keen",
+      "keng",
+      "kee",
+      "kengem",
+      "net",
+      "kengem"
+    ],
+    "correctAnswer": "keen",
+    "rule": "keen is used here with the neuter noun Haus"
+  },
+  {
+    "id": "grammar-359",
+    "sentence": "Ech hunn ___ Zäit.",
+    "translation": "I do not have any time.",
+    "options": [
+      "keng",
+      "keen",
+      "kee",
+      "kengem",
+      "net",
+      "keenem"
+    ],
+    "correctAnswer": "keng",
+    "rule": "keng is used with the feminine noun Zäit"
+  },
+  {
+    "id": "grammar-360",
+    "sentence": "Ech hunn ___ Frënn.",
+    "translation": "I do not have any friends.",
+    "options": [
+      "keng",
+      "keen",
+      "kee",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "keng",
+    "rule": "keng is used with plural nouns"
+  },
+  {
+    "id": "grammar-361",
+    "sentence": "Ech kafen ___ Computer.",
+    "translation": "I am not buying a computer.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with the masculine noun Computer"
+  },
+  {
+    "id": "grammar-362",
+    "sentence": "Ech kafen ___ Fläsch.",
+    "translation": "I am not buying a bottle.",
+    "options": [
+      "keng",
+      "kee",
+      "keen",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "keng",
+    "rule": "keng is used with the feminine noun Fläsch"
+  },
+  {
+    "id": "grammar-363",
+    "sentence": "Ech hu ___ Brudder.",
+    "translation": "I do not have a brother.",
+    "options": [
+      "kee",
+      "keng",
+      "keen",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "kee",
+    "rule": "kee is used with the masculine noun Brudder"
+  },
+  {
+    "id": "grammar-364",
+    "sentence": "Ech hunn ___ Schwësteren.",
+    "translation": "I do not have any sisters.",
+    "options": [
+      "keng",
+      "kee",
+      "keen",
+      "kengem",
+      "net",
+      "keent"
+    ],
+    "correctAnswer": "keng",
+    "rule": "keng is used with plural nouns"
+  },
+  {
+    "id": "grammar-365",
+    "sentence": "Den éischte Januar ___.",
+    "translation": "The first of January 1950.",
+    "options": [
+      "nonzénghonnertfofzeg",
+      "nonzénghonnertfofzegzéng",
+      "nonzénghonnertfënnefzeg",
+      "nonzénghonnertfofzegsten",
+      "nonzénghonnertfuffzeg",
+      "zweedausendfofzeg"
+    ],
+    "correctAnswer": "nonzénghonnertfofzeg",
+    "rule": "nonzénghonnertfofzeg is the correct Luxembourgish form for 1950"
+  },
+  {
+    "id": "grammar-366",
+    "sentence": "07/05/2001 = De ___ Mee zweedausenteent.",
+    "translation": "7 May 2001.",
+    "options": [
+      "siwente",
+      "siwenten",
+      "siwenten Mee",
+      "siwenteen",
+      "siwenteel",
+      "siwenten Dag"
+    ],
+    "correctAnswer": "siwente",
+    "rule": "With De, the ordinal is siwente; the date continues with the month"
+  },
+  {
+    "id": "grammar-367",
+    "sentence": "11/08/1520 = Den ___ August fofzénghonnertzwanzeg.",
+    "translation": "11 August 1520.",
+    "options": [
+      "eeleften",
+      "eeleft",
+      "eeleften August",
+      "eelefte",
+      "eelefenten",
+      "zwieleften"
+    ],
+    "correctAnswer": "eeleften",
+    "rule": "The ordinal for 11 is eeleften"
+  },
+  {
+    "id": "grammar-368",
+    "sentence": "Ech sinn ___ Supermarché.",
+    "translation": "I am at the supermarket.",
+    "options": [
+      "am",
+      "an der",
+      "beim",
+      "bei der",
+      "op dem",
+      "op der"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Supermarché is masculine"
+  },
+  {
+    "id": "grammar-369",
+    "sentence": "Ech sinn ___ Schoul.",
+    "translation": "I am at school.",
+    "options": [
+      "an der",
+      "am",
+      "beim",
+      "bei der",
+      "op dem",
+      "op der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-370",
+    "sentence": "Ech si ___ Dokter.",
+    "translation": "I am at the doctor's.",
+    "options": [
+      "beim",
+      "bei der",
+      "am",
+      "an der",
+      "op dem",
+      "bei"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; Dokter is masculine"
+  },
+  {
+    "id": "grammar-371",
+    "sentence": "Ech si ___ Doktesch.",
+    "translation": "I am at the female doctor's.",
+    "options": [
+      "bei der",
+      "beim",
+      "am",
+      "an der",
+      "op der",
+      "bei"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-372",
+    "sentence": "Ech schaffen ___ Deloitte.",
+    "translation": "I work at Deloitte.",
+    "options": [
+      "bei",
+      "beim",
+      "bei der",
+      "am",
+      "an der",
+      "op dem"
+    ],
+    "correctAnswer": "bei",
+    "rule": "Company names are generally used with bei"
+  },
+  {
+    "id": "grammar-373",
+    "sentence": "Ech schaffen ___ Cactus.",
+    "translation": "I work at Cactus.",
+    "options": [
+      "beim",
+      "bei",
+      "bei der",
+      "am",
+      "an der",
+      "op der"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; masculine company/place noun"
+  },
+  {
+    "id": "grammar-374",
+    "sentence": "Ech schaffen ___ Banque.",
+    "translation": "I work at the bank.",
+    "options": [
+      "bei der",
+      "bei",
+      "beim",
+      "am",
+      "an der",
+      "op der"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with the feminine noun Banque"
+  },
+  {
+    "id": "grammar-375",
+    "sentence": "Ech sinn ___ Festival.",
+    "translation": "I am at the festival.",
+    "options": [
+      "op dem",
+      "op der",
+      "beim",
+      "bei der",
+      "am",
+      "an der"
+    ],
+    "correctAnswer": "op dem",
+    "rule": "op dem is used with masculine/neuter public events"
+  },
+  {
+    "id": "grammar-376",
+    "sentence": "Ech sinn ___ Bank.",
+    "translation": "I am at the bank.",
+    "options": [
+      "op der",
+      "op dem",
+      "beim",
+      "bei der",
+      "am",
+      "an der"
+    ],
+    "correctAnswer": "op der",
+    "rule": "op der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-377",
+    "sentence": "Ech sinn ___ Julien.",
+    "translation": "I am at Julien's place / with Julien.",
+    "options": [
+      "beim",
+      "bei",
+      "bei der",
+      "am",
+      "op dem",
+      "op der"
+    ],
+    "correctAnswer": "beim",
+    "rule": "Names of people are used with beim in this construction"
+  },
+  {
+    "id": "grammar-378",
+    "sentence": "Ech sinn ___ Noémie.",
+    "translation": "I am at Noémie's place / with Noémie.",
+    "options": [
+      "beim",
+      "bei",
+      "bei der",
+      "am",
+      "op dem",
+      "op der"
+    ],
+    "correctAnswer": "beim",
+    "rule": "Names of people are used with beim in this construction"
+  },
+  {
+    "id": "grammar-379",
+    "sentence": "Ech sinn ___ Julien.",
+    "translation": "I am at Julien's place / with Julien.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vum",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-380",
+    "sentence": "Ech sinn ___ Noémie.",
+    "translation": "I am at Noémie's place / with Noémie.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vun der",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-381",
+    "sentence": "Ech war gëschter ___ Julien.",
+    "translation": "I was at Julien's place / with Julien yesterday.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vum",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-382",
+    "sentence": "Ech sinn haut ___ Noémie.",
+    "translation": "I am at Noémie's place / with Noémie today.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vun der",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-383",
+    "sentence": "Hie schafft ___ Julien.",
+    "translation": "He works at Julien's place / with Julien.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vum",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-384",
+    "sentence": "Si schafft ___ Noémie.",
+    "translation": "She works at Noémie's place / with Noémie.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "vun der",
+      "mat",
+      "zu"
+    ],
+    "correctAnswer": "beim",
+    "rule": "beim is used with a person's name in this construction"
+  },
+  {
+    "id": "grammar-385",
+    "sentence": "Ech sinn ___ Festival.",
+    "translation": "I am at the festival.",
+    "options": [
+      "op dem",
+      "op der",
+      "um",
+      "an der",
+      "beim",
+      "an"
+    ],
+    "correctAnswer": "op dem",
+    "rule": "op dem is used with masculine/neuter nouns"
+  },
+  {
+    "id": "grammar-386",
+    "sentence": "Ech sinn ___ Concert.",
+    "translation": "I am at the concert.",
+    "options": [
+      "um",
+      "op dem",
+      "op der",
+      "beim",
+      "an der",
+      "zu"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem = um; Concert is masculine"
+  },
+  {
+    "id": "grammar-387",
+    "sentence": "Ech sinn ___ Bank.",
+    "translation": "I am at the bank.",
+    "options": [
+      "op der",
+      "op dem",
+      "um",
+      "bei der",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "op der",
+    "rule": "op der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-388",
+    "sentence": "Ech sinn ___ Spillplaz.",
+    "translation": "I am at the playground.",
+    "options": [
+      "op der",
+      "op dem",
+      "um",
+      "bei der",
+      "an der",
+      "zu"
+    ],
+    "correctAnswer": "op der",
+    "rule": "op der is used with the feminine noun Spillplaz"
+  },
+  {
+    "id": "grammar-389",
+    "sentence": "Mir sinn ___ Maart.",
+    "translation": "We are at the market.",
+    "options": [
+      "um",
+      "op dem",
+      "op der",
+      "an der",
+      "beim",
+      "zu der"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem = um; Maart is masculine"
+  },
+  {
+    "id": "grammar-390",
+    "sentence": "Hie ass ___ Fussballsmatch.",
+    "translation": "He is at the football match.",
+    "options": [
+      "um",
+      "op dem",
+      "op der",
+      "an der",
+      "beim",
+      "zu der"
+    ],
+    "correctAnswer": "um",
+    "rule": "op + dem = um; Fussballsmatch is masculine"
+  },
+  {
+    "id": "grammar-391",
+    "sentence": "Si ass ___ Gare.",
+    "translation": "She is at the station.",
+    "options": [
+      "op der",
+      "op dem",
+      "um",
+      "an der",
+      "beim",
+      "zu"
+    ],
+    "correctAnswer": "op der",
+    "rule": "op der is used with the feminine noun Gare"
+  },
+  {
+    "id": "grammar-392",
+    "sentence": "Mir sinn ___ Plage.",
+    "translation": "We are at the beach.",
+    "options": [
+      "op der",
+      "op dem",
+      "um",
+      "an der",
+      "beim",
+      "zu"
+    ],
+    "correctAnswer": "op der",
+    "rule": "op der is used with the feminine noun Plage"
+  },
+  {
+    "id": "grammar-393",
+    "sentence": "Ech si ___ Dokter.",
+    "translation": "I am at the doctor's.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; masculine profession"
+  },
+  {
+    "id": "grammar-394",
+    "sentence": "Ech si ___ Metzler.",
+    "translation": "I am at the butcher's.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; masculine profession"
+  },
+  {
+    "id": "grammar-395",
+    "sentence": "Ech si ___ Coiffeuse.",
+    "translation": "I am at the hairdresser's.",
+    "options": [
+      "bei der",
+      "beim",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with feminine professions"
+  },
+  {
+    "id": "grammar-396",
+    "sentence": "Ech si ___ Doktesch.",
+    "translation": "I am at the female doctor's.",
+    "options": [
+      "bei der",
+      "beim",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with feminine professions"
+  },
+  {
+    "id": "grammar-397",
+    "sentence": "Hie ass ___ Dokter.",
+    "translation": "He is at the doctor's.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; masculine profession"
+  },
+  {
+    "id": "grammar-398",
+    "sentence": "Si ass ___ Coiffeuse.",
+    "translation": "She is at the hairdresser's.",
+    "options": [
+      "bei der",
+      "beim",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with feminine professions"
+  },
+  {
+    "id": "grammar-399",
+    "sentence": "Mir si ___ Metzler.",
+    "translation": "We are at the butcher's.",
+    "options": [
+      "beim",
+      "bei der",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "beim",
+    "rule": "bei + dem = beim; masculine profession"
+  },
+  {
+    "id": "grammar-400",
+    "sentence": "Du bass ___ Doktesch.",
+    "translation": "You are at the female doctor's.",
+    "options": [
+      "bei der",
+      "beim",
+      "bei",
+      "am",
+      "an der",
+      "an"
+    ],
+    "correctAnswer": "bei der",
+    "rule": "bei der is used with feminine professions"
+  },
+  {
+    "id": "grammar-401",
+    "sentence": "Ech sinn ___ Supermarché.",
+    "translation": "I am at the supermarket.",
+    "options": [
+      "am",
+      "an der",
+      "an d'",
+      "an",
+      "op",
+      "zu"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Supermarché is masculine"
+  },
+  {
+    "id": "grammar-402",
+    "sentence": "Ech sinn ___ Spidol.",
+    "translation": "I am at the hospital.",
+    "options": [
+      "am",
+      "an der",
+      "an d'",
+      "an",
+      "op",
+      "zu"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Spidol is neuter"
+  },
+  {
+    "id": "grammar-403",
+    "sentence": "Ech schaffen ___ Büro.",
+    "translation": "I work in the office.",
+    "options": [
+      "am",
+      "an der",
+      "an d'",
+      "op",
+      "zu",
+      "aus"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Büro is neuter"
+  },
+  {
+    "id": "grammar-404",
+    "sentence": "Ech sinn ___ Schoul.",
+    "translation": "I am at school.",
+    "options": [
+      "an der",
+      "am",
+      "an d'",
+      "an",
+      "op der",
+      "zu der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-405",
+    "sentence": "Ech sinn ___ Klinik.",
+    "translation": "I am in the clinic.",
+    "options": [
+      "an der",
+      "am",
+      "an d'",
+      "an",
+      "op der",
+      "zu der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-406",
+    "sentence": "Ech schaffen ___ Bank.",
+    "translation": "I work at the bank.",
+    "options": [
+      "an der",
+      "am",
+      "an d'",
+      "an",
+      "op der",
+      "zu der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-407",
+    "sentence": "Hie schafft ___ Restaurant.",
+    "translation": "He works in the restaurant.",
+    "options": [
+      "am",
+      "an der",
+      "an d'",
+      "an",
+      "op",
+      "zu"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Restaurant is neuter"
+  },
+  {
+    "id": "grammar-408",
+    "sentence": "Si ass ___ Apdikt.",
+    "translation": "She is in the pharmacy.",
+    "options": [
+      "an der",
+      "am",
+      "an d'",
+      "an",
+      "op der",
+      "zu der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-409",
+    "sentence": "Mir sinn ___ Kino.",
+    "translation": "We are at the cinema.",
+    "options": [
+      "am",
+      "an der",
+      "an d'",
+      "an",
+      "op",
+      "zu"
+    ],
+    "correctAnswer": "am",
+    "rule": "an + dem = am; Kino is neuter"
+  },
+  {
+    "id": "grammar-410",
+    "sentence": "Du bass ___ Bibliothéik.",
+    "translation": "You are in the library.",
+    "options": [
+      "an der",
+      "am",
+      "an d'",
+      "an",
+      "op der",
+      "zu der"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used with feminine nouns"
+  },
+  {
+    "id": "grammar-411",
+    "sentence": "Ech fueren ___ Lëtzebuerg.",
+    "translation": "I am travelling to Luxembourg.",
+    "options": [
+      "op",
+      "a",
+      "an",
+      "zu",
+      "aus",
+      "an d'"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for destinations that are cities/country names in this rule"
+  },
+  {
+    "id": "grammar-412",
+    "sentence": "Ech ginn ___ Bréissel.",
+    "translation": "I am going to Brussels.",
+    "options": [
+      "op",
+      "a",
+      "an",
+      "zu",
+      "aus",
+      "an d'"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for city destinations"
+  },
+  {
+    "id": "grammar-413",
+    "sentence": "Du fiers ___ Paräis.",
+    "translation": "You are driving to Paris.",
+    "options": [
+      "op",
+      "a",
+      "an",
+      "zu",
+      "aus",
+      "an d'"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for city destinations"
+  },
+  {
+    "id": "grammar-414",
+    "sentence": "Si fueren ___ London.",
+    "translation": "They are travelling to London.",
+    "options": [
+      "op",
+      "a",
+      "an",
+      "zu",
+      "aus",
+      "an d'"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for city destinations"
+  },
+  {
+    "id": "grammar-415",
+    "sentence": "Hie geet ___ Roum.",
+    "translation": "He is going to Rome.",
+    "options": [
+      "op",
+      "a",
+      "an",
+      "zu",
+      "aus",
+      "an d'"
+    ],
+    "correctAnswer": "op",
+    "rule": "op is used for city destinations"
+  },
+  {
+    "id": "grammar-416",
+    "sentence": "Ech fueren ___ Frankräich.",
+    "translation": "I am travelling to France.",
+    "options": [
+      "a",
+      "an",
+      "an d'",
+      "an der",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "a",
+    "rule": "a is used with non-feminine countries such as Frankräich"
+  },
+  {
+    "id": "grammar-417",
+    "sentence": "Ech ginn ___ Däitschland.",
+    "translation": "I am going to Germany.",
+    "options": [
+      "an",
+      "a",
+      "an d'",
+      "an der",
+      "op",
+      "zu"
+    ],
+    "correctAnswer": "an",
+    "rule": "an is used with non-feminine countries"
+  },
+  {
+    "id": "grammar-418",
+    "sentence": "Ech fueren ___ Belsch.",
+    "translation": "I am travelling to Belgium.",
+    "options": [
+      "an d'",
+      "an",
+      "a",
+      "an der",
+      "aus der",
+      "zu"
+    ],
+    "correctAnswer": "an d'",
+    "rule": "an d' is used for movement into feminine countries"
+  },
+  {
+    "id": "grammar-419",
+    "sentence": "Ech ginn ___.",
+    "translation": "I am going to Switzerland.",
+    "options": [
+      "an d'Schwäiz",
+      "an der Schwäiz",
+      "a Schwäiz",
+      "aus der Schwäiz",
+      "an d'Belsch",
+      "zu Schwäiz"
+    ],
+    "correctAnswer": "an d'Schwäiz",
+    "rule": "an d' is used for movement into feminine countries"
+  },
+  {
+    "id": "grammar-420",
+    "sentence": "Hie fiert ___ Kongo.",
+    "translation": "He is travelling to the Congo.",
+    "options": [
+      "an de",
+      "an d'",
+      "an",
+      "an der",
+      "a",
+      "zu"
+    ],
+    "correctAnswer": "an de",
+    "rule": "an de is used with Kongo in this construction"
+  },
+  {
+    "id": "grammar-421",
+    "sentence": "Ech fueren ___ Däitschland.",
+    "translation": "I am travelling to Germany.",
+    "options": [
+      "an",
+      "an d'",
+      "op",
+      "aus",
+      "an der",
+      "zu"
+    ],
+    "correctAnswer": "an",
+    "rule": "an is used for movement into a non-feminine country"
+  },
+  {
+    "id": "grammar-422",
+    "sentence": "Ech reesen ___ Albanien.",
+    "translation": "I am travelling to Albania.",
+    "options": [
+      "an",
+      "an d'",
+      "op",
+      "an der",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "an",
+    "rule": "an is used for movement into a non-feminine country"
+  },
+  {
+    "id": "grammar-423",
+    "sentence": "Ech fueren ___.",
+    "translation": "I am travelling to Switzerland.",
+    "options": [
+      "an d'Schwäiz",
+      "an",
+      "an der",
+      "op",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "an d'Schwäiz",
+    "rule": "an d' is used for movement into a feminine country"
+  },
+  {
+    "id": "grammar-424",
+    "sentence": "Ech reesen ___ Belsch.",
+    "translation": "I am travelling to Belgium.",
+    "options": [
+      "an d'",
+      "an",
+      "an der",
+      "op",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "an d'",
+    "rule": "an d' is used for movement into a feminine country"
+  },
+  {
+    "id": "grammar-425",
+    "sentence": "Si fléien ___ Däitschland.",
+    "translation": "They are flying to Germany.",
+    "options": [
+      "an",
+      "an d'",
+      "an der",
+      "op",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "an",
+    "rule": "an is used for movement into a non-feminine country"
+  },
+  {
+    "id": "grammar-426",
+    "sentence": "Hie fiert ___.",
+    "translation": "He is travelling to Switzerland.",
+    "options": [
+      "an d'Schwäiz",
+      "an",
+      "an der",
+      "op",
+      "aus",
+      "zu"
+    ],
+    "correctAnswer": "an d'Schwäiz",
+    "rule": "an d' is used for movement into a feminine country"
+  },
+  {
+    "id": "grammar-427",
+    "sentence": "Ech ___ Julien.",
+    "translation": "My name is Julien.",
+    "options": [
+      "heesche",
+      "heescht",
+      "heesch",
+      "heeschen",
+      "heeschs",
+      "heescht e"
+    ],
+    "correctAnswer": "heesche",
+    "rule": "With ech, heeschen is conjugated as heesche"
+  },
+  {
+    "id": "grammar-428",
+    "sentence": "Hien ___ vill.",
+    "translation": "He learns a lot.",
+    "options": [
+      "léiert",
+      "léieren",
+      "léiers",
+      "léier",
+      "léiere",
+      "geléiert"
+    ],
+    "correctAnswer": "léiert",
+    "rule": "With hien, the verb takes the third-person singular ending -t"
+  },
+  {
+    "id": "grammar-429",
+    "sentence": "Du ___ Fussball.",
+    "translation": "You play football.",
+    "options": [
+      "spills",
+      "spillt",
+      "spillen",
+      "spill",
+      "spille",
+      "gespills"
+    ],
+    "correctAnswer": "spills",
+    "rule": "With du, the verb takes the second-person singular form -s"
+  },
+  {
+    "id": "grammar-430",
+    "sentence": "Si ___ e Buch.",
+    "translation": "They read a book.",
+    "options": [
+      "liesen",
+      "liest",
+      "lies",
+      "lieft",
+      "liesst",
+      "gelies"
+    ],
+    "correctAnswer": "liesen",
+    "rule": "With plural si, the verb uses the plural form liesen"
+  },
+  {
+    "id": "grammar-431",
+    "sentence": "D'Mireille ___ an Däitschland.",
+    "translation": "Mireille works in Germany.",
+    "options": [
+      "schafft",
+      "schaffen",
+      "schaff",
+      "schaffs",
+      "schaffenst",
+      "geschaff"
+    ],
+    "correctAnswer": "schafft",
+    "rule": "With a third-person singular subject, schaffen becomes schafft"
+  },
+  {
+    "id": "grammar-432",
+    "sentence": "De Paul ___ am Cactus.",
+    "translation": "Paul waits at Cactus.",
+    "options": [
+      "waart",
+      "waarden",
+      "waarts",
+      "wart",
+      "waartst",
+      "gewaart"
+    ],
+    "correctAnswer": "waart",
+    "rule": "With a third-person singular subject, waarden becomes waart"
+  },
+  {
+    "id": "grammar-433",
+    "sentence": "Ech sinn ___ Lëtzebuerg.",
+    "translation": "I am in Luxembourg.",
+    "options": [
+      "zu",
+      "a",
+      "an",
+      "an der",
+      "aus",
+      "vu"
+    ],
+    "correctAnswer": "zu",
+    "rule": "zu is used with Lëtzebuerg for location"
+  },
+  {
+    "id": "grammar-434",
+    "sentence": "Ech schaffen ___ Bréissel.",
+    "translation": "I work in Brussels.",
+    "options": [
+      "zu",
+      "a",
+      "an",
+      "an der",
+      "aus",
+      "vu"
+    ],
+    "correctAnswer": "zu",
+    "rule": "zu is used with city names for location"
+  },
+  {
+    "id": "grammar-435",
+    "sentence": "Ech wunnen ___ Paräis.",
+    "translation": "I live in Paris.",
+    "options": [
+      "zu",
+      "a",
+      "an",
+      "an der",
+      "aus",
+      "vu"
+    ],
+    "correctAnswer": "zu",
+    "rule": "zu is used with city names for location"
+  },
+  {
+    "id": "grammar-436",
+    "sentence": "Ech wunnen ___ Frankräich.",
+    "translation": "I live in France.",
+    "options": [
+      "a",
+      "an",
+      "aus",
+      "an der",
+      "vu",
+      "op"
+    ],
+    "correctAnswer": "a",
+    "rule": "a is used for location in non-feminine countries"
+  },
+  {
+    "id": "grammar-437",
+    "sentence": "Ech schaffen ___ Portugal.",
+    "translation": "I work in Portugal.",
+    "options": [
+      "a",
+      "an",
+      "aus",
+      "an der",
+      "vu",
+      "op"
+    ],
+    "correctAnswer": "a",
+    "rule": "a is used for location in non-feminine countries"
+  },
+  {
+    "id": "grammar-438",
+    "sentence": "Ech sinn ___ Belsch.",
+    "translation": "I am in Belgium.",
+    "options": [
+      "an der",
+      "a",
+      "an",
+      "aus der",
+      "aus",
+      "vu"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used for location in feminine countries"
+  },
+  {
+    "id": "grammar-439",
+    "sentence": "Ech sinn ___ Schwäiz.",
+    "translation": "I am in Switzerland.",
+    "options": [
+      "an der",
+      "a",
+      "an",
+      "aus der",
+      "aus",
+      "vu"
+    ],
+    "correctAnswer": "an der",
+    "rule": "an der is used for location in feminine countries"
+  },
+  {
+    "id": "grammar-440",
+    "sentence": "Et ass 7:40. Et ass ___.",
+    "translation": "It is 7:40. It is twenty to eight.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "véierzeg vir",
+      "véierzeg op",
+      "zéng vir",
+      "zéng op"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "vir is used for minutes before the next hour"
+  },
+  {
+    "id": "grammar-441",
+    "sentence": "Et ass 8:25. Et ass ___.",
+    "translation": "It is 8:25. It is five past eight.",
+    "options": [
+      "fënnef vir",
+      "fënnef op",
+      "fënnef vir op",
+      "drësseg op",
+      "zwanzeg op",
+      "zwanzeg vir"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "op is used for minutes past the hour; the hour is expressed as the current hour"
+  },
+  {
+    "id": "grammar-442",
+    "sentence": "Et ass 9:40. Et ass ___.",
+    "translation": "It is 9:40. It is twenty to ten.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "véierzeg op",
+      "zéng vir",
+      "fënnef op",
+      "fënnef vir"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "vir is used for minutes before the next hour"
+  },
+  {
+    "id": "grammar-443",
+    "sentence": "Et ass 10:25. Et ass ___.",
+    "translation": "It is 10:25. It is five past ten.",
+    "options": [
+      "fënnef op",
+      "fënnef vir",
+      "zwanzeg op",
+      "zwanzeg vir",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "op is used for minutes past the hour; the hour is expressed as the current hour"
+  },
+  {
+    "id": "grammar-444",
+    "sentence": "Et ass 11:40. Et ass ___.",
+    "translation": "It is 11:40. It is twenty to twelve.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "fënnef vir",
+      "fënnef op",
+      "véierzeg vir",
+      "véierzeg op"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "vir is used for minutes before the next hour"
+  },
+  {
+    "id": "grammar-445",
+    "sentence": "Et ass 12:25. Et ass ___.",
+    "translation": "It is 12:25. It is five past twelve.",
+    "options": [
+      "fënnef op",
+      "fënnef vir",
+      "zwanzeg vir",
+      "zwanzeg op",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "op is used for minutes past the hour"
+  },
+  {
+    "id": "grammar-446",
+    "sentence": "Et ass 13:40. Et ass ___.",
+    "translation": "It is 13:40. It is twenty to two.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "fënnef op",
+      "fënnef vir",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "vir is used for minutes before the next hour"
+  },
+  {
+    "id": "grammar-447",
+    "sentence": "Et ass 14:25. Et ass ___.",
+    "translation": "It is 14:25. It is five past two.",
+    "options": [
+      "fënnef op",
+      "fënnef vir",
+      "zwanzeg op",
+      "zwanzeg vir",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "op is used for minutes past the hour"
+  },
+  {
+    "id": "grammar-448",
+    "sentence": "Et ass 15:40. Et ass ___.",
+    "translation": "It is 15:40. It is twenty to four.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "fënnef vir",
+      "fënnef op",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "vir is used for minutes before the next hour"
+  },
+  {
+    "id": "grammar-449",
+    "sentence": "Et ass 16:25. Et ass ___.",
+    "translation": "It is 16:25. It is five past four.",
+    "options": [
+      "fënnef op",
+      "fënnef vir",
+      "zwanzeg op",
+      "zwanzeg vir",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "op is used for minutes past the hour"
+  },
+  {
+    "id": "grammar-450",
+    "sentence": "Et ass 17:40. Et ass ___ sechs.",
+    "translation": "It is 17:40. It is twenty to six.",
+    "options": [
+      "zwanzeg vir",
+      "zwanzeg op",
+      "fënnef op",
+      "fënnef vir",
+      "véierzeg op",
+      "véierzeg vir"
+    ],
+    "correctAnswer": "zwanzeg vir",
+    "rule": "Use vir for minutes before the hour."
+  },
+  {
+    "id": "grammar-451",
+    "sentence": "Et ass 18:25. Et ass ___ siwen.",
+    "translation": "It is 18:25. It is five past seven.",
+    "options": [
+      "fënnef op",
+      "fënnef vir",
+      "zwanzeg vir",
+      "zwanzeg op",
+      "véierzeg vir",
+      "véierzeg op"
+    ],
+    "correctAnswer": "fënnef op",
+    "rule": "Use op for minutes past the hour."
+  },
+  {
+    "id": "grammar-452",
+    "sentence": "Ech sinn ___ Frankräich.",
+    "translation": "I am from France.",
+    "options": [
+      "aus",
+      "vu",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with countries that do not take the feminine article."
+  },
+  {
+    "id": "grammar-453",
+    "sentence": "Ech kommen ___ Portugal.",
+    "translation": "I come from Portugal.",
+    "options": [
+      "aus",
+      "vu",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with countries that do not take the feminine article."
+  },
+  {
+    "id": "grammar-454",
+    "sentence": "Ech sinn ___ Belsch.",
+    "translation": "I am from Belgium.",
+    "options": [
+      "aus der",
+      "aus",
+      "vu",
+      "vun",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus der",
+    "rule": "Use aus der with feminine country names such as Belsch."
+  },
+  {
+    "id": "grammar-455",
+    "sentence": "Ech kommen ___ Schwäiz.",
+    "translation": "I come from Switzerland.",
+    "options": [
+      "aus der",
+      "aus",
+      "vu",
+      "vun",
+      "an der",
+      "bei der"
+    ],
+    "correctAnswer": "aus der",
+    "rule": "Use aus der with feminine country names such as Schwäiz."
+  },
+  {
+    "id": "grammar-456",
+    "sentence": "Ech si ___ Lëtzebuerg.",
+    "translation": "I am from Luxembourg.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities and with Lëtzebuerg in this origin expression."
+  },
+  {
+    "id": "grammar-457",
+    "sentence": "Ech komme ___ Monaco.",
+    "translation": "I come from Monaco.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities and city-like place names such as Monaco."
+  },
+  {
+    "id": "grammar-458",
+    "sentence": "Ech si ___ Bréissel.",
+    "translation": "I am from Brussels.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-459",
+    "sentence": "Ech si ___ Paräis.",
+    "translation": "I am from Paris.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-460",
+    "sentence": "Ech komme ___ Mamer.",
+    "translation": "I come from Mamer.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities and towns."
+  },
+  {
+    "id": "grammar-461",
+    "sentence": "Ech komme ___ Roum.",
+    "translation": "I come from Rome.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-462",
+    "sentence": "Ech komme ___ Berlin.",
+    "translation": "I come from Berlin.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-463",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Italien.",
+    "translation": "Where are you from? I come from Italy.",
+    "options": [
+      "aus",
+      "vu",
+      "aus der",
+      "vun der",
+      "bei",
+      "an"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with countries that do not take the feminine article."
+  },
+  {
+    "id": "grammar-464",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Frankräich.",
+    "translation": "Where are you from? I come from France.",
+    "options": [
+      "aus",
+      "aus der",
+      "vu",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with countries that do not take the feminine article."
+  },
+  {
+    "id": "grammar-465",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Lëtzebuerg.",
+    "translation": "Where are you from? I come from Luxembourg.",
+    "options": [
+      "aus",
+      "aus der",
+      "vu",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with Lëtzebuerg when expressing origin with kommen."
+  },
+  {
+    "id": "grammar-466",
+    "sentence": "Vu wou kënns du? Ech si ___ Italien.",
+    "translation": "Where are you from? I am from Italy.",
+    "options": [
+      "aus",
+      "aus der",
+      "vu",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with countries that do not take the feminine article."
+  },
+  {
+    "id": "grammar-467",
+    "sentence": "Vu wou kënns du? Ech si ___ Paräis.",
+    "translation": "Where are you from? I am from Paris.",
+    "options": [
+      "vu",
+      "aus der",
+      "aus",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-468",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Lëtzebuerg.",
+    "translation": "Where are you from? I come from Luxembourg.",
+    "options": [
+      "vu",
+      "aus der",
+      "aus",
+      "an",
+      "vun der",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with Lëtzebuerg in this origin expression."
+  },
+  {
+    "id": "grammar-469",
+    "sentence": "Vu wou kënns du? Ech si ___ Bréissel.",
+    "translation": "Where are you from? I am from Brussels.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-470",
+    "sentence": "Vu wou kënns du? Ech kommen ___ der Belsch.",
+    "translation": "Where are you from? I come from Belgium.",
+    "options": [
+      "aus",
+      "vu",
+      "vun",
+      "aus der",
+      "an der",
+      "bei der"
+    ],
+    "correctAnswer": "aus",
+    "rule": "With kommen, use aus for origin. aus der is used when the country name itself takes the feminine article."
+  },
+  {
+    "id": "grammar-471",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Däitschland.",
+    "translation": "Where are you from? I come from Germany.",
+    "options": [
+      "aus",
+      "aus der",
+      "vu",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "aus",
+    "rule": "Use aus with non-feminine country names."
+  },
+  {
+    "id": "grammar-472",
+    "sentence": "Vu wou kënns du? Ech si ___ München.",
+    "translation": "Where are you from? I am from Munich.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities."
+  },
+  {
+    "id": "grammar-473",
+    "sentence": "Vu wou kënns du? Ech kommen ___ Stad.",
+    "translation": "Where are you from? I come from the city.",
+    "options": [
+      "aus der",
+      "vu",
+      "aus",
+      "vun",
+      "an der",
+      "bei der"
+    ],
+    "correctAnswer": "aus der",
+    "rule": "Stad is feminine, so aus der is used for origin."
+  },
+  {
+    "id": "grammar-474",
+    "sentence": "Vu wou kënns du? Ech si ___ Esch.",
+    "translation": "Where are you from? I am from Esch.",
+    "options": [
+      "vu",
+      "aus",
+      "aus der",
+      "vun der",
+      "an",
+      "bei"
+    ],
+    "correctAnswer": "vu",
+    "rule": "Use vu with cities and towns."
+  },
+  {
+    "id": "grammar-475",
+    "sentence": "Haut ass den ___ Januar.",
+    "translation": "Today is the first of January.",
+    "options": [
+      "éischten",
+      "éischte",
+      "éischtenen",
+      "éischter",
+      "éischst",
+      "éischt"
+    ],
+    "correctAnswer": "éischten",
+    "rule": "Ordinal dates use the masculine accusative form after den. éischten is the exception for éischten."
+  },
+  {
+    "id": "grammar-476",
+    "sentence": "Hie kënnt den ___ Februar.",
+    "translation": "He is coming on the tenth of February.",
+    "options": [
+      "zéngten",
+      "zéngsten",
+      "zéngte",
+      "zéngter",
+      "zéngt",
+      "zéngst"
+    ],
+    "correctAnswer": "zéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-477",
+    "sentence": "D'Versammlung ass den ___ Mäerz.",
+    "translation": "The meeting is on the twentieth of March.",
+    "options": [
+      "zwanzegsten",
+      "zwanzegten",
+      "zwanzegste",
+      "zwanzegter",
+      "zwanzegst",
+      "zwanzegstenen"
+    ],
+    "correctAnswer": "zwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-478",
+    "sentence": "Haut ass den ___ Dag vum Mount.",
+    "translation": "Today is the third day of the month.",
+    "options": [
+      "drëtten",
+      "drëttsten",
+      "drëttenen",
+      "drëtte",
+      "drëtter",
+      "drëtt"
+    ],
+    "correctAnswer": "drëtten",
+    "rule": "Drëtten is the irregular ordinal for third."
+  },
+  {
+    "id": "grammar-479",
+    "sentence": "Mäi Gebuertsdag ass den ___ Abrëll.",
+    "translation": "My birthday is on the sixteenth of April.",
+    "options": [
+      "siechzéngten",
+      "siechzéngsten",
+      "siechzéngte",
+      "siechzéngter",
+      "siechzéngt",
+      "siechzéngst"
+    ],
+    "correctAnswer": "siechzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-480",
+    "sentence": "Mir treffen eis den ___ Mee.",
+    "translation": "We are meeting on the twenty-second of May.",
+    "options": [
+      "zweeanzwanzegsten",
+      "zweeanzwanzegten",
+      "zweeanzwanzegste",
+      "zweeanzwanzegter",
+      "zweeanzwanzegst",
+      "zweeanzwanzegstenen"
+    ],
+    "correctAnswer": "zweeanzwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-481",
+    "sentence": "Den ___ Juni ass e Samschdeg.",
+    "translation": "The eighteenth of June is a Saturday.",
+    "options": [
+      "aachtzéngten",
+      "aachtzéngsten",
+      "aachtzéngte",
+      "aachtzéngter",
+      "aachtzéngt",
+      "aachtzéngst"
+    ],
+    "correctAnswer": "aachtzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-482",
+    "sentence": "Si kënnt den ___ Juli zréck.",
+    "translation": "She is coming back on the thirtieth of July.",
+    "options": [
+      "drëssegsten",
+      "drëssegten",
+      "drëssegste",
+      "drëssegter",
+      "drëssegst",
+      "drëssegstenen"
+    ],
+    "correctAnswer": "drëssegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-483",
+    "sentence": "Den ___ August fuere mir an d'Vakanz.",
+    "translation": "On the fourteenth of August, we are going on holiday.",
+    "options": [
+      "véierzéngten",
+      "véierzéngsten",
+      "véierzéngte",
+      "véierzéngter",
+      "véierzéngt",
+      "véierzéngst"
+    ],
+    "correctAnswer": "véierzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-484",
+    "sentence": "Den ___ September fänkt de Cours un.",
+    "translation": "The course starts on the first of September.",
+    "options": [
+      "éischten",
+      "éischste",
+      "éischte",
+      "éischter",
+      "éischt",
+      "éischst"
+    ],
+    "correctAnswer": "éischten",
+    "rule": "Éischten is the irregular ordinal for first."
+  },
+  {
+    "id": "grammar-485",
+    "sentence": "Den ___ Oktober ass mäin éischten Dag op der Aarbecht.",
+    "translation": "The third of October is my first day at work.",
+    "options": [
+      "drëtten",
+      "drëttsten",
+      "drëtte",
+      "drëtter",
+      "drëtt",
+      "drëttenen"
+    ],
+    "correctAnswer": "drëtten",
+    "rule": "Drëtten is the irregular ordinal for third."
+  },
+  {
+    "id": "grammar-486",
+    "sentence": "Den ___ November hu mir eng Versammlung.",
+    "translation": "On the nineteenth of November, we have a meeting.",
+    "options": [
+      "nonzéngten",
+      "nonzéngsten",
+      "nonzéngte",
+      "nonzéngter",
+      "nonzéngt",
+      "nonzéngst"
+    ],
+    "correctAnswer": "nonzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-487",
+    "sentence": "Den ___ Dezember si mir zu Lëtzebuerg.",
+    "translation": "On the twenty-first of December, we are in Luxembourg.",
+    "options": [
+      "eenanzwanzegsten",
+      "eenanzwanzegten",
+      "eenanzwanzegste",
+      "eenanzwanzegter",
+      "eenanzwanzegst",
+      "eenanzwanzegstenen"
+    ],
+    "correctAnswer": "eenanzwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-488",
+    "sentence": "Haut ass den ___ Januar.",
+    "translation": "Today is the first of January.",
+    "options": [
+      "éischten",
+      "éischte",
+      "éischteren",
+      "éischtenen",
+      "éischter",
+      "éischt"
+    ],
+    "correctAnswer": "éischten",
+    "rule": "Éischten is the irregular ordinal for first."
+  },
+  {
+    "id": "grammar-489",
+    "sentence": "Haut ass den ___ Dag vum Mount.",
+    "translation": "Today is the third day of the month.",
+    "options": [
+      "drëtten",
+      "drëttst",
+      "drëttenen",
+      "drëttenst",
+      "drëtte",
+      "drëttsten"
+    ],
+    "correctAnswer": "drëtten",
+    "rule": "Drëtten is the irregular ordinal for third."
+  },
+  {
+    "id": "grammar-490",
+    "sentence": "Hie kënnt den ___ Februar op Besuch.",
+    "translation": "He is coming to visit on the tenth of February.",
+    "options": [
+      "zéngten",
+      "zéngsten",
+      "zéngte",
+      "zéngtenen",
+      "zéngter",
+      "zéngtsten"
+    ],
+    "correctAnswer": "zéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-491",
+    "sentence": "Mäi Gebuertsdag ass den ___ Mäerz.",
+    "translation": "My birthday is on the sixteenth of March.",
+    "options": [
+      "siechzéngten",
+      "siechzéngsten",
+      "siechzéngte",
+      "siechzéngtenen",
+      "siechzéngter",
+      "siechzéngt"
+    ],
+    "correctAnswer": "siechzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-492",
+    "sentence": "D'Versammlung ass den ___ Juni.",
+    "translation": "The meeting is on the fourteenth of June.",
+    "options": [
+      "véierzéngten",
+      "véierzéngsten",
+      "véierzéngte",
+      "véierzéngtenen",
+      "véierzéngter",
+      "véierzéngt"
+    ],
+    "correctAnswer": "véierzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-493",
+    "sentence": "Den ___ Mee ass e Feierdag.",
+    "translation": "The first of May is a public holiday.",
+    "options": [
+      "éischten",
+      "éischte",
+      "éischtenen",
+      "éischter",
+      "éischt",
+      "éischst"
+    ],
+    "correctAnswer": "éischten",
+    "rule": "Éischten is the irregular ordinal for first."
+  },
+  {
+    "id": "grammar-494",
+    "sentence": "Mir treffen eis den ___ August.",
+    "translation": "We are meeting on the twentieth of August.",
+    "options": [
+      "zwanzegsten",
+      "zwanzegten",
+      "zwanzegstenen",
+      "zwanzegste",
+      "zwanzegter",
+      "zwanzegst"
+    ],
+    "correctAnswer": "zwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-495",
+    "sentence": "D'Cours fänkt den ___ September un.",
+    "translation": "The course starts on the twenty-second of September.",
+    "options": [
+      "zweeanzwanzegsten",
+      "zweeanzwanzegten",
+      "zweeanzwanzegste",
+      "zweeanzwanzegst",
+      "zweeanzwanzegstenen",
+      "zweeanzwanzegter"
+    ],
+    "correctAnswer": "zweeanzwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-496",
+    "sentence": "Den ___ November si mir schonn zu Lëtzebuerg.",
+    "translation": "On the thirtieth of November, we are already in Luxembourg.",
+    "options": [
+      "drëssegsten",
+      "drëssegten",
+      "drëssegste",
+      "drëssegstenen",
+      "drëssegter",
+      "drëssegst"
+    ],
+    "correctAnswer": "drëssegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-497",
+    "sentence": "Den ___ Dag ass den drëtten Dag.",
+    "translation": "The first day is the third day.",
+    "options": [
+      "éischten",
+      "éischte",
+      "éischsten",
+      "éischtenen",
+      "éischter",
+      "éischst"
+    ],
+    "correctAnswer": "éischten",
+    "rule": "Éischten is the irregular ordinal for first."
+  },
+  {
+    "id": "grammar-498",
+    "sentence": "Hie war den ___ an der Course.",
+    "translation": "He was third in the race.",
+    "options": [
+      "drëtten",
+      "drëttent",
+      "drëttenten",
+      "drëttsten",
+      "drëtte",
+      "drëtt"
+    ],
+    "correctAnswer": "drëtten",
+    "rule": "Drëtten is the irregular ordinal for third."
+  },
+  {
+    "id": "grammar-499",
+    "sentence": "Haut ass den ___ Januar.",
+    "translation": "Today is the nineteenth of January.",
+    "options": [
+      "nonzéngten",
+      "nonzéngsten",
+      "nonzéngte",
+      "nonzéngtenen",
+      "nonzéngter",
+      "nonzéngt"
+    ],
+    "correctAnswer": "nonzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-500",
+    "sentence": "Den ___ Abrëll ass e Samschdeg.",
+    "translation": "The eighteenth of April is a Saturday.",
+    "options": [
+      "aachtzéngten",
+      "aachtzéngsten",
+      "aachtzéngte",
+      "aachtzéngtenen",
+      "aachtzéngter",
+      "aachtzéngt"
+    ],
+    "correctAnswer": "aachtzéngten",
+    "rule": "Ordinals from 1 to 19 take -ten."
+  },
+  {
+    "id": "grammar-501",
+    "sentence": "Den ___ Oktober feiere mir zesummen.",
+    "translation": "On the twentieth of October, we celebrate together.",
+    "options": [
+      "zwanzegsten",
+      "zwanzegten",
+      "zwanzegste",
+      "zwanzegstenen",
+      "zwanzegter",
+      "zwanzegst"
+    ],
+    "correctAnswer": "zwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-502",
+    "sentence": "Si kënnt den ___ Dezember zréck.",
+    "translation": "She is coming back on the twenty-first of December.",
+    "options": [
+      "eenanzwanzegsten",
+      "eenanzwanzegten",
+      "eenanzwanzegste",
+      "eenanzwanzegstenen",
+      "eenanzwanzegter",
+      "eenanzwanzegst"
+    ],
+    "correctAnswer": "eenanzwanzegsten",
+    "rule": "Ordinals from 20 onwards take -sten."
+  },
+  {
+    "id": "grammar-503",
+    "sentence": "___ ass meng Liiblingssaison.",
+    "translation": "Summer is my favourite season.",
+    "options": [
+      "De Summer",
+      "De Wanter",
+      "D'Fréijoer",
+      "Den Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "De Summer",
+    "rule": "Seasons are nouns and take their corresponding definite article: de Summer, de Wanter, d'Fréijoer, den Hierscht."
+  },
+  {
+    "id": "grammar-504",
+    "sentence": "Am ___ ass et dacks ganz waarm.",
+    "translation": "In summer, it is often very hot.",
+    "options": [
+      "Summer",
+      "Wanter",
+      "Fréijoer",
+      "Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Summer",
+    "rule": "Use am before masculine/neuter nouns: an + dem = am."
+  },
+  {
+    "id": "grammar-505",
+    "sentence": "Am ___ gëtt et dacks kal a naass.",
+    "translation": "In autumn, it is often cold and wet.",
+    "options": [
+      "Hierscht",
+      "Summer",
+      "Fréijoer",
+      "Wanter",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Hierscht",
+    "rule": "Use am before masculine/neuter nouns: an + dem = am."
+  },
+  {
+    "id": "grammar-506",
+    "sentence": "Am ___ fänken d'Blummen un ze bléien.",
+    "translation": "In spring, the flowers start to bloom.",
+    "options": [
+      "Fréijoer",
+      "Summer",
+      "Wanter",
+      "Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Fréijoer",
+    "rule": "Use am before masculine/neuter nouns: an + dem = am."
+  },
+  {
+    "id": "grammar-507",
+    "sentence": "Am ___ kann et vill schneien.",
+    "translation": "In winter, it can snow a lot.",
+    "options": [
+      "Wanter",
+      "Summer",
+      "Fréijoer",
+      "Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Wanter",
+    "rule": "Use am before masculine/neuter nouns: an + dem = am."
+  },
+  {
+    "id": "grammar-508",
+    "sentence": "___ ass den éischte Mount vum Joer.",
+    "translation": "January is the first month of the year.",
+    "options": [
+      "Januar",
+      "Februar",
+      "Summer",
+      "Wanter",
+      "Fréijoer",
+      "Hierscht"
+    ],
+    "correctAnswer": "Januar",
+    "rule": "Months are used without an article when stating which month something is."
+  },
+  {
+    "id": "grammar-509",
+    "sentence": "___ kënnt direkt nom Januar.",
+    "translation": "February comes directly after January.",
+    "options": [
+      "Februar",
+      "Summer",
+      "Wanter",
+      "Januar",
+      "Fréijoer",
+      "Hierscht"
+    ],
+    "correctAnswer": "Februar",
+    "rule": "Months are used as standalone nouns without a definite article in this type of sentence."
+  },
+  {
+    "id": "grammar-510",
+    "sentence": "Ech hunn am ___ Gebuertsdag.",
+    "translation": "My birthday is in January.",
+    "options": [
+      "Januar",
+      "Februar",
+      "Summer",
+      "Wanter",
+      "Fréijoer",
+      "Hierscht"
+    ],
+    "correctAnswer": "Januar",
+    "rule": "Use am with months when expressing that something takes place in a month."
+  },
+  {
+    "id": "grammar-511",
+    "sentence": "D'Vakanz ass am ___.",
+    "translation": "The holiday is in summer.",
+    "options": [
+      "Summer",
+      "Wanter",
+      "Fréijoer",
+      "Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Summer",
+    "rule": "Use am with seasons: an + dem = am."
+  },
+  {
+    "id": "grammar-512",
+    "sentence": "Am ___ ginn d'Deeg nees méi laang.",
+    "translation": "In spring, the days start getting longer again.",
+    "options": [
+      "Fréijoer",
+      "Wanter",
+      "Summer",
+      "Hierscht",
+      "Januar",
+      "Februar"
+    ],
+    "correctAnswer": "Fréijoer",
+    "rule": "Use am before masculine/neuter nouns: an + dem = am."
   }
 ]
