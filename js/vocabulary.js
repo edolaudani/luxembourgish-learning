@@ -1,148 +1,213 @@
-
 document.addEventListener("DOMContentLoaded", async () => {
-  const questionEl = document.getElementById("question");
-  const optionsEl = document.getElementById("options");
-  const feedbackEl = document.getElementById("feedback");
-  const nextBtn = document.getElementById("next-btn");
+  const contentEl = document.getElementById("quiz-content");
+  const progressEl = document.getElementById("progress");
+  const progressFillEl = document.getElementById("progress-fill");
   const scoreEl = document.getElementById("score");
+  const nextBtn = document.getElementById("next-btn");
+  const resetBtn = document.getElementById("reset-btn");
+
+  const STORAGE_KEY = "lux-learning-vocabulary-v1";
 
   let vocabulary = [];
   let currentQuestion = null;
   let score = 0;
   let answered = false;
-
-  const STORAGE_KEY = "lux-learning-vocabulary-v1";
-
-  // Load saved progress
-  let progress = {};
-  try {
-    progress = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-  } catch {
-    progress = {};
-  }
+  let completed = new Set();
 
   function shuffle(array) {
-    return [...array].sort(() => Math.random() - 0.5);
+    const result = [...array];
+
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+
+    return result;
   }
 
   function saveProgress() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-  }
-
-  function updateScore() {
-    if (scoreEl) {
-      scoreEl.textContent = `Score: ${score}`;
-    }
-  }
-
-  function showFeedback(message, isCorrect) {
-    if (!feedbackEl) return;
-    feedbackEl.textContent = message;
-    feedbackEl.className = isCorrect ? "feedback correct" : "feedback incorrect";
-  }
-
-  function getNextQuestion() {
-    // Prioritise words marked unknown, then words not yet answered.
-    const available = vocabulary.filter(word =>
-      (progress[word.id] || word.status || "unknown") !== "known"
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        completed: [...completed],
+        score
+      })
     );
+  }
 
-    if (available.length === 0) {
-      questionEl.textContent = "Excellent! You have marked every word as known.";
-      optionsEl.innerHTML = "";
-      feedbackEl.textContent = "You can reset your progress to practise again.";
-      nextBtn.disabled = true;
-      return;
-    }
+  function updateStats() {
+    scoreEl.textContent = `Score: ${score}`;
+    progressEl.textContent =
+      `${completed.size} of ${vocabulary.length} words completed`;
 
-    // Prefer words not answered correctly yet.
-    const unanswered = available.filter(word => !progress[word.id]);
-    const pool = unanswered.length ? unanswered : available;
+    const percentage = vocabulary.length
+      ? (completed.size / vocabulary.length) * 100
+      : 0;
 
-    currentQuestion = pool[Math.floor(Math.random() * pool.length)];
+    progressFillEl.style.width = `${percentage}%`;
+  }
+
+  function showMessage(message) {
+    contentEl.innerHTML = "";
+    const paragraph = document.createElement("p");
+    paragraph.className = "loading";
+    paragraph.textContent = message;
+    contentEl.appendChild(paragraph);
+  }
+
+  function finishQuiz() {
+    currentQuestion = null;
+    showMessage("Great work! You have completed all the vocabulary questions.");
+
+    const summary = document.createElement("p");
+    summary.textContent = `Final score: ${score}`;
+    contentEl.appendChild(summary);
+
+    nextBtn.disabled = true;
+    updateStats();
+  }
+
+  function nextQuestion() {
     answered = false;
     nextBtn.disabled = true;
 
-    questionEl.textContent = currentQuestion.luxembourgish;
-    optionsEl.innerHTML = "";
-    feedbackEl.textContent = "";
+    // Prioritise words not yet answered correctly.
+    let available = vocabulary.filter(word => !completed.has(word.id));
 
-    const correctAnswer = currentQuestion.english;
+    // Once all words have been completed, finish the quiz.
+    if (available.length === 0) {
+      finishQuiz();
+      return;
+    }
+
+    currentQuestion =
+      available[Math.floor(Math.random() * available.length)];
+
+    contentEl.innerHTML = "";
+
+    const prompt = document.createElement("h2");
+    prompt.className = "question-text";
+    prompt.textContent = currentQuestion.luxembourgish;
+    contentEl.appendChild(prompt);
+
+    const optionsContainer = document.createElement("div");
+    optionsContainer.className = "answer-options";
+    optionsContainer.setAttribute("role", "group");
+    optionsContainer.setAttribute(
+      "aria-label",
+      "Choose the English translation"
+    );
+
+    const correctAnswer = currentQuestion.english.trim();
 
     const distractors = shuffle(
       vocabulary
         .filter(word =>
           word.id !== currentQuestion.id &&
-          word.english &&
-          word.english.trim().toLowerCase() !== correctAnswer.trim().toLowerCase()
+          word.english.trim().toLowerCase() !==
+            correctAnswer.toLowerCase()
         )
         .map(word => word.english.trim())
         .filter((answer, index, array) =>
-          array.indexOf(answer) === index
+          array.findIndex(item =>
+            item.toLowerCase() === answer.toLowerCase()
+          ) === index
         )
     ).slice(0, 3);
 
-    const answers = shuffle([
-      correctAnswer,
-      ...distractors
-    ]);
+    const answers = shuffle([correctAnswer, ...distractors]);
 
     answers.forEach(answer => {
       const button = document.createElement("button");
-      button.textContent = answer;
+      button.type = "button";
       button.className = "option-btn";
+      button.textContent = answer;
 
       button.addEventListener("click", () => {
         if (answered) return;
         answered = true;
 
         const isCorrect =
-          answer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
+          answer.toLowerCase() === correctAnswer.toLowerCase();
 
         if (isCorrect) {
           score++;
-          progress[currentQuestion.id] = "known";
-          saveProgress();
+          completed.add(currentQuestion.id);
           showFeedback("Correct!", true);
           button.classList.add("correct");
         } else {
-          progress[currentQuestion.id] = "unknown";
-          saveProgress();
-          showFeedback(`Not quite. The correct answer is: ${correctAnswer}`, false);
+          showFeedback(
+            `Not quite. The correct answer is: ${correctAnswer}`,
+            false
+          );
           button.classList.add("incorrect");
-
-          [...optionsEl.children].forEach(option => {
-            if (option.textContent === correctAnswer) {
-              option.classList.add("correct");
-            }
-          });
         }
 
-        [...optionsEl.children].forEach(option => {
+        [...optionsContainer.children].forEach(option => {
           option.disabled = true;
+
+          if (
+            option.textContent.toLowerCase() ===
+            correctAnswer.toLowerCase()
+          ) {
+            option.classList.add("correct");
+          }
         });
 
-        updateScore();
+        saveProgress();
+        updateStats();
         nextBtn.disabled = false;
       });
 
-      optionsEl.appendChild(button);
+      optionsContainer.appendChild(button);
     });
+
+    contentEl.appendChild(optionsContainer);
+
+    const feedback = document.createElement("p");
+    feedback.id = "answer-feedback";
+    feedback.className = "feedback";
+    contentEl.appendChild(feedback);
+
+    updateStats();
   }
 
-  nextBtn.addEventListener("click", getNextQuestion);
+  function showFeedback(message, isCorrect) {
+    const feedback = document.getElementById("answer-feedback");
+    if (!feedback) return;
+
+    feedback.textContent = message;
+    feedback.classList.add(isCorrect ? "correct" : "incorrect");
+  }
+
+  nextBtn.addEventListener("click", nextQuestion);
+
+  resetBtn.addEventListener("click", () => {
+    const confirmed = window.confirm(
+      "Reset your vocabulary progress and score?"
+    );
+
+    if (!confirmed) return;
+
+    completed = new Set();
+    score = 0;
+    saveProgress();
+    nextQuestion();
+  });
 
   try {
     const response = await fetch("data/vocabulary-questions.json");
 
     if (!response.ok) {
-      throw new Error(`Could not load vocabulary file (${response.status}).`);
+      throw new Error(
+        `Could not load vocabulary file (HTTP ${response.status}).`
+      );
     }
 
     const data = await response.json();
 
-    if (!Array.isArray(data) || data.length === 0) {
-      throw new Error("The vocabulary JSON file is empty or has an invalid format.");
+    if (!Array.isArray(data)) {
+      throw new Error("The vocabulary file must contain a JSON array.");
     }
 
     vocabulary = data.filter(word =>
@@ -155,16 +220,31 @@ document.addEventListener("DOMContentLoaded", async () => {
     );
 
     if (vocabulary.length === 0) {
-      throw new Error("No valid vocabulary entries were found in the JSON file.");
+      throw new Error(
+        "No valid vocabulary entries found. Check the JSON field names."
+      );
     }
 
-    updateScore();
-    getNextQuestion();
+    try {
+      const saved = JSON.parse(
+        localStorage.getItem(STORAGE_KEY) || "{}"
+      );
+
+      completed = new Set(
+        Array.isArray(saved.completed) ? saved.completed : []
+      );
+
+      score = Number.isFinite(saved.score) ? saved.score : 0;
+    } catch {
+      completed = new Set();
+      score = 0;
+    }
+
+    updateStats();
+    nextQuestion();
   } catch (error) {
-    questionEl.textContent = "Could not load the vocabulary.";
-    optionsEl.innerHTML = "";
-    feedbackEl.textContent =
-      `${error.message} Check that data/vocabulary-questions.json exists and contains valid JSON.`;
+    showMessage(`Error: ${error.message}`);
+    progressEl.textContent = "Unable to load questions";
     console.error(error);
   }
 });
