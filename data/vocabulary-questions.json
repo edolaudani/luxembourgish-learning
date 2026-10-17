@@ -49,19 +49,19 @@
   },
   {
     "id": "vocab-009",
-    "luxembourgish": "m in / meng",
+    "luxembourgish": "mäin / meng",
     "english": "my",
     "status": "unknown"
   },
   {
     "id": "vocab-010",
-    "luxembourgish": "d in / deng",
+    "luxembourgish": "däin / deng",
     "english": "your",
     "status": "known"
   },
   {
     "id": "vocab-011",
-    "luxembourgish": "s in / seng",
+    "luxembourgish": "säin / seng",
     "english": "his / its",
     "status": "known"
   },
@@ -79,7 +79,7 @@
   },
   {
     "id": "vocab-014",
-    "luxembourgish": " ren /  r",
+    "luxembourgish": "ären / Är",
     "english": "your (formal/plural)",
     "status": "known"
   },
@@ -175,13 +175,13 @@
   },
   {
     "id": "vocab-030",
-    "luxembourgish": "d st",
+    "luxembourgish": "dëst",
     "english": "this",
     "status": "known"
   },
   {
     "id": "vocab-031",
-    "luxembourgish": "d i",
+    "luxembourgish": "déi",
     "english": "those / they",
     "status": "known"
   },
@@ -325,7 +325,7 @@
   },
   {
     "id": "vocab-055",
-    "luxembourgish": "n mmen",
+    "luxembourgish": "nëmmen",
     "english": "only",
     "status": "known"
   },
@@ -343,7 +343,7 @@
   },
   {
     "id": "vocab-058",
-    "luxembourgish": " mmer",
+    "luxembourgish": "ëmmer",
     "english": "always",
     "status": "known"
   },
@@ -397,7 +397,7 @@
   },
   {
     "id": "vocab-067",
-    "luxembourgish": "w ini",
+    "luxembourgish": "wéini",
     "english": "when",
     "status": "known"
   },
@@ -409,31 +409,31 @@
   },
   {
     "id": "vocab-069",
-    "luxembourgish": "w i",
+    "luxembourgish": "wéi",
     "english": "how",
     "status": "known"
   },
   {
     "id": "vocab-070",
-    "luxembourgish": "w i vill",
+    "luxembourgish": "wéi vill",
     "english": "how much / how many",
     "status": "unknown"
   },
   {
     "id": "vocab-071",
-    "luxembourgish": "w i laang",
+    "luxembourgish": "wéi laang",
     "english": "how long",
     "status": "known"
   },
   {
     "id": "vocab-072",
-    "luxembourgish": "w i oft",
+    "luxembourgish": "wéi oft",
     "english": "how often",
     "status": "known"
   },
   {
     "id": "vocab-073",
-    "luxembourgish": "w i eng / w i ee",
+    "luxembourgish": "wéi eng / wéi ee",
     "english": "which",
     "status": "known"
   },
@@ -481,7 +481,7 @@
   },
   {
     "id": "vocab-081",
-    "luxembourgish": " nner",
+    "luxembourgish": "ënner",
     "english": "under",
     "status": "known"
   },
@@ -499,13 +499,13 @@
   },
   {
     "id": "vocab-084",
-    "luxembourgish": "g int",
+    "luxembourgish": "géint",
     "english": "around / against",
     "status": "known"
   },
   {
     "id": "vocab-085",
-    "luxembourgish": "w inst",
+    "luxembourgish": "wéinst",
     "english": "because of",
     "status": "known"
   },
@@ -523,7 +523,7 @@
   },
   {
     "id": "vocab-088",
-    "luxembourgish": "z nter",
+    "luxembourgish": "zënter",
     "english": "since / for",
     "status": "known"
   },
@@ -541,7 +541,7 @@
   },
   {
     "id": "vocab-091",
-    "luxembourgish": "g schter",
+    "luxembourgish": "gëschter",
     "english": "yesterday",
     "status": "known"
   },
@@ -559,31 +559,31 @@
   },
   {
     "id": "vocab-094",
-    "luxembourgish": "d i lescht K ier",
+    "luxembourgish": "déi lescht Kéier",
     "english": "last time",
     "status": "known"
   },
   {
     "id": "vocab-095",
-    "luxembourgish": "d lescht Joer",
+    "luxembourgish": "d’lescht Joer",
     "english": "last year",
     "status": "known"
   },
   {
     "id": "vocab-096",
-    "luxembourgish": "d s Woch",
+    "luxembourgish": "dës Woch",
     "english": "this week",
     "status": "known"
   },
   {
     "id": "vocab-097",
-    "luxembourgish": "d s Deeg",
+    "luxembourgish": "dës Deeg",
     "english": "these days",
     "status": "known"
   },
   {
     "id": "vocab-098",
-    "luxembourgish": "fir d  ischt",
+    "luxembourgish": "fir d’éischt",
     "english": "for the first time",
     "status": "known"
   },
@@ -595,13 +595,13 @@
   },
   {
     "id": "vocab-100",
-    "luxembourgish": "geschw nn",
+    "luxembourgish": "geschwënn",
     "english": "soon",
     "status": "known"
   },
   {
     "id": "vocab-101",
-    "luxembourgish": "sp ider",
+    "luxembourgish": "spéider",
     "english": "later",
     "status": "known"
   },
@@ -619,7 +619,7 @@
   },
   {
     "id": "vocab-104",
-    "luxembourgish": "e b ssen",
+    "luxembourgish": "e bëssen",
     "english": "a little / a bit",
     "status": "known"
   },
@@ -643,7 +643,7 @@
   },
   {
     "id": "vocab-108",
-    "luxembourgish": "ze w ineg",
+    "luxembourgish": "ze wéineg",
     "english": "too little / too few",
     "status": "known"
   },
@@ -655,7 +655,7 @@
   },
   {
     "id": "vocab-110",
-    "luxembourgish": "n ischt",
+    "luxembourgish": "näischt",
     "english": "nothing",
     "status": "known"
   },
@@ -727,7 +727,7 @@
   },
   {
     "id": "vocab-122",
-    "luxembourgish": "vill icht",
+    "luxembourgish": "villäicht",
     "english": "maybe",
     "status": "known"
   },
@@ -775,26 +775,26 @@
   },
   {
     "id": "vocab-130",
-    "luxembourgish": " nnerwee",
+    "luxembourgish": "ënnerwee",
     "english": "on the way / out and about",
     "status": "known"
   },
   {
     "id": "vocab-131",
-    "luxembourgish": "Ech ginn ouni dech op d Aarbecht.",
-    "english": "I m going to work without you.",
+    "luxembourgish": "Ech ginn ouni dech op d’Aarbecht.",
+    "english": "I’m going to work without you.",
     "status": "known"
   },
   {
     "id": "vocab-132",
-    "luxembourgish": "D se Kaddo ass fir dech.",
+    "luxembourgish": "Dëse Kaddo ass fir dech.",
     "english": "This present is for you.",
     "status": "known"
   },
   {
     "id": "vocab-133",
-    "luxembourgish": "Ech kommen aus Italien, mee ech wunnen zu L tzebuerg.",
-    "english": "I m from Italy, but I live in Luxembourg.",
+    "luxembourgish": "Ech kommen aus Italien, mee ech wunnen zu Lëtzebuerg.",
+    "english": "I’m from Italy, but I live in Luxembourg.",
     "status": "known"
   },
   {
@@ -806,7 +806,7 @@
   {
     "id": "vocab-135",
     "luxembourgish": "Ech sinn haut bei menger Mamm.",
-    "english": "I m at my mother s today.",
+    "english": "I’m at my mother’s today.",
     "status": "known"
   },
   {
@@ -817,86 +817,86 @@
   },
   {
     "id": "vocab-137",
-    "luxembourgish": "D Buch l it op dem D sch.",
+    "luxembourgish": "D’Buch läit op dem Dësch.",
     "english": "The book is on the table.",
     "status": "unknown"
   },
   {
     "id": "vocab-138",
-    "luxembourgish": "Ech ginn op d Aarbecht.",
-    "english": "I m going to work.",
+    "luxembourgish": "Ech ginn op d’Aarbecht.",
+    "english": "I’m going to work.",
     "status": "known"
   },
   {
     "id": "vocab-139",
     "luxembourgish": "Ech ginn an de Restaurant.",
-    "english": "I m going to the restaurant.",
+    "english": "I’m going to the restaurant.",
     "status": "known"
   },
   {
     "id": "vocab-140",
     "luxembourgish": "Ech sinn am Restaurant.",
-    "english": "I m in the restaurant.",
+    "english": "I’m in the restaurant.",
     "status": "known"
   },
   {
     "id": "vocab-141",
-    "luxembourgish": "Ech ginn an d Kichen.",
-    "english": "I m going into the kitchen.",
+    "luxembourgish": "Ech ginn an d’Kichen.",
+    "english": "I’m going into the kitchen.",
     "status": "unknown"
   },
   {
     "id": "vocab-142",
-    "luxembourgish": "D Kaz l it  nner dem D sch.",
+    "luxembourgish": "D’Kaz läit ënner dem Dësch.",
     "english": "The cat is under the table.",
     "status": "known"
   },
   {
     "id": "vocab-143",
-    "luxembourgish": "Mir schw tzen iwwer d Aarbecht.",
-    "english": "We re talking about work.",
+    "luxembourgish": "Mir schwätzen iwwer d’Aarbecht.",
+    "english": "We’re talking about work.",
     "status": "known"
   },
   {
     "id": "vocab-144",
-    "luxembourgish": "D Lampe h nkt iwwer dem D sch.",
+    "luxembourgish": "D’Lampe hänkt iwwer dem Dësch.",
     "english": "The lamp hangs over the table.",
     "status": "unknown"
   },
   {
     "id": "vocab-145",
-    "luxembourgish": "Ech s tze nieft mengem Fr nd.",
-    "english": "I m sitting next to my friend.",
+    "luxembourgish": "Ech sëtze nieft mengem Frënd.",
+    "english": "I’m sitting next to my friend.",
     "status": "known"
   },
   {
     "id": "vocab-146",
-    "luxembourgish": "Ech kommen g int aacht Auer.",
-    "english": "I ll come around eight o clock.",
+    "luxembourgish": "Ech kommen géint aacht Auer.",
+    "english": "I’ll come around eight o’clock.",
     "status": "known"
   },
   {
     "id": "vocab-147",
-    "luxembourgish": "D V lo steet g int d Mauer.",
+    "luxembourgish": "D’Vëlo steet géint d’Mauer.",
     "english": "The bike is against the wall.",
     "status": "known"
   },
   {
     "id": "vocab-148",
-    "luxembourgish": "W inst dem Reen bleiwen ech doheem.",
-    "english": "Because of the rain, I m staying home.",
+    "luxembourgish": "Wéinst dem Reen bleiwen ech doheem.",
+    "english": "Because of the rain, I’m staying home.",
     "status": "known"
   },
   {
     "id": "vocab-149",
     "luxembourgish": "Mir ginn duerch de Park.",
-    "english": "We re going through the park.",
+    "english": "We’re going through the park.",
     "status": "known"
   },
   {
     "id": "vocab-150",
-    "luxembourgish": "Ech fueren no L tzebuerg.",
-    "english": "I m going to Luxembourg.",
+    "luxembourgish": "Ech fueren no Lëtzebuerg.",
+    "english": "I’m going to Luxembourg.",
     "status": "unknown"
   },
   {
@@ -907,8 +907,8 @@
   },
   {
     "id": "vocab-152",
-    "luxembourgish": "Ech wunnen z nter dr i Joer hei.",
-    "english": "I ve lived here for three years.",
+    "luxembourgish": "Ech wunnen zënter dräi Joer hei.",
+    "english": "I’ve lived here for three years.",
     "status": "unknown"
   },
   {
@@ -919,13 +919,13 @@
   },
   {
     "id": "vocab-154",
-    "luxembourgish": "Ech maachen dat, well ech Z it hunn.",
+    "luxembourgish": "Ech maachen dat, well ech Zäit hunn.",
     "english": "I do that because I have time.",
     "status": "known"
   },
   {
     "id": "vocab-155",
-    "luxembourgish": "Wann ech Z it hunn, da kommen ech.",
+    "luxembourgish": "Wann ech Zäit hunn, da kommen ech.",
     "english": "If I have time, I'll come.",
     "status": "known"
   },
@@ -967,7 +967,7 @@
   },
   {
     "id": "vocab-162",
-    "luxembourgish": "Kannst du dat nach eng K ier soen?",
+    "luxembourgish": "Kannst du dat nach eng Kéier soen?",
     "english": "Can you say that again?",
     "status": "unknown"
   },
@@ -979,74 +979,74 @@
   },
   {
     "id": "vocab-164",
-    "luxembourgish": "Ech kommen aus dem B ro.",
-    "english": "I m coming from the office.",
+    "luxembourgish": "Ech kommen aus dem Büro.",
+    "english": "I’m coming from the office.",
     "status": "unknown"
   },
   {
     "id": "vocab-165",
     "luxembourgish": "Ech kommen vun der Aarbecht.",
-    "english": "I m coming from work.",
+    "english": "I’m coming from work.",
     "status": "known"
   },
   {
     "id": "vocab-166",
-    "luxembourgish": "Ech ginn an de B ro.",
-    "english": "I m going into the office.",
+    "luxembourgish": "Ech ginn an de Büro.",
+    "english": "I’m going into the office.",
     "status": "known"
   },
   {
     "id": "vocab-167",
-    "luxembourgish": "Ech ginn op d Aarbecht.",
-    "english": "I m going to work.",
+    "luxembourgish": "Ech ginn op d’Aarbecht.",
+    "english": "I’m going to work.",
     "status": "known"
   },
   {
     "id": "vocab-168",
     "luxembourgish": "Ech ginn bei den Dokter.",
-    "english": "I m going to the doctor.",
+    "english": "I’m going to the doctor.",
     "status": "known"
   },
   {
     "id": "vocab-169",
-    "luxembourgish": "Ech ginn bei meng Fr nn.",
-    "english": "I m going to my friends.",
+    "luxembourgish": "Ech ginn bei meng Frënn.",
+    "english": "I’m going to my friends.",
     "status": "known"
   },
   {
     "id": "vocab-170",
-    "luxembourgish": "Ech fueren no Frankr ich.",
-    "english": "I m going to France.",
+    "luxembourgish": "Ech fueren no Frankräich.",
+    "english": "I’m going to France.",
     "status": "unknown"
   },
   {
     "id": "vocab-171",
-    "luxembourgish": "Ech kommen aus Frankr ich.",
-    "english": "I m coming from France.",
+    "luxembourgish": "Ech kommen aus Frankräich.",
+    "english": "I’m coming from France.",
     "status": "known"
   },
   {
     "id": "vocab-172",
     "luxembourgish": "Ech kommen vun der Gare.",
-    "english": "I m coming from the station.",
+    "english": "I’m coming from the station.",
     "status": "known"
   },
   {
     "id": "vocab-173",
-    "luxembourgish": "Ech ginn an d Kichen.",
-    "english": "I m going into the kitchen.",
+    "luxembourgish": "Ech ginn an d’Kichen.",
+    "english": "I’m going into the kitchen.",
     "status": "known"
   },
   {
     "id": "vocab-174",
-    "luxembourgish": "Ech lee n d Buch op den D sch.",
+    "luxembourgish": "Ech leeën d’Buch op den Dësch.",
     "english": "I put the book on the table.",
     "status": "unknown"
   },
   {
     "id": "vocab-175",
     "luxembourgish": "Ech ginn aus dem Haus.",
-    "english": "I m going out of the house.",
+    "english": "I’m going out of the house.",
     "status": "known"
   },
   {
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "vocab-179",
-    "luxembourgish": "kr ischen",
+    "luxembourgish": "kräischen",
     "english": "to cry",
     "status": "known"
   },
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "vocab-185",
-    "luxembourgish": "erauspl nneren",
+    "luxembourgish": "erausplënneren",
     "english": "to move out",
     "status": "known"
   },
@@ -1117,13 +1117,13 @@
   },
   {
     "id": "vocab-187",
-    "luxembourgish": "d Aff r",
+    "luxembourgish": "d’Affär",
     "english": "affair",
     "status": "known"
   },
   {
     "id": "vocab-188",
-    "luxembourgish": "h llefen",
+    "luxembourgish": "hëllefen",
     "english": "to help",
     "status": "known"
   },
@@ -1141,37 +1141,37 @@
   },
   {
     "id": "vocab-191",
-    "luxembourgish": "sech e puer Deeg fr ihuelen",
+    "luxembourgish": "sech e puer Deeg fräihuelen",
     "english": "to take a few days off",
     "status": "unknown"
   },
   {
     "id": "vocab-192",
-    "luxembourgish": "d Aff r",
+    "luxembourgish": "d’Affär",
     "english": "affair",
     "status": "known"
   },
   {
     "id": "vocab-193",
-    "luxembourgish": "d Wieder",
+    "luxembourgish": "d’Wieder",
     "english": "weather",
     "status": "known"
   },
   {
     "id": "vocab-194",
-    "luxembourgish": "d Transportm ttel",
+    "luxembourgish": "d’Transportmëttel",
     "english": "means of transport",
     "status": "known"
   },
   {
     "id": "vocab-195",
-    "luxembourgish": "d Joresz it",
+    "luxembourgish": "d’Joreszäit",
     "english": "season",
     "status": "unknown"
   },
   {
     "id": "vocab-196",
-    "luxembourgish": "de Fr ijoer",
+    "luxembourgish": "de Fréijoer",
     "english": "spring",
     "status": "known"
   },
@@ -1213,13 +1213,13 @@
   },
   {
     "id": "vocab-203",
-    "luxembourgish": "d Sonn",
+    "luxembourgish": "d’Sonn",
     "english": "sun",
     "status": "known"
   },
   {
     "id": "vocab-204",
-    "luxembourgish": "sch ngen",
+    "luxembourgish": "schéngen",
     "english": "to shine",
     "status": "unknown"
   },
@@ -1237,7 +1237,7 @@
   },
   {
     "id": "vocab-207",
-    "luxembourgish": "d Keelt",
+    "luxembourgish": "d’Keelt",
     "english": "cold",
     "status": "known"
   },
@@ -1249,13 +1249,13 @@
   },
   {
     "id": "vocab-209",
-    "luxembourgish": "spads ieren",
+    "luxembourgish": "spadséieren",
     "english": "to go for a walk",
     "status": "known"
   },
   {
     "id": "vocab-210",
-    "luxembourgish": "verbr ngen",
+    "luxembourgish": "verbréngen",
     "english": "to spend (time)",
     "status": "unknown"
   },
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "vocab-215",
-    "luxembourgish": "de V lo",
+    "luxembourgish": "de Vëlo",
     "english": "bicycle",
     "status": "known"
   },
@@ -1333,7 +1333,7 @@
   },
   {
     "id": "vocab-223",
-    "luxembourgish": "d Land",
+    "luxembourgish": "d’Land",
     "english": "country",
     "status": "known"
   },
@@ -1363,37 +1363,37 @@
   },
   {
     "id": "vocab-228",
-    "luxembourgish": "kr ien",
+    "luxembourgish": "kréien",
     "english": "to receive / get",
     "status": "known"
   },
   {
     "id": "vocab-229",
-    "luxembourgish": "d Gebuertsdag",
+    "luxembourgish": "d’Gebuertsdag",
     "english": "birthday",
     "status": "unknown"
   },
   {
     "id": "vocab-230",
-    "luxembourgish": "de Chr schtdag",
+    "luxembourgish": "de Chrëschtdag",
     "english": "Christmas",
     "status": "known"
   },
   {
     "id": "vocab-231",
-    "luxembourgish": "d Hochz it",
+    "luxembourgish": "d’Hochzäit",
     "english": "wedding",
     "status": "known"
   },
   {
     "id": "vocab-232",
-    "luxembourgish": "d Suen",
+    "luxembourgish": "d’Suen",
     "english": "money",
     "status": "known"
   },
   {
     "id": "vocab-233",
-    "luxembourgish": "matbr ngen",
+    "luxembourgish": "matbréngen",
     "english": "to bring along",
     "status": "known"
   },
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "vocab-236",
-    "luxembourgish": "dat h nkt dovun of",
+    "luxembourgish": "dat hänkt dovun of",
     "english": "it depends on that",
     "status": "known"
   },
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "vocab-238",
-    "luxembourgish": "w schen",
+    "luxembourgish": "wäschen",
     "english": "to wash",
     "status": "known"
   },
@@ -1435,13 +1435,13 @@
   },
   {
     "id": "vocab-240",
-    "luxembourgish": "allerd ngs",
+    "luxembourgish": "allerdéngs",
     "english": "however / though",
     "status": "known"
   },
   {
     "id": "vocab-241",
-    "luxembourgish": "best mmt",
+    "luxembourgish": "bestëmmt",
     "english": "certainly / probably",
     "status": "unknown"
   },
@@ -1453,7 +1453,7 @@
   },
   {
     "id": "vocab-243",
-    "luxembourgish": "gl cklecherweis",
+    "luxembourgish": "glécklecherweis",
     "english": "fortunately",
     "status": "known"
   },
@@ -1471,7 +1471,7 @@
   },
   {
     "id": "vocab-246",
-    "luxembourgish": "z nter",
+    "luxembourgish": "zënter",
     "english": "since / for",
     "status": "known"
   },
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "vocab-249",
-    "luxembourgish": "geschw nn",
+    "luxembourgish": "geschwënn",
     "english": "soon",
     "status": "known"
   },
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "vocab-253",
-    "luxembourgish": "n mmen",
+    "luxembourgish": "nëmmen",
     "english": "only",
     "status": "known"
   },
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "vocab-256",
-    "luxembourgish": "e b ssen",
+    "luxembourgish": "e bëssen",
     "english": "a little",
     "status": "known"
   },
@@ -1543,7 +1543,7 @@
   },
   {
     "id": "vocab-258",
-    "luxembourgish": "d s Deeg",
+    "luxembourgish": "dës Deeg",
     "english": "these days",
     "status": "known"
   },
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "vocab-262",
-    "luxembourgish": "den Arr t",
+    "luxembourgish": "den Arrêt",
     "english": "bus stop",
     "status": "known"
   },
@@ -1579,7 +1579,7 @@
   },
   {
     "id": "vocab-264",
-    "luxembourgish": "de Verk ier",
+    "luxembourgish": "de Verkéier",
     "english": "traffic",
     "status": "known"
   },
@@ -1603,7 +1603,7 @@
   },
   {
     "id": "vocab-268",
-    "luxembourgish": "l ieren",
+    "luxembourgish": "léieren",
     "english": "to learn",
     "status": "known"
   },
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "vocab-274",
-    "luxembourgish": "zr ckfueren",
+    "luxembourgish": "zréckfueren",
     "english": "to drive back",
     "status": "unknown"
   },
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "vocab-281",
-    "luxembourgish": "F nster zoumaachen",
+    "luxembourgish": "Fënster zoumaachen",
     "english": "to close the window",
     "status": "unknown"
   },
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "vocab-283",
-    "luxembourgish": "d erfen",
+    "luxembourgish": "däerfen",
     "english": "may / be allowed to",
     "status": "known"
   },
@@ -1705,13 +1705,13 @@
   },
   {
     "id": "vocab-285",
-    "luxembourgish": "k nnen",
+    "luxembourgish": "kënnen",
     "english": "can / be able to",
     "status": "known"
   },
   {
     "id": "vocab-286",
-    "luxembourgish": "w llen",
+    "luxembourgish": "wëllen",
     "english": "to want",
     "status": "unknown"
   },
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "vocab-291",
-    "luxembourgish": "sech k mmen",
+    "luxembourgish": "sech kämmen",
     "english": "to comb one's hair",
     "status": "known"
   },
@@ -1765,7 +1765,7 @@
   },
   {
     "id": "vocab-295",
-    "luxembourgish": "gesch ien",
+    "luxembourgish": "geschéien",
     "english": "to happen",
     "status": "known"
   },
@@ -1789,7 +1789,7 @@
   },
   {
     "id": "vocab-299",
-    "luxembourgish": "dr nken",
+    "luxembourgish": "drénken",
     "english": "to drink",
     "status": "known"
   },
@@ -1819,7 +1819,7 @@
   },
   {
     "id": "vocab-304",
-    "luxembourgish": "m i oder manner",
+    "luxembourgish": "méi oder manner",
     "english": "more or less",
     "status": "unknown"
   },
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "vocab-309",
-    "luxembourgish": "d i ganz Woch",
+    "luxembourgish": "déi ganz Woch",
     "english": "the whole week",
     "status": "known"
   },
@@ -1867,13 +1867,13 @@
   },
   {
     "id": "vocab-312",
-    "luxembourgish": "Z it",
+    "luxembourgish": "Zäit",
     "english": "time",
     "status": "known"
   },
   {
     "id": "vocab-313",
-    "luxembourgish": "s iersten",
+    "luxembourgish": "séiersten",
     "english": "fastest",
     "status": "known"
   },
@@ -1897,25 +1897,25 @@
   },
   {
     "id": "vocab-317",
-    "luxembourgish": "gr isste",
+    "luxembourgish": "gréisste",
     "english": "biggest / tallest",
     "status": "known"
   },
   {
     "id": "vocab-318",
-    "luxembourgish": "sch inst",
+    "luxembourgish": "schéinst",
     "english": "most beautiful",
     "status": "known"
   },
   {
     "id": "vocab-319",
-    "luxembourgish": "l ifst",
+    "luxembourgish": "léifst",
     "english": "nicest",
     "status": "known"
   },
   {
     "id": "vocab-320",
-    "luxembourgish": "w ermste",
+    "luxembourgish": "wäermste",
     "english": "warmest",
     "status": "unknown"
   },
@@ -1939,19 +1939,19 @@
   },
   {
     "id": "vocab-324",
-    "luxembourgish": "w ermsten",
+    "luxembourgish": "wäermsten",
     "english": "warmest",
     "status": "known"
   },
   {
     "id": "vocab-325",
-    "luxembourgish": "schw iersten",
+    "luxembourgish": "schwéiersten",
     "english": "most difficult",
     "status": "unknown"
   },
   {
     "id": "vocab-326",
-    "luxembourgish": "m i",
+    "luxembourgish": "méi",
     "english": "more",
     "status": "known"
   },
@@ -1969,37 +1969,37 @@
   },
   {
     "id": "vocab-329",
-    "luxembourgish": "m i s ier w i",
+    "luxembourgish": "méi séier wéi",
     "english": "faster than",
     "status": "unknown"
   },
   {
     "id": "vocab-330",
-    "luxembourgish": "manner interessant w i",
+    "luxembourgish": "manner interessant wéi",
     "english": "less interesting than",
     "status": "known"
   },
   {
     "id": "vocab-331",
-    "luxembourgish": "m i kleng w i",
+    "luxembourgish": "méi kleng wéi",
     "english": "smaller than",
     "status": "known"
   },
   {
     "id": "vocab-332",
-    "luxembourgish": "manner schw ier w i",
+    "luxembourgish": "manner schwéier wéi",
     "english": "less difficult than",
     "status": "known"
   },
   {
     "id": "vocab-333",
-    "luxembourgish": "m i deier w i",
+    "luxembourgish": "méi deier wéi",
     "english": "more expensive than",
     "status": "known"
   },
   {
     "id": "vocab-334",
-    "luxembourgish": "manner grouss w i",
+    "luxembourgish": "manner grouss wéi",
     "english": "less tall than",
     "status": "known"
   },
@@ -2035,7 +2035,7 @@
   },
   {
     "id": "vocab-340",
-    "luxembourgish": "f erdegmaachen",
+    "luxembourgish": "fäerdegmaachen",
     "english": "to finish",
     "status": "known"
   },
@@ -2065,19 +2065,19 @@
   },
   {
     "id": "vocab-345",
-    "luxembourgish": "zousp ren",
+    "luxembourgish": "zouspären",
     "english": "to lock",
     "status": "known"
   },
   {
     "id": "vocab-346",
-    "luxembourgish": "opsp ren",
+    "luxembourgish": "opspären",
     "english": "to unlock",
     "status": "unknown"
   },
   {
     "id": "vocab-347",
-    "luxembourgish": "uf nken",
+    "luxembourgish": "ufänken",
     "english": "to start / begin",
     "status": "known"
   },
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "vocab-361",
-    "luxembourgish": "matbr ngen",
+    "luxembourgish": "matbréngen",
     "english": "to bring along",
     "status": "known"
   },
@@ -2191,7 +2191,7 @@
   },
   {
     "id": "vocab-366",
-    "luxembourgish": "unprob ieren",
+    "luxembourgish": "unprobéieren",
     "english": "to try on",
     "status": "known"
   },
@@ -2264,7 +2264,7 @@
   {
     "id": "vocab-378",
     "luxembourgish": "gewosst",
-    "english": "w ssen",
+    "english": "wëssen",
     "status": "known"
   },
   {
@@ -2276,7 +2276,7 @@
   {
     "id": "vocab-380",
     "luxembourgish": "konnt",
-    "english": "k nnen",
+    "english": "kënnen",
     "status": "known"
   },
   {
@@ -2288,7 +2288,7 @@
   {
     "id": "vocab-382",
     "luxembourgish": "wollt",
-    "english": "w llen",
+    "english": "wëllen",
     "status": "unknown"
   },
   {
@@ -2306,7 +2306,7 @@
   {
     "id": "vocab-385",
     "luxembourgish": "bruecht",
-    "english": "br ngen",
+    "english": "bréngen",
     "status": "known"
   },
   {
@@ -2324,7 +2324,7 @@
   {
     "id": "vocab-388",
     "luxembourgish": "geschwat",
-    "english": "schw tzen",
+    "english": "schwätzen",
     "status": "known"
   },
   {
@@ -2335,8 +2335,8 @@
   },
   {
     "id": "vocab-390",
-    "luxembourgish": "ge ntwert",
-    "english": " ntweren",
+    "luxembourgish": "geäntwert",
+    "english": "äntweren",
     "status": "known"
   },
   {
@@ -2353,8 +2353,8 @@
   },
   {
     "id": "vocab-393",
-    "luxembourgish": "gel iert",
-    "english": "l ieren",
+    "luxembourgish": "geléiert",
+    "english": "léieren",
     "status": "unknown"
   },
   {
@@ -2384,7 +2384,7 @@
   {
     "id": "vocab-398",
     "luxembourgish": "gedronk",
-    "english": "dr nken",
+    "english": "drénken",
     "status": "known"
   },
   {
@@ -2420,12 +2420,12 @@
   {
     "id": "vocab-404",
     "luxembourgish": "gesiess",
-    "english": "s tzen",
+    "english": "sëtzen",
     "status": "unknown"
   },
   {
     "id": "vocab-405",
-    "luxembourgish": "gelee n",
+    "luxembourgish": "geleeën",
     "english": "leien",
     "status": "unknown"
   },
@@ -2438,7 +2438,7 @@
   {
     "id": "vocab-407",
     "luxembourgish": "gehollef",
-    "english": "h llefen",
+    "english": "hëllefen",
     "status": "known"
   },
   {
@@ -2462,7 +2462,7 @@
   {
     "id": "vocab-411",
     "luxembourgish": "kritt",
-    "english": "kr ien",
+    "english": "kréien",
     "status": "known"
   },
   {
@@ -2474,13 +2474,13 @@
   {
     "id": "vocab-413",
     "luxembourgish": "verbruecht",
-    "english": "verbr ngen",
+    "english": "verbréngen",
     "status": "unknown"
   },
   {
     "id": "vocab-414",
     "luxembourgish": "ugefaangen",
-    "english": "uf nken",
+    "english": "ufänken",
     "status": "known"
   },
   {
@@ -2503,8 +2503,8 @@
   },
   {
     "id": "vocab-418",
-    "luxembourgish": "gesch ckt",
-    "english": "sch cken",
+    "luxembourgish": "geschéckt",
+    "english": "schécken",
     "status": "known"
   }
 ]
