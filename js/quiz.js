@@ -2,9 +2,33 @@
 (() => {
   const path = window.location.pathname;
   const type = path.endsWith("grammar.html") ? "grammar" : "vocabulary";
-  const config = type === "grammar"
-    ? { file: "data/grammar-questions.json", key: "lux-learning-grammar-v1", title: "Complete the sentence", prompt: q => q.sentence, correct: q => q.correctAnswer, options: q => q.options, translation: q => q.translation, explanation: q => q.rule }
-    : { file: "data/vocabulary-questions.json", key: "lux-learning-vocabulary-v1", title: "What does this mean?", prompt: q => q.word, correct: q => q.correctAnswer, options: q => q.options, translation: q => q.translation, explanation: q => q.example || "" };
+ 
+const config = type === "grammar"
+  ? {
+      file: "data/grammar-questions.json",
+      key: "lux-learning-grammar-v1",
+      title: "Complete the sentence",
+      prompt: q => q.sentence,
+      correct: q => q.correctAnswer,
+      options: q => q.options || [],
+      translation: q => q.translation || "",
+      explanation: q => q.rule || ""
+    }
+  : {
+      file: "data/vocabulary-questions.json",
+      key: "lux-learning-vocabulary-v1",
+      title: "What does this mean?",
+      prompt: q => q.luxembourgish || q.word,
+      correct: q => q.english || q.correctAnswer,
+      options: q => {
+        if (Array.isArray(q.options) && q.options.length >= 2) {
+          return q.options;
+        }
+        return [];
+      },
+      translation: q => "",
+      explanation: q => ""
+    };
 
   const $ = id => document.getElementById(id);
   const content = $("quiz-content");
